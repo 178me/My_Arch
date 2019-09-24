@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/yzl178me/.vim'
+let g:netrw_dirhist_6='/'
+let g:netrw_dirhist_5='/home'
+let g:netrw_dirhist_4='/home/yzl178me'
+let g:netrw_dirhist_3='/home/yzl178me/.config'
+let g:netrw_dirhist_2='/home/yzl178me/.vim'
+let g:netrw_dirhist_1='/home/yzl178me/.config/alacritty'
