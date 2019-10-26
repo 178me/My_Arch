@@ -1,1 +1,0 @@
-/home/yzl178me/.local/share/omf/themes/clearance/fish_prompt.fish
