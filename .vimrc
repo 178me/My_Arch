@@ -25,7 +25,7 @@ set indentexpr=
 set list
 set listchars=tab:▸\ ,trail:▫
 " 光标固定在上5行和下5行
-set scrolloff=5
+set scrolloff=8
 " 退格键能从下一行删除到上一行
 set backspace=indent,eol,start
 " 收起代码
@@ -164,11 +164,11 @@ call plug#end()
 " ===
 " === MarkdownPreview
 " ===
-let g:mkdp_path_to_chrome = "google-chrome-stable"
+let g:mkdp_path_to_chrome = "chromium"
 let g:mkdp_auto_start = 1
 let g:mkdp_browser = 'chrome'
 source ~/.vim/Markdown.vim
 " ------------------------------------------------
 " 配色
-color snazzy
+" color snazzy
 "let g:SnazzyTransparent = 1
