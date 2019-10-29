@@ -104,6 +104,8 @@ bindsym $mod+minus scratchpad show
 
 
 ## Autostart applications ##
+# 修改键位
+exec_always xmodmap ~/.xmodmap
 # 半透明
 exec_always --no-startup-id killall compton | sleep 1s && compton --config ~/.config/compton.conf
 # 状态栏
@@ -342,10 +344,10 @@ exec --no-startup-id mate-power-manager
 bindsym XF86TouchpadOn exec --no-startup-id synclient Touchpadoff=0
 bindsym XF86TouchpadOff exec --no-startup-id synclient Touchpadoff=1
 
-bar {
-        status_command i3status
-
-}
+#bar {
+#        status_command polybar
+#
+#}
 
 client.focused #d70a53 #d70a53 #ffffff #8c0333
 client.focused_inactive #333333 #333333 #888888 #333333
