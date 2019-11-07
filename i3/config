@@ -18,9 +18,11 @@ floating_modifier $mod
 
 # 限制浮动窗口大小
 floating_minimum_size 75 x 50
-floating_maximum_size 1280 x 800
+floating_maximum_size -1 x 1000
 
 ## 快捷键设置 ##
+# 触摸板模块重新加载
+bindsym F10 exec sh ~/.i2c_hid.sh
 
 # 打开终端
 bindsym $mod+Return exec alacritty
@@ -37,8 +39,8 @@ bindsym $mod+d exec alacritty -e ranger
 bindsym $mod+Control+g exec google-chrome-stable
 
 # 调节亮度
-bindcode 232 exec xbacklight -dec 10
-bindcode 233 exec xbacklight -inc 10
+bindcode 232 exec xbacklight -dec 5
+bindcode 233 exec xbacklight -inc 5
 
 # 调节声音
 bindsym XF86AudioMute exec pulseaudio-ctl mute
@@ -63,49 +65,52 @@ bindsym $mod+m exec chromium
 # 打开视频播放器
 bindsym $mod+p exec smplayer
 
-# 锁屏
-bindsym mod4+l exec i3lock && systemctl suspend
+# 屏保
+bindsym mod4+l exec xscreensaver-command --lock
+
+# 锁屏休眠
+bindsym mod4+s exec xscreensaver-command --lock && systemctl suspend
 
 # xfce4的程序查找器
 bindsym mod4+e exec --no-startup-id xfce4-appfinder
 
 # Window kill command 杀死窗口
-bindsym $mod++q kill
+bindsym $mod+q kill
 
 # split orientation 垂直分屏开关
 bindsym $mod+v split toggle
 
-# toggle fullscreen mode for the focused container
+# 全屏
 bindsym $mod+f fullscreen toggle
 
-# change container layout (stacked, tabbed, toggle split)
+# 调整窗口模式
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
-# toggle tiling / floating
+# 浮动窗口
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
+# 窗口聚焦切换
 bindsym $mod+z focus mode_toggle
 
-# toggle sticky
-bindsym mod4+s sticky toggle
+# 即使即使您切换到另一个工作区，也要让它留在屏幕上
+bindsym $mod+x sticky toggle
 
-# focus the parent container 多选窗口
-bindsym $mod+a focus parent
-
-# move the currently focused window to the scratchpad
+# 隐藏窗口
 bindsym $mod+Shift+minus move scratchpad
 
-# Show the next scratchpad window or hide the focused scratchpad window.
-# If there are multiple scratchpad windows, this command cycles through them.
+# 呼出隐藏的窗口
 bindsym $mod+minus scratchpad show
 
 
 ## Autostart applications ##
+# 动态壁纸
+exec_always xscreensaver &
 # 修改键位
-exec_always xmodmap ~/.xmodmap
+#exec_always xmodmap ~/.Xmodmap
+# 桌面通知小程序
+exec_always twmnd
 # 半透明
 exec_always --no-startup-id killall compton | sleep 1s && compton --config ~/.config/compton.conf
 # 状态栏
@@ -119,9 +124,9 @@ exec_always --no-startup-id fcitx
 # 十分钟自动睡眠
 exec --no-startup-id xset dpms 600
 # 蓝牙管理工具
-#exec_always --no-startup-id blueberry&
+#exec_always --no-startup-id blueberry &
 
-exec_always --no-startup-id syndaemon -t -k -i 2 -d
+#exec_always --no-startup-id syndaemon -t -k -i 2 -d
 
 # 网络管理工具
 exec_always --no-startup-id nm-applet
@@ -192,9 +197,6 @@ bindsym $mod+Shift+Down move down 50 px
 bindsym $mod+Shift+Up move up 50 px
 bindsym $mod+Shift+Right move right 50 px
 
-# workspace back and forth (with/without active container)
-bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
-
 # 软件从特定工作区打开
 
 assign [class="TelegramDesktop"] $ws5
@@ -205,42 +207,26 @@ assign [class="jetbrains-clion"] $ws2
 assign [class="Emacs"] $ws2
 assign [class="Epdfview"] $ws7
 assign [class="Alacritty"] $ws1
-#assign [class="Chromium"] $ws3
+assign [class="Chromium"] $ws2
 assign [class="Xfce"] $ws8
 assign [class="smplayer"] $ws7
 assign [class="electronic-wechat"] $ws5
 
-# Open specific applications in floating mode
+# 特定窗口的配置
+# 全屏模式下只能弹出窗口
+popup_during_fullscreen smart
+# 将第三个工作区设置为标签模式
+workspace_3 stacking
+# 打开窗口时不聚焦
+no_focus [class="Chromium"]
+# 以浮动模式打开
 for_window [title="alsamixer"] floating enable border pixel 1
-for_window [class="Calamares"] floating enable border normal
-for_window [class="Clipgrab"] floating enable
-for_window [title="File Transfer*"] floating enable
-for_window [class="Galculator"] floating enable border pixel 1
-for_window [class="GParted"] floating enable border normal
-for_window [title="i3_help"] floating enable sticky enable border normal
 for_window [class="Lightdm-gtk-greeter-settings"] floating enable
-for_window [class="Lxappearance"] floating enable sticky enable border normal
-for_window [class="Manjaro-hello"] floating enable
-for_window [class="Manjaro Settings Manager"] floating enable border normal
-for_window [title="MuseScore: Play Panel"] floating enable
-for_window [class="Nitrogen"] floating enable sticky enable border normal
-for_window [class="Oblogout"] fullscreen enable
-for_window [class="octopi"] floating enable
-for_window [title="About Pale Moon"] floating enable
-for_window [class="Pamac-manager"] floating enable
-for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
-for_window [class="Simple-scan"] floating enable border normal
-for_window [class="(?i)System-config-printer.py"] floating enable border normal
-for_window [class="Skype"] floating enable border normal
-for_window [class="Thus"] floating enable border normal
-for_window [class="Timeset-gui"] floating enable border normal
-for_window [class="(?i)virtualbox"] floating enable border normal
-for_window [class="Xfburn"] floating enable
 #for_window [class="xfce4-appfinder"] floating enable
 
-# switch to workspace with urgent window automatically
+# 自动切换到具有紧急窗口的工作区
 for_window [urgent=latest] focus
 
 ## set status ## 

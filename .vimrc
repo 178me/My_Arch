@@ -66,6 +66,8 @@ map R :source $MYVIMRC<CR>
 map S :w<CR>
 " 快速退出
 map Q :q<CR>
+" 可读文件baocun
+map <LEADER>w :w !sudo tee %<CR>
 " 水平分屏
 map sl :set splitright<CR>:vsplit<CR>
 map sh :set nosplitright<CR>:vsplit<CR>
@@ -92,6 +94,10 @@ map tm :+tabnext<CR>
 map J <nop>
 " 用于分屏
 map s <nop>
+"  代替
+map z <nop>
+map z $
+map Z 0
 
 " 键位映射
 noremap H 5j
@@ -151,16 +157,16 @@ func! CompileRunGcc()
 endfunc
 " ----------------------------------------
 " 插件安装 " 
-call plug#begin('~/.vim/plugged')
-" 状态栏和配色
-Plug 'vim-airline/vim-airline'
-Plug 'connorholyday/vim-snazzy'
-" markdown网页浏览
-Plug 'iamcco/markdown-preview.vim'
-" markdown表格
-Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
-" Markdown
-call plug#end()
+""call plug#begin('~/.vim/plugged')
+""" 状态栏和配色
+""Plug 'vim-airline/vim-airline'
+""Plug 'connorholyday/vim-snazzy'
+""" markdown网页浏览
+""Plug 'iamcco/markdown-preview.vim'
+""" markdown表格
+""Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
+""" Markdown
+""call plug#end()
 " ===
 " === MarkdownPreview
 " ===

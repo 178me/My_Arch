@@ -12,16 +12,18 @@ alert = #FFF0F5
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI1}
 ; 使用xrandr命令获得MONITOR
+;monitor = ${env:MONITOR:eDP-1}
 monitor = ${env:MONITOR:eDP1}
 width = 100%
-height = 29
+height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
 fixed-center = true
 ; 颜色
-background = ${colors.background}
-foreground = ${colors.foreground}
+;background = #000000
+background = #d7c7f0
+foreground = #d7c7f0
 ; 行大小
 line-size = 4
 line-color = 
@@ -30,11 +32,10 @@ line-color =
 border-top-size = 2
 border-left-size = 2
 border-right-size = 2
-border-color = #0000000
+;border-color = #0000000
 
 padding-left = 0
 padding-right = 0
-
 
 ; 字体加载
 font-0 = ttf-liberation-sans:fixed:pixelsize=12;1
@@ -71,6 +72,7 @@ ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
 label-muted =   0%
+label-muted-foreground = #FF3030
 ; 下划线颜色
 format-volume-underline = #FF3030
 ; 修改前景色
@@ -101,7 +103,7 @@ label-mode-padding = 4
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
-label-focused-background = #CFCFCF
+label-focused-background = #FFEBCD
 label-focused-underline = #FF1493
 label-focused-padding = ${module/bspwm.label-focused-padding}
 
@@ -118,8 +120,9 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding} |
 ; 图标来自https://www.bootcss.com/p/font-awesome/design.html
 [module/xbacklight]
 type = internal/xbacklight
+enable-scroll = false
 ; 状态和百分比
-format = <ramp> <label> 
+format = <ramp> <label>
 ; 下划线颜色
 format-underline = #00FFFF
 format-foreground = #00FFFF
@@ -152,20 +155,25 @@ type = internal/battery
 battery = BAT1
 adapter = ACAD
 full-at = 99
-
+; 充电
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #45f033
+;format-charging-underline = #45f033
 format-charging-foreground = #45f033
+label-charging-foreground = #58d73c
+; 充电电状态
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-foreground = #45f033
+animation-charging-framerate = 750
 
-; 电池百分比
-label-discharging-foreground = #45f033
-
+; 放电状态
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-foreground = #45f033
-;format-discharging-underline = ${self.format-charging-underline}
-
+label-discharging-foreground = #58d73c
 format-full-prefix = " "
-;format-full-prefix-foreground = #45f033
+format-full-foreground = #45f033
 ;format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
@@ -174,13 +182,6 @@ ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-foreground = #45f033
 ; 电量状态
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-; 电池图标
-animation-charging-foreground = #45f033
-animation-charging-framerate = 750
 
 [module/menu]
 type = custom/menu
