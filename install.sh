@@ -66,7 +66,14 @@ do
         echo "配置文件已存在"
         break
     fi
+        cd /home/$user
         git clone git@github.com:178me/My_Arch.git
+    if [ -e /home/$user/Blog ]; then
+        echo 博客已存在
+        break
+    fi
+        git clone git@github.com:178me/178me.github.io.git
+        mv 178me.github.io Blog
 done
 
 ## vim ##
@@ -336,15 +343,16 @@ while true
 do
     if [ -e /usr/bin/npm ]; then
         echo npm已安装
+    fi
+        pacman -S nodejs npm
+    if [ -e /usr/bin/hexo ]; then
+        echo hexo已安装
+        break
+    else
         npm config set registry https://registry.npm.taobao.org
         npm install -g hexo-cli
         npm install hexo-deployer-git –save
-        echo hexo已安装
-        cd /home/$user
-        git clone git@github.com:178me/178me.github.io.git
-        break
     fi
-        pacman -S nodejs npm
 done
 
 
