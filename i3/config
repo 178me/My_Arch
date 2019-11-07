@@ -213,10 +213,11 @@ assign [class="smplayer"] $ws7
 assign [class="electronic-wechat"] $ws5
 
 # 特定窗口的配置
-# 全屏模式下只能弹出窗口
+# 全屏模式下智能弹出窗口
 popup_during_fullscreen smart
 # 将第三个工作区设置为标签模式
-workspace_3 stacking
+for_window [class="Google-chrome"] layout tabbed
+#workspace $ws3 stacking
 # 打开窗口时不聚焦
 no_focus [class="Chromium"]
 # 以浮动模式打开
