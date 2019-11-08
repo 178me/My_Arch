@@ -20,6 +20,7 @@ alias zj='neofetch'
 alias gitc="git commit -m "updata""
 alias gitp='git push'
 alias gits='git status'
+set -g -x RANGER_LOAD_DEFAULT_RC FALSE
 # alias xevv="xev | grep -A2 --line-buffered '^KeyRelease' | sed -n '/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'"
 
 
