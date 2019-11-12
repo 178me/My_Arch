@@ -1,7 +1,5 @@
 " 设置leader键位为空格
 let mapleader=" "
-" 高亮开
-syntax on
 " 识别不同文件格式
 set nocompatible
 filetype on
@@ -14,6 +12,8 @@ set mouse=a
 set encoding=utf-8
 " 配色标准
 let &t_ut=''
+" 高亮开
+syntax on
 " Tab缩进设置
 set expandtab
 set tabstop=4
@@ -60,6 +60,7 @@ set incsearch
 set ignorecase
 set smartcase
 
+noremap sy :r !figlet 
 " 重载配置文件
 map R :source $MYVIMRC<CR>
 " 快速保存
@@ -71,11 +72,11 @@ map <LEADER>w :w !sudo tee %<CR>
 " 水平分屏
 map sl :set splitright<CR>:vsplit<CR>
 map sh :set nosplitright<CR>:vsplit<CR>
-map sh <C-w>t<C-w>H
+"map sh <C-w>t<C-w>H
 " 垂直分屏
 map sk :set nosplitbelow<CR>:split<CR>
 map sj :set splitbelow<CR>:split<CR>
-map sv <C-w>t<C-w>K
+" map sv <C-w>t<C-w>K
 " 分屏坐标和大小
 map <LEADER>h <C-w>h
 map <LEADER>l <C-w>l
@@ -99,6 +100,10 @@ map z <nop>
 map z $
 map Z 0
 
+" Indentation
+nnoremap < <<
+nnoremap > >>
+
 " 键位映射
 noremap H 5j
 noremap L 5k
@@ -113,7 +118,7 @@ noremap <LEADER>tm :TableModeToggle<CR>
 " Copy to system clipboard
 noremap Y :w !xclip -i -sel c<CR><CR>
 " 寻找<++>并修改
-noremap  <LEADER><LEADER> <Esc>/<++><CR>:nohlsearch<CR>c4i
+noremap  <LEADER><LEADER> <Esc>/++<CR>:nohlsearch<CR>c2l
 " Spelling Check with 
 " 拼写检查
 noremap <LEADER>sc :set spell!<CR>
@@ -155,18 +160,54 @@ func! CompileRunGcc()
 		:term go run %
 	endif
 endfunc
+"   取消注释安装插件工具plug
+"   call plug#begin('~/.vim/plugged')
+"
+"   " Make sure you use single quotes
+"
+"   " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+"   Plug 'junegunn/vim-easy-align'
+"
+"   " Any valid git URL is allowed
+"   Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+"
+"   " Multiple Plug commands can be written in a single line using | separators
+"   Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+"
+"   " On-demand loading
+"   Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+"   Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+"
+"   " Using a non-master branch
+"   Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+"
+"   " Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
+"   Plug 'fatih/vim-go', { 'tag': '*' }
+"
+"   " Plugin options
+"   Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
+"
+"   " Plugin outside ~/.vim/plugged with post-update hook
+"   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+"
+"   " Unmanaged plugin (manually installed and updated)
+"   Plug '~/my-prototype-plugin'
+"
+"   " Initialize plugin system
+"   call plug#end()
+
 " ----------------------------------------
 " 插件安装 " 
-""call plug#begin('~/.vim/plugged')
-""" 状态栏和配色
-""Plug 'vim-airline/vim-airline'
-""Plug 'connorholyday/vim-snazzy'
-""" markdown网页浏览
-""Plug 'iamcco/markdown-preview.vim'
-""" markdown表格
-""Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
-""" Markdown
-""call plug#end()
+call plug#begin('~/.vim/plugged')
+" 状态栏和配色
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+" markdown网页浏览
+Plug 'iamcco/markdown-preview.vim'
+" markdown表格
+Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
+" Markdown
+call plug#end()
 " ===
 " === MarkdownPreview
 " ===
@@ -176,5 +217,5 @@ let g:mkdp_browser = 'chrome'
 source ~/.vim/Markdown.vim
 " ------------------------------------------------
 " 配色
-" color snazzy
-"let g:SnazzyTransparent = 1
+color snazzy
+let g:SnazzyTransparent = 1

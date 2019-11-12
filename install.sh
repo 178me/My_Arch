@@ -8,6 +8,18 @@
 # 选择
 choice=0
 user=yzl178me
+aa(){
+if [ $1 == 0 ]; then
+while true
+do
+    if [ -e /usr/bin/$2 ]; then
+        echo $2已安装
+        break
+    fi
+        pacman -S $2 $3 $4 $5 $6
+done
+fi
+}
 # 获得passwd   
 echo 直接安装跳过基本设置请输入回车,否则输入1回车
 read choice
@@ -36,17 +48,11 @@ pacman -S archlinuxcn-keyring
 pacman -Syyu
 # 更新系统：pacman -Syu
 fi
+aa 0 yay
 
 ## 克隆我的配置 ##
 ## ssh ##
-while true
-do
-    if [ -e /usr/bin/ssh ]; then
-        echo ssh已安装
-        break
-    fi
-        pacman -S openssh
-done
+aa 0 openssh
 # 生成导入ssh
 echo 输入1生成密钥
 read choice
@@ -77,141 +83,52 @@ do
 done
 
 ## vim ##
-while true
-do
-    if [ -e /usr/bin/vim ]; then
-        echo vim已安装
-        break
-    fi
-        pacman -S vim
-done
+aa 0 vim xclip figlet
 
 ## NetworkManager ##
 # 设置开机自启 systemctl enable NetworkManager.service 
-while true
-do
-if [ -e /usr/lib/systemd/system/NetworkManager.service ]; then
-    echo NetworkManager已安装
-    systemctl enable NetworkManager.service
-    break
-fi
-    pacman -S networkmanager
-done
-
-while true
-do
-if [ -e /usr/bin/nm-applet ]; then
-    echo nm-applt已安装
-    break
-fi
-    pacman -S network-manager-applet
-done
+aa 0 networkmanager
+systemctl enable NetworkManager.service
+aa 0 network-manager-applet
 
 ## lightdm ##
 # 这里情况有点复杂，就不自动开启服务了,可以讲一下步骤
 # 找到你现在的登录管理器服务，然后使用systemctl disable XXX.service关掉
 # 再开启lightdm，使用lightdm enable lightdm.service
-while true
-do
-    if [ -e /usr/bin/lightdm ]; then
-        echo lightdm已安装
-        break
-    fi
-        pacman -S lightdm lightdm-gtk-greeter
-done
+aa 0 lightdm lightdm-gtk-greeter
 
 # lightdm比较轻量，但是该有的功能都会有，修改背景图片，头像，位置都有
 # 详细配置  https://wiki.archlinux.org/index.php/LightDM_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
 
 ## 硬件配置 ##
 # 触摸板
-while true
-do
-    if [ -e /usr/bin/libinput ]; then
-        echo 触摸板驱动已安装
-            break
-    fi
-        pacman -S xf86-input-libinput
-done
+aa 0 xf86-input-libinput
 
 # 蓝牙
 # 需手动开启蓝牙服务
-while true
-do
-    if [ -e /usr/bin/blueberry ]; then
-        echo 蓝牙驱动已安装
-        systemctl enable bluetooth.service
-        break
-    fi
-        pacman -S blueberry
-done
+aa 0 blueberry
+systemctl enable bluetooth.service
+
 
 # 音量和亮度的调节
-while true
-do
-    if [ -e /usr/bin/pulseaudio-ctl ]; then
-        echo 音量调节工具已安装
-    else
-        yay -S pulseaudio-ctl
-    fi
-    if [ -e /usr/bin/xbacklight ]; then
-        echo 亮度调节已安装
-        break
-    else
-        pacman -S xorg-xbacklight
-    fi
-done
+aa 0 pulseaudio-ctl xorg-xbacklight
 
 ## i3 ##
-while true
-do
-    if [ -e /usr/bin/i3 ]; then
-        echo i3已安装
-        break
-    fi
-        pacman -S i3
-done
+aa 0 i3
 
 ## alacritty ##
-while true
-do
-    if [ -e /usr/bin/alacritty ]; then
-        echo alacritty 已安装
-        break
-    fi
-        pacman -S alacritty compton
-done
+aa 0 alacritty compton
 
 ## fish ##
-while true
-do
-    if [ -e /usr/bin/fish ]; then
-        echo fish已安装
-        break
-        #chsh -s /usr/bin/fish
-    fi
-        pacman -S fish
-done
+aa 0 fish
+curl -L https://get.oh-my.fish | fish
 
 ## polybar ##
-while true
-do
-    if [ -e /usr/bin/polybar ]; then
-        echo poly已安装
-        break
-    fi
-        pacman -S polybar
-done
+aa 0 polybar
+aa 0 awesome-terminal-fonts
 
 ## fcitx-sogoupinyin ##
-while true
-do
-    if [ -e /usr/bin/fcitx ]; then
-        echo 输入法已安装
-        break
-    fi
-        pacman -S fcitx fcitx-sogoupinyin fcitx-qt5 fcitx-configtool
-done
+aa 0 fcitx fcitx-sogoupinyin fcitx-qt5 fcitx-configtool
 
 ## utools ##
 while true
@@ -224,116 +141,45 @@ do
 done
 
 ## unzip ##
-while true
-do
-    if [ -e /usr/bin/unzip ]; then
-        echo unzip已安装
-        break
-    fi
-        pacman -S unzip
-done
+aa 0 unzip
 
 ## variety ##
-while true
-do
-    if [ -e /usr/bin/variety ]; then
-        echo variety 已安装
-        unzip wallpaper.zip
-        mv -r ~/My_Arch/wallpaper ~/wallpaper
-        break
-    fi
-        pacman -S variety
-done
+aa 0 variety
 
 ## chrome ##
-while true
-do
-    if [ -e /usr/bin/google-chrome-stable ]; then
-        echo chrome已安装
-        break
-    fi
-        pacman -S google-chrome
-done
+aa 0 google-chrome
 
 ## 网易云 ##
-while true
-do
-    if [ -e /usr/bin/netease-cloud-music ]; then
-        echo 网易云音乐已安装
-        break
-    fi
-        netease-cloud-music
-done
+aa 0 netease-cloud-music
 
 ## 梯子 ##
-while true
-do
-    if [ -e /usr/bin/electron-ssr ]; then
-        echo ssr已安装
-        break
-    fi
-        pacman -S electron-ssr
-done
+aa 0 electron-ssr
 
 ## telegram ##
-while true
-do
-    if [ -e /usr/bin/telegram-desktop ]; then
-        echo telegram已安装
-        break
-    fi
-        pacman -S telegram-desktop
-done
+aa 0 telegram-desktop
 
 ## ranger ##
-while true
-do
-    if [ -e /usr/bin/ranger ]; then
-        echo ranger已安装
-        break
-    fi
-        pacman -S ranger
-done
+aa 0 ranger  trash-cli  nerd-fonts-complete
+aa 0 w3m
+aa 0 fzf
+
+## twmn
+yay -S twmn-git
+
+## zj
+aa 0 neofetch
 
 ## smplayer ##
-while true
-do
-    if [ -e /usr/bin/smplayer ]; then
-        echo smplayer已安装
-        break
-    fi
-        pacman -S smplayer
-done
+aa 0 smplayer
 
 ## chromium ##
-while true
-do
-    if [ -e /usr/bin/chromium ]; then
-        echo chromium已安装
-        break
-    fi
-        pacman -S chromium
-done
+aa 0 chromium
 
 ## flameshot ##
-while true
-do
-    if [ -e /usr/bin/flameshot ]; then
-        echo flameshot已安装
-        break
-    fi
-        pacman -S flameshot
-done
+aa 0 flameshot
 
 ## xscreensaver ##
-while true
-do
-    if [ -e /usr/bin/xscreensaver ]; then
-        echo 屏保已安装
-        break
-    fi
-        pacman -S xscreensaver
-done
+aa 0 xscreensaver
 
 ## man中文帮助 ##
 pacman -S man-pages-zh_cn man-pages-zh_tw
@@ -345,15 +191,19 @@ do
         echo npm已安装
     fi
         pacman -S nodejs npm
-    if [ -e /usr/bin/hexo ]; then
-        echo hexo已安装
-        break
-    else
-        npm config set registry https://registry.npm.taobao.org
-        npm install -g hexo-cli
-        npm install hexo-deployer-git –save
-    fi
+        if [ -e /usr/bin/hexo ]; then
+            echo hexo已安装
+            break
+        else
+            npm config set registry https://registry.npm.taobao.org
+            npm install -g hexo-cli
+            npm install hexo-deployer-git –save
+        fi
 done
+
+## neovim ##
+aa 0 ctags  python-pip 
+npm install -g neovim
 
 
 

@@ -94,11 +94,11 @@ bindsym $mod+Shift+space floating toggle
 # 窗口聚焦切换
 bindsym $mod+z focus mode_toggle
 
-# 即使即使您切换到另一个工作区，也要让它留在屏幕上
+# 即使您切换到另一个工作区，也要让它留在屏幕上
 bindsym $mod+x sticky toggle
 
 # 隐藏窗口
-bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+equal move scratchpad
 
 # 呼出隐藏的窗口
 bindsym $mod+minus scratchpad show

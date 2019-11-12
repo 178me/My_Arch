@@ -4,7 +4,7 @@ set -q XDG_DATA_HOME
   or set -gx OMF_PATH "$HOME/.local/share/omf"
 # alias
 alias c='clear'
-alias v='vim'
+alias v='nvim'
 alias R='shutdown -r now'
 alias r='ranger'
 alias off='shutdown now'
