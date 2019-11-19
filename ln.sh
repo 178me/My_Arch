@@ -64,6 +64,8 @@ fln $arch $cfg nvim/init.vim 0
 cd $cfg/nvim
 pip3 install flake8
 
+# zsh
+fln $arch $usr .zshrc 0
 
 
 

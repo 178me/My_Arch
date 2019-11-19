@@ -205,7 +205,8 @@ done
 aa 0 ctags  python-pip 
 npm install -g neovim
 
-
+# zsh
+aa 0 zsh-completions
 
 
 

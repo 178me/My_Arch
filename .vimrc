@@ -12,6 +12,11 @@ set mouse=a
 set encoding=utf-8
 " 配色标准
 let &t_ut=''
+" 设置透明背景
+if executable("vimtweak.dll")
+autocmd guienter * call libcallnr("vimtweak","SetAlpha",222)
+
+endif
 " 高亮开
 syntax on
 " Tab缩进设置
@@ -132,32 +137,10 @@ func! CompileRunGcc()
 	if &filetype == 'c'
 		exec "!g++ % -o %<"
 		exec "!time ./%<"
-	elseif &filetype == 'cpp'
-		set splitbelow
-		exec "!g++ -std=c++11 % -Wall -o %<"
-		:sp
-		:res -15
-		:term ./%<
-	elseif &filetype == 'java'
-		exec "!javac %"
-		exec "!time java %<"
 	elseif &filetype == 'sh'
 		:!time bash %
-	elseif &filetype == 'python'
-		set splitbelow
-        :sp
-		:term python3 %
-	elseif &filetype == 'html'
-		silent! exec "!chromium % &"
 	elseif &filetype == 'markdown'
 		exec "MarkdownPreview"
-	elseif &filetype == 'tex'
-		silent! exec "VimtexStop"
-		silent! exec "VimtexCompile"
-	elseif &filetype == 'go'
-		set splitbelow
-		:sp
-		:term go run %
 	endif
 endfunc
 "   取消注释安装插件工具plug
@@ -206,16 +189,18 @@ Plug 'connorholyday/vim-snazzy'
 Plug 'iamcco/markdown-preview.vim'
 " markdown表格
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
-" Markdown
+"Plug 'gabrielelana/vim-markdown'
+
 call plug#end()
 " ===
 " === MarkdownPreview
 " ===
 let g:mkdp_path_to_chrome = "chromium"
-let g:mkdp_auto_start = 1
+let g:mkdp_auto_start = 0
 let g:mkdp_browser = 'chrome'
 source ~/.vim/Markdown.vim
 " ------------------------------------------------
 " 配色
-color snazzy
 let g:SnazzyTransparent = 1
+color snazzy
+

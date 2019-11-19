@@ -74,6 +74,8 @@ update 3 ranger
 # neovim
 update 3 nvim
 
+# zsh
+update 0 .zshrc
 
 
 
