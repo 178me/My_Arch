@@ -1,5 +1,5 @@
 # 设置功能键为Mod1（Alt)
-set $mod Mod1
+set $mod Mod4
 
 # 设置新窗口像素
 new_window pixel 4
@@ -25,7 +25,7 @@ floating_maximum_size -1 x 1000
 bindsym F10 exec sh ~/.i2c_hid.sh
 
 # 打开终端
-bindsym $mod+Return exec alacritty
+bindsym $mod+Shift+Return exec alacritty
 
 # 设置边框快捷键
 bindsym $mod+u border none
@@ -33,10 +33,10 @@ bindsym $mod+y border pixel 4
 bindsym $mod+n border normal
 
 # 打开ranger文件管理器
-bindsym $mod+d exec alacritty -e ranger
+#bindsym $mod+d exec alacritty -e ranger
 
 # 谷歌浏览器
-bindsym $mod+Control+g exec google-chrome-stable
+#bindsym $mod+Control+g exec google-chrome-stable --proxy-server="socks5://127.0.0.1:1080"
 
 # 调节亮度
 bindcode 232 exec xbacklight -dec 5
@@ -48,31 +48,35 @@ bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up
 bindsym XF86AudioLowerVolume exec pulseaudio-ctl down
 
 # 火狐浏览器
-bindsym $mod+Control+f exec firefox
+# bindsym $mod+Control+f exec firefox
 
 # 截图工具
-bindsym $mod+Control+z exec flameshot gui
+bindsym $mod+Control+z exec flameshot gui -p ~/Image/flameshot
 
 # 打开网易云音乐
 bindsym $mod+Control+4 exec netease-cloud-music
 
 # ssr
-bindsym $mod+Shift+s exec electron-ssr
+# bindsym $mod+Shift+s exec electron-ssr
 
 # chromium
-bindsym $mod+m exec chromium
+bindsym $mod+m exec chromium --proxy-server="socks5://127.0.0.1:1081"
 
 # 打开视频播放器
 bindsym $mod+p exec smplayer
 
+# MC
+bindsym $mod+g exec java -jar ~/MC/HMCL-3.2.149.jar
+
 # 屏保
-bindsym mod4+l exec xscreensaver-command --lock
+bindsym Control+mod4+l exec i3lock-fancy
 
 # 锁屏休眠
-bindsym mod4+s exec xscreensaver-command --lock && systemctl suspend
+bindsym Control+mod1+s exec i3lock-fancy && systemctl hybrid-sleep
+#bindsym mod4+s exec i3lock -i  && systemctl suspend
 
 # xfce4的程序查找器
-bindsym mod4+e exec --no-startup-id xfce4-appfinder
+#bindsym mod4+e exec --no-startup-id xfce4-appfinder
 
 # Window kill command 杀死窗口
 bindsym $mod+q kill
@@ -95,7 +99,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+z focus mode_toggle
 
 # 即使您切换到另一个工作区，也要让它留在屏幕上
-bindsym $mod+x sticky toggle
+bindsym mod4+x sticky toggle
 
 # 隐藏窗口
 bindsym $mod+equal move scratchpad
@@ -105,20 +109,30 @@ bindsym $mod+minus scratchpad show
 
 
 ## Autostart applications ##
-# 动态壁纸
-exec_always xscreensaver &
+# 动态壁纸(有点耗电)
+
 # 修改键位
 #exec_always xmodmap ~/.Xmodmap
-# 桌面通知小程序
-exec_always twmnd
+# 桌面通知
+exec_always deadd-notification-center
 # 半透明
-exec_always --no-startup-id killall compton | sleep 1s && compton --config ~/.config/compton.conf
+exec_always --no-startup-id killall picom | sleep 1s && picom --config ~/.config/picom.conf
 # 状态栏
 exec_always --no-startup-id /$HOME/.config/polybar/launch.sh
 # 分辨率
 exec_always --no-startup-id xrandr --output DVI-D-1 --mode 1920x1080
 # 输入法
 exec_always --no-startup-id fcitx
+
+# 电量低提醒
+exec_always --no-startup-id i3-battery-popup -L 30 -m "电量低，及时充电" -s "/home/yzl178me/Music/kgmusic/机器猫.mp3" -n
+
+# 护眼程序
+exec --no-startup-id redshift-gtk
+
+#代理
+exec_always qv2ray
+
 #exec_always --no-startup-id ibus-daemon -x -d
 # exec_always --no-startup-id albert
 # 十分钟自动睡眠
@@ -135,19 +149,19 @@ exec_always --no-startup-id nm-applet
 exec_always utools&
 # 壁纸管理器
 exec --no-startup-id variety
-exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+# exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 # 声音系统托盘
-exec_always --no-startup-id killall pasystray && pasystray
+# exec_always --no-startup-id killall pasystray && pasystray
 
 ## set workspaces ##
 
 # workspaces
 set $ws1 1.Term
-set $ws2 2.Code
+set $ws2 2.Emacs
 set $ws3 3.Web
-set $ws4 4.Music
+set $ws4 4.Qt
 set $ws5 5.Chat
-set $ws6 6.Game
+set $ws6 6.Music
 set $ws7 7.Study
 set $ws8 8.Other
 
@@ -199,28 +213,42 @@ bindsym $mod+Shift+Right move right 50 px
 
 # 软件从特定工作区打开
 
-assign [class="TelegramDesktop"] $ws5
-assign [class="firefox"] $ws3
-assign [class="Google-chrome"] $ws3
-assign [class="netease-cloud-music"] $ws4
+assign [class="Alacritty"] $ws1
 assign [class="jetbrains-clion"] $ws2
 assign [class="Emacs"] $ws2
-assign [class="Epdfview"] $ws7
-assign [class="Alacritty"] $ws1
-assign [class="Chromium"] $ws2
-assign [class="Xfce"] $ws8
-assign [class="smplayer"] $ws7
+assign [class="firefox"] $ws3
+assign [class="Google-chrome"] $ws3
+assign [class="Chromium"] $ws3
+assign [title="Qt Creator"] $ws4
+assign [class="TelegramDesktop"] $ws5
+assign [class="QQ"] $ws5
 assign [class="electronic-wechat"] $ws5
+assign [class="netease-cloud-music"] $ws6
+assign [class="KuGou"] $ws6
+assign [class="Epdfview"] $ws7
+assign [class="smplayer"] $ws7
+assign [class="VirtualBox"] $ws8
 
 # 特定窗口的配置
 # 全屏模式下智能弹出窗口
 popup_during_fullscreen smart
 # 将第三个工作区设置为标签模式
-for_window [class="Google-chrome"] layout tabbed
+for_window [class="Chromium"] layout tabbed
 #workspace $ws3 stacking
 # 打开窗口时不聚焦
-no_focus [class="Chromium"]
+#no_focus [class="Chromium"]
+# 全局窗口
+for_window [title="Cloud Music"] sticky toggle
+# 自动隐藏
+for_window [title="Battery Warning"] sticky enable
+## 针对Qt各窗口的配置
+for_window [title="Qt程序"] floating enable  floating_minimum_size 75 x 50
 # 以浮动模式打开
+for_window [title="在线翻译"] floating enable
+for_window [title="QQ"] floating enable
+for_window [title="Saladict Dict Panel"] floating enable
+for_window [title="蓝牙"] floating enable
+for_window [title="HMCL"] floating enable floating_minimum_size 75 x 50
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Lightdm-gtk-greeter-settings"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal

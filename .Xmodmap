@@ -1,3 +1,20 @@
-keycode 66 = Escape NoSymbol Escape
+! 大写 改成 左Ctrl
+keycode 66 = Control_L NoSymbol Control_L
+
+! Esc 改成 大写
 keycode 9 = Caps_Lock NoSymbol Caps_Lock 
+
+! 左Ctrl 改为 Esc
+keycode 37 = Escape NoSymbol Escape
+
+! 左Alt 改为 Super_L
+remove mod1 = Alt_R
+add mod4 = Alt_R
+! keycode 108 = Alt_R Meta_R Alt_R Meta_R
+! keycode 108 = Super_L NoSymbol Super_L
+! add mod4 = Alt_R 
+
+! 把 Contrl修饰符 给 左Ctrl
+add Control = Control_L
+
 clear lock

@@ -15,7 +15,6 @@ let &t_ut=''
 " 设置透明背景
 if executable("vimtweak.dll")
 autocmd guienter * call libcallnr("vimtweak","SetAlpha",222)
-
 endif
 " 高亮开
 syntax on
@@ -65,70 +64,79 @@ set incsearch
 set ignorecase
 set smartcase
 
-noremap sy :r !figlet 
+" 使用系统剪贴板
+set clipboard=unnamedplus
 " 重载配置文件
-map R :source $MYVIMRC<CR>
 " 快速保存
-map S :w<CR>
 " 快速退出
-map Q :q<CR>
-" 可读文件baocun
-map <LEADER>w :w !sudo tee %<CR>
-" 水平分屏
-map sl :set splitright<CR>:vsplit<CR>
-map sh :set nosplitright<CR>:vsplit<CR>
-"map sh <C-w>t<C-w>H
-" 垂直分屏
-map sk :set nosplitbelow<CR>:split<CR>
-map sj :set splitbelow<CR>:split<CR>
-" map sv <C-w>t<C-w>K
-" 分屏坐标和大小
-map <LEADER>h <C-w>h
-map <LEADER>l <C-w>l
-map <LEADER>j <C-w>j
-map <LEADER>k <C-w>k
+" 强制退出
+" 可读文件保存
+map <leader>fr :source ~/.config/nvim/init.vim<CR>
+map S :w<CR>
+map Q :q!<CR>
+map <LEADER>fw :w !sudo tee %<CR>
+map <leader>fs :r !figlet
 
+" 上下左右分屏
+noremap <leader>wK :set nosplitbelow<CR>:split<CR>
+noremap <leader>wJ :set splitbelow<CR>:split<CR>
+noremap <leader>wH :set nosplitright<CR>:vsplit<CR>
+noremap <leader>wL :set splitright<CR>:vsplit<CR>
+
+" 上下左右交换位置
+map <leader>wv <C-w>t<C-w>K
+map <leader>wb <C-w>t<C-w>H
+
+" 切换窗口焦点
+map <LEADER>wk <C-w>k
+map <LEADER>wj <C-w>j
+map <LEADER>wh <C-w>h
+map <LEADER>wl <C-w>l
+
+" 修改窗口大小
 map <up> :res +5<CR>
 map <down> :res -5<CR>
 map <left> :vertical resize-5<CR>
 map <right> :vertical resize+5<CR>
-" 标签设置
-map tb :tabe<CR>
-map tn :-tabnext<CR>
-map tm :+tabnext<CR>
+
+" 新建标签
+" 向前切换标签
+" 向后切换标签
+map <leader>tt :tabe<CR>
+map <leader>t, :-tabnext<CR>
+map <leader>t. :+tabnext<CR>
+
+
 " 禁用J
-map J <nop>
 " 用于分屏
+map J <nop>
 map s <nop>
-"  代替
+
+" 代替home end
 map z <nop>
 map z $
 map Z 0
 
-" Indentation
+" 简化操作
 nnoremap < <<
 nnoremap > >>
-
-" 键位映射
 noremap H 5j
 noremap L 5k
 noremap D dw
-noremap <LEADER>q :q!<CR>
+
+""" other
+" 大字体
 " 关闭高亮
-noremap <LEADER><CR> :nohlsearch<CR>
-" Compile function
-noremap <LEADER>r :call CompileRunGcc()<CR>
 " markdown表格
-noremap <LEADER>tm :TableModeToggle<CR>
 " Copy to system clipboard
-noremap Y :w !xclip -i -sel c<CR><CR>
-" 寻找<++>并修改
-noremap  <LEADER><LEADER> <Esc>/++<CR>:nohlsearch<CR>c2l
-" Spelling Check with 
-" 拼写检查
-noremap <LEADER>sc :set spell!<CR>
-noremap  <C-x> ea<C-x>s
-inoremap <C-x> <Esc>ea<C-x>s
+" 寻找并修改
+" 打开一个终端
+noremap <LEADER><CR> :nohlsearch<CR>
+noremap <LEADER>mt :TableModeToggle<CR>
+map Y "+y
+noremap  <LEADER><LEADER> <Esc>/<CR>:nohlsearch<CR>c4l
+noremap <LEADER>s :set splitbelow<CR>:sp<CR>:term<CR>
+noremap <LEADER>f/ :,+6s//g<left><left>
 " Auto change directory to current dir
 autocmd BufEnter * silent! lcd %:p:h
 " 识别文件格式，然后执行相对应的命令
@@ -189,6 +197,8 @@ Plug 'connorholyday/vim-snazzy'
 Plug 'iamcco/markdown-preview.vim'
 " markdown表格
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
+Plug 'liuchengxu/vim-which-key'
+
 "Plug 'gabrielelana/vim-markdown'
 
 call plug#end()
@@ -204,3 +214,10 @@ source ~/.vim/Markdown.vim
 let g:SnazzyTransparent = 1
 color snazzy
 
+
+" which-key
+set timeoutlen=0
+nnoremap <silent> <leader> :<c-u>WhichKey '<Space>'<CR>
+vnoremap <silent> <leader> :<c-u>WhichKeyVisual '<Space>'<CR>
+let g:which_key_position = 'botright'
+let g:which_key_map =  {}

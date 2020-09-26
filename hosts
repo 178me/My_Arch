@@ -1,0 +1,18 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+127.0.0.1 yzl178me.localdomain yzl178me
+::1 yzl178me.localdomain yzl178me
+
+199.232.5.194 github.global.ssl.fastly.net
+13.250.177.223 github.com
+151.101.108.133 raw.githubusercontent.com
+
+104.16.248.1 fangqiangdang.com
+#172.217.27.142      translate.google.com
+#172.217.24.1        translate.googleusercontent.com
+#203.208.50.35       translate.googleapis.com
+#203.208.41.87       translate.google.cn
+#
+
+185.159.159.170 api.protonvpn.ch
+

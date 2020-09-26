@@ -12,7 +12,7 @@ if [ $4 == 0 ]; then
     ln -f $1/$3 $2/$3
 elif [ $4 == 1 ]; then
     trash-put $2/$3
-    cp -r $1/$3 $2/$3
+    cp -rp $1/$3 $2/$3
 }
 # 放一些系统配置
 fln $arch $user .xprofile 0

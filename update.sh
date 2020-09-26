@@ -56,6 +56,11 @@ if [ -e /etc/X11/xorg.conf.d/20-intel.conf ]; then
     ln -f /etc/X11/xorg.conf.d/20-intel.conf  $arch/20-intel.conf 
 fi
 
+# hosts
+if [ -e /etc/hosts ]; then
+    ln -f /etc/hosts $arch/hosts
+fi
+
 # i3
 update 3 i3
 
@@ -77,7 +82,8 @@ update 3 nvim
 # zsh
 update 0 .zshrc
 
-
+# compton
+update 3 compton.conf
 
 
 
