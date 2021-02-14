@@ -54,7 +54,6 @@ def main():
                 home+".config/omf",
                 home+".config/polybar",
                 home+".config/pulseaudio-ctl",
-                home+".config/qv2ray",
                 home+".config/ranger",
                 home+".config/twmn",
                 home+".emacs.d",

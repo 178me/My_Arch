@@ -122,3 +122,28 @@ class extracthere(Command):
 
         obj.signal_bind('after', refresh)
         self.fm.loader.add(obj)
+
+class extract(Command):
+    """:extract <paths>
+    
+    Extract archives using 7z
+    """
+    def execute(self):
+        import os
+        fail=[]
+        for i in self.fm.thistab.get_selection():
+            ExtractProg='7z x'
+            if i.path.endswith('.zip'):
+                # zip encoding issue
+                ExtractProg='unzip -O gbk'
+            elif i.path.endswith('.tar.gz'):
+                ExtractProg='tar xvf'
+            elif i.path.endswith('.tar.xz'):
+                ExtractProg='tar xJvf'
+            elif i.path.endswith('.tar.bz2'):
+                ExtractProg='tar xjvf'
+            if os.system('{0} "{1}"'.format(ExtractProg, i.path)):
+                fail.append(i.path)
+        if len(fail) > 0:
+            self.fm.notify("Fail to extract: {0}".format(' '.join(fail)), duration=10, bad=True)
+        self.fm.redraw_window()

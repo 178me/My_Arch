@@ -1,5 +1,6 @@
 # 设置功能键为Mod1（Alt)
 set $mod Mod4
+set $toast exec notify-send -t 3000
 
 # 设置新窗口像素
 new_window pixel 4
@@ -22,36 +23,52 @@ floating_maximum_size -1 x 1000
 
 ## 快捷键设置 ##
 # 触摸板模块重新加载
-bindsym F10 exec sh ~/.i2c_hid.sh
+bindsym F10 exec sh ~/.i2c_hid.sh;$toast "触摸板模块重新加载"
 
 # 打开终端
 bindsym $mod+Shift+Return exec alacritty
 
 # 设置边框快捷键
-bindsym $mod+u border none
-bindsym $mod+y border pixel 4
-bindsym $mod+n border normal
+bindsym $mod+u border none;$toast "设置为无边框"
+bindsym $mod+y border pixel 4;$toast "设置为4像素边框"
+bindsym $mod+n border normal;$toast "设置为正常边框"
 
 # 打开ranger文件管理器
-#bindsym $mod+d exec alacritty -e ranger
+# bindsym mod1+d exec alacritty -e ranger
 
 # 谷歌浏览器
 #bindsym $mod+Control+g exec google-chrome-stable --proxy-server="socks5://127.0.0.1:1080"
+
+# emacs
+# bindsym mod1+e exec emacsclient c -a %
+bindsym mod1+e move up 150 px resize set 1200 800
 
 # 调节亮度
 bindcode 232 exec xbacklight -dec 5
 bindcode 233 exec xbacklight -inc 5
 
 # 调节声音
-bindsym XF86AudioMute exec pulseaudio-ctl mute
+bindsym XF86AudioMute exec pulseaudio-ctl mute 
 bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up
-bindsym XF86AudioLowerVolume exec pulseaudio-ctl down
+bindsym XF86AudioLowerVolume exec pulseaudio-ctl down 
+
+# 修改键位
+bindsym mod1+Shift+x exec xmodmap ~/.Xmodmap;$toast "交换键位"
+
+# 获取鼠标坐标
+bindsym $mod+Shift+p exec python /home/yzl178me/test/python/lib/getPostion.py | xargs notify-send -t 3000
+
+# 点击
+bindsym mod1+1 exec python /home/yzl178me/test/python/auto_read_up.py;$toast "上一页"
+bindsym mod1+2 exec python /home/yzl178me/test/python/auto_read.py;$toast "下一页"
 
 # 火狐浏览器
 # bindsym $mod+Control+f exec firefox
 
 # 截图工具
-bindsym $mod+Control+z exec flameshot gui -p ~/Image/flameshot
+bindsym $mod+Control+z exec flameshot gui
+# bindsym $mod+Shift+z exec alacritty --working-directory ~/Image/flameshot;$toast "保存截图"
+bindsym $mod+Shift+z exec sh /home/yzl178me/Image/flameshot/save.sh;$toast "保存截图"
 
 # 打开网易云音乐
 bindsym $mod+Control+4 exec netease-cloud-music
@@ -82,7 +99,7 @@ bindsym Control+mod1+s exec i3lock-fancy && systemctl hybrid-sleep
 bindsym $mod+q kill
 
 # split orientation 垂直分屏开关
-bindsym $mod+v split toggle
+bindsym $mod+v split toggle;$toast "垂直水平分屏开关"
 
 # 全屏
 bindsym $mod+f fullscreen toggle
@@ -96,23 +113,21 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # 窗口聚焦切换
-bindsym $mod+z focus mode_toggle
+bindsym $mod+space focus mode_toggle
 
 # 即使您切换到另一个工作区，也要让它留在屏幕上
-bindsym mod4+x sticky toggle
+bindsym mod4+x sticky toggle;$toast "固定当前窗口"
 
 # 隐藏窗口
-bindsym $mod+equal move scratchpad
+bindsym $mod+equal move scratchpad;$toast "隐藏窗口"
 
 # 呼出隐藏的窗口
-bindsym $mod+minus scratchpad show
+bindsym $mod+minus scratchpad show;$toast "显示隐藏的窗口"
 
 
 ## Autostart applications ##
 # 动态壁纸(有点耗电)
 
-# 修改键位
-#exec_always xmodmap ~/.Xmodmap
 # 桌面通知
 exec_always deadd-notification-center
 # 半透明
@@ -122,21 +137,27 @@ exec_always --no-startup-id /$HOME/.config/polybar/launch.sh
 # 分辨率
 exec_always --no-startup-id xrandr --output DVI-D-1 --mode 1920x1080
 # 输入法
-exec_always --no-startup-id fcitx
+exec_always --no-startup-id fcitx5
 
 # 电量低提醒
 exec_always --no-startup-id i3-battery-popup -L 30 -m "电量低，及时充电" -s "/home/yzl178me/Music/kgmusic/机器猫.mp3" -n
 
 # 护眼程序
-exec --no-startup-id redshift-gtk
+exec_always redshift-gtk -l 53:113
+
+# 电源管理
+exec --no-startup-id xfce4-power-manager
 
 #代理
 exec_always qv2ray
 
+# 修改键位
+# exec xmodmap ~/.Xmodmap
+#
 #exec_always --no-startup-id ibus-daemon -x -d
 # exec_always --no-startup-id albert
 # 十分钟自动睡眠
-exec --no-startup-id xset dpms 600
+# exec_always --no-startup-id xset dpms 600
 # 蓝牙管理工具
 #exec_always --no-startup-id blueberry &
 
@@ -211,8 +232,7 @@ bindsym $mod+Shift+Down move down 50 px
 bindsym $mod+Shift+Up move up 50 px
 bindsym $mod+Shift+Right move right 50 px
 
-# 软件从特定工作区打开
-
+# 软件从特定工作区打开 可以通过xprop 来找class类
 assign [class="Alacritty"] $ws1
 assign [class="jetbrains-clion"] $ws2
 assign [class="Emacs"] $ws2
@@ -220,12 +240,14 @@ assign [class="firefox"] $ws3
 assign [class="Google-chrome"] $ws3
 assign [class="Chromium"] $ws3
 assign [title="Qt Creator"] $ws4
+assign [title="Feem"] $ws4
 assign [class="TelegramDesktop"] $ws5
 assign [class="QQ"] $ws5
 assign [class="electronic-wechat"] $ws5
 assign [class="netease-cloud-music"] $ws6
 assign [class="KuGou"] $ws6
 assign [class="Epdfview"] $ws7
+assign [title="福昕阅读器"] $ws7
 assign [class="smplayer"] $ws7
 assign [class="VirtualBox"] $ws8
 
@@ -242,10 +264,10 @@ for_window [title="Cloud Music"] sticky toggle
 # 自动隐藏
 for_window [title="Battery Warning"] sticky enable
 ## 针对Qt各窗口的配置
-for_window [title="Qt程序"] floating enable  floating_minimum_size 75 x 50
+for_window [title="Qt程序"] floating enable  resize 1000 x 500
 # 以浮动模式打开
-for_window [title="在线翻译"] floating enable
-for_window [title="QQ"] floating enable
+for_window [title="在线翻译"] floating enable resize 75 x 50
+# for_window [title="QQ"] floating enable
 for_window [title="Saladict Dict Panel"] floating enable
 for_window [title="蓝牙"] floating enable
 for_window [title="HMCL"] floating enable floating_minimum_size 75 x 50
@@ -257,6 +279,8 @@ for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
 
 # 自动切换到具有紧急窗口的工作区
 for_window [urgent=latest] focus
+focus_on_window_activation smart
+# focus_on_window_activation smart|urgent|focus|none
 
 ## set status ## 
 
@@ -283,10 +307,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 5 px or 5 ppt
-        bindsym j resize grow height 5 px or 5 ppt
-        bindsym k resize shrink height 5 px or 5 ppt
-        bindsym l resize grow width 5 px or 5 ppt
+        bindsym h resize shrink width 1 px or 1 ppt
+        bindsym j resize grow height 1 px or 1 ppt
+        bindsym k resize shrink height 1 px or 1 ppt
+        bindsym l resize grow width 1 px or 1 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 20 px or 20 ppt
