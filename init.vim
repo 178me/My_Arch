@@ -36,8 +36,8 @@ set scrolloff=8
 " 退格键能从下一行删除到上一行
 set backspace=indent,eol,start
 " 收起代码
-set foldmethod=indent
-set foldlevel=99
+set foldmethod=syntax
+set foldlevel=999
 " 修改普通模式下的光标和插入模式的光标
 let &t_SI = "\<Esc>]50;CursorShape=1\x8"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
@@ -104,39 +104,75 @@ endif
 " 空格
 let mapleader="\<Space>"
 
-" 重载配置文件
-" 快速保存
-" 快速退出
-" 强制退出
-" 可读文件保存
-map <leader>fr :source ~/.config/nvim/init.vim<CR>
+" 单键映射
 map S :w<CR>
 map Q :q!<CR>
-map <LEADER>fw :w !sudo tee %<CR>
-map <leader>fs :r !figlet
+" 修改窗口大小
+map <up> :res +5<CR>
+map <down> :res -5<CR>
+map <left> :vertical resize-5<CR>
+map <right> :vertical resize+5<CR>
+" 禁用J
+" 用于分屏
+map J <nop>
+map s <nop>
+nnoremap < <<
+nnoremap > >>
+noremap H 5j
+noremap L 5k
+noremap D d$
 
+
+ " _____   ___   _       _____ 
+" |  ___| |_ _| | |     | ____|
+" | |_     | |  | |     |  _|  
+" |  _|    | |  | |___  | |___ 
+" |_|     |___| |_____| |_____|
+map <leader>fr :source ~/.config/nvim/init.vim<CR>
+map <LEADER>fw :w !sudo tee %<CR>
+map <leader>fs :r !figlet 
+vnoremap <leader>fy "hy<Esc><Esc>:%s/<C-r>h//g<left><left>
+vnoremap <leader>f5 :s/<C-r>a/<C-r>b/g
+noremap <LEADER>f4 :%s//g<left><left>
+
+" 复制 <leader>y
+noremap <leader>ya viw"ay
+noremap <leader>yb viw"by
+noremap <leader>yj viw"jy
+vnoremap <leader>ya "ay
+vnoremap <leader>yb "by
+vnoremap <leader>yj "jy
+vnoremap <leader>yy "+y
+
+" 复制 <leader>y
+noremap <leader>va ggVG
+
+
+" __        __  ___   _   _   ____     ___   __        __  ____  
+" \ \      / / |_ _| | \ | | |  _ \   / _ \  \ \      / / / ___| 
+ " \ \ /\ / /   | |  |  \| | | | | | | | | |  \ \ /\ / /  \___ \ 
+  " \ V  V /    | |  | |\  | | |_| | | |_| |   \ V  V /    ___) |
+   " \_/\_/    |___| |_| \_| |____/   \___/     \_/\_/    |____/ 
 " 上下左右分屏
 noremap <leader>wK :set nosplitbelow<CR>:split<CR>
 noremap <leader>wJ :set splitbelow<CR>:split<CR>
 noremap <leader>wH :set nosplitright<CR>:vsplit<CR>
 noremap <leader>wL :set splitright<CR>:vsplit<CR>
-
 " 上下左右交换位置
 map <leader>wv <C-w>t<C-w>K
 map <leader>wb <C-w>t<C-w>H
-
 " 切换窗口焦点
 map <LEADER>wk <C-w>k
 map <LEADER>wj <C-w>j
 map <LEADER>wh <C-w>h
 map <LEADER>wl <C-w>l
 
-" 修改窗口大小
-map <up> :res +5<CR>
-map <down> :res -5<CR>
-map <left> :vertical resize-5<CR>
-map <right> :vertical resize+5<CR>
 
+" _____      _      ____  
+"|_   _|    / \    | __ ) 
+"  | |     / _ \   |  _ \ 
+"  | |    / ___ \  | |_) |
+"  |_|   /_/   \_\ |____/ 
 " 新建标签
 " 向前切换标签
 " 向后切换标签
@@ -144,30 +180,7 @@ map <leader>tt :tabe<CR>
 map <leader>t, :-tabnext<CR>
 map <leader>t. :+tabnext<CR>
 
-" 禁用J
-" 用于分屏
-map J <nop>
-map s <nop>
 
-" 代替home end
-" map z <nop>
-" map z $
-" map Z 0
-
-" 简化操作
-noremap <silent><C-j> o<Esc>
-noremap <silent><C-k> O<Esc>
-noremap <silent><C-l> {
-noremap <silent><C-h> }
-nnoremap < <<
-nnoremap > >>
-noremap H 5j
-noremap L 5k
-noremap D d$
-inoremap jj <Esc><Esc>
-
-vnoremap <leader>fy "hy<Esc><Esc>:%s/<C-r>h//g<left><left>
-vnoremap <leader>cj difun_name()<Esc>hp?fun_name<CR>:noh<CR>ciw
 
 "插入模式下 使用 emacs 的移动方式
 fun! Exec(cmd)
@@ -175,7 +188,7 @@ fun! Exec(cmd)
     return ''
 endf
 map <silent><C-e> $
-map <silent><C-a> ^
+" map <silent><C-a> ^
 inoremap <C-p>  <up>
 inoremap <C-n>  <down>
 inoremap <C-b>  <left>
@@ -184,12 +197,9 @@ inoremap <silent><C-a> <c-r>=Exec('norm! I')<cr><right>
 inoremap <silent><C-e> <c-r>=Exec('norm! A')<cr><right>
 inoremap <silent><A-f> <c-r>=Exec('norm! e')<cr><right>
 inoremap <silent><A-B> <c-r>=Exec('norm! b')<cr>
-
 " 快速跳到单词结尾
 inoremap <silent><C-j> <Esc>/\w\><cr>:noh<cr>a
 inoremap <silent><C-k> <Esc>?\w\><cr>:noh<cr>a
-
-
 " 快速删除
 inoremap <silent> `` `
 inoremap <silent> `p <C-r>"
@@ -199,20 +209,17 @@ inoremap <silent> `) <c-r>=Exec("norm! di)")<cr>
 inoremap <silent> `] <c-r>=Exec("norm! di]")<cr>
 inoremap <silent> `} <c-r>=Exec("norm! di}")<cr>
 inoremap <silent> `> <c-r>=Exec("norm! di>")<cr>
+" 简化操作
+noremap <silent><C-j> o<Esc>
+noremap <silent><C-k> O<Esc>
+noremap <silent><C-l> {
+noremap <silent><C-h> }
+inoremap jj <Esc><Esc>
 
-""" other
-" 大字体
-" 关闭高亮
-" markdown表格
-" Copy to system clipboard
-" 寻找并修改
-" 打开一个终端
 noremap <LEADER><CR> :nohlsearch<CR>
 noremap <LEADER>mt :TableModeToggle<CR>
-map Y "+y
 " noremap  <LEADER><LEADER> <Esc>/<CR>:nohlsearch<CR>c4l
 noremap <LEADER>s :set splitbelow<CR>:sp<CR>:term<CR>
-noremap <LEADER>f% :%s//g<left><left>
 
 " 自动将目录更改为当前目录
 autocmd BufEnter * silent! lcd %:p:h
@@ -224,7 +231,8 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 " noremap <silent> <LEADER>o za
 noremap <LEADER>c- :lN<CR><space>
 noremap <LEADER>c= :lne<CR>
-
+vnoremap <leader>cj difun_name()<Esc>hp?fun_name<CR>:noh<CR>ciw
+noremap <LEADER>cr :call CompileRunGcc()<CR><CR>
 """"
 "" _____
 ""|  ___|   _ _ __   ___
@@ -235,13 +243,11 @@ noremap <LEADER>c= :lne<CR>
 ""
 """"
 " 编译
-noremap <LEADER>cr :call CompileRunGcc()<CR><CR>
 func! CompileRunGcc()
     exec "w"
     :execute "normal \<C-w>o"
     if &filetype == 'c'
         exec "!g++ % -o %<"
-
         exec "!time ./%<"
     elseif &filetype == 'cpp'
         "set splitbelow
@@ -290,7 +296,6 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 " 插件安装 "
-
 call plug#begin('~/.vim/plugged')
 " 已掌握的插件
 " 状态栏
@@ -309,42 +314,52 @@ call plug#begin('~/.vim/plugged')
 " 自动格式化
 " 代码补全工具
 " 弹出快捷键
+"
+" 最小插件
 Plug 'vim-airline/vim-airline'
 Plug 'connorholyday/vim-snazzy'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'liuchengxu/vista.vim', { 'commit': '4387164845165634a06941b17c2b4f398cffd193' }
+Plug 'francoiscabrol/ranger.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'liuchengxu/vim-which-key'
+Plug 'Yggdroot/indentLine'
+Plug 'luochen1990/rainbow'
+Plug 'ryanoasis/vim-devicons'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'rhysd/clever-f.vim'
+
 " Plug 'gabrielelana/vim-markdown'
 Plug 'iamcco/markdown-preview.vim'
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'liuchengxu/vista.vim'
 Plug 'dense-analysis/ale'
-Plug 'jiangmiao/auto-pairs'
-Plug 'francoiscabrol/ranger.vim'
-Plug 'kshenoy/vim-signature'
-Plug 'mbbill/undotree'
 Plug 'scrooloose/nerdcommenter' " in <space>cc to comment a line
-Plug 'Chiel92/vim-autoformat'
 " Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'liuchengxu/vim-which-key'
 " 新添加的
-Plug 'Yggdroot/indentLine'
-Plug 'luochen1990/rainbow'
 " Plug 'majutsushi/tagbar'
-Plug 'tell-k/vim-autopep8'
-"
+
+" 暂不使用
+" Plug 'mbbill/undotree'
+" Plug 'Chiel92/vim-autoformat'
+" Plug 'tell-k/vim-autopep8'
+" Plug 'OmniSharp/omnisharp-vim'
+" Plug 'airblade/vim-gitgutter'
+" Plug 'godlygeek/tabular' " type ;Tabularize /= to align the =
+Plug 'kshenoy/vim-signature'
+" Plug 'jiangmiao/auto-pairs'
+
+
 "" 暂时未配置的
 " coc
 " Snippets
 " gitgutter
 " Taglist
-Plug 'OmniSharp/omnisharp-vim'
-Plug 'airblade/vim-gitgutter'
 "Plug 'theniceboy/eleline.vim'
 " Snippets
 " 文本对齐
-Plug 'godlygeek/tabular' " type ;Tabularize /= to align the =
-Plug 'lyokha/vim-xkbswitch' " type ;Tabularize /= to align the =
+" Plug 'lyokha/vim-xkbswitch' " type ;Tabularize /= to align the =
 
 " 用于删除缓冲区而不关闭窗口
 " Plug 'rbgrouleff/bclose.vim' " For ranger.vim
@@ -355,9 +370,6 @@ Plug 'lyokha/vim-xkbswitch' " type ;Tabularize /= to align the =
 " Plug 'honza/vim-snippets'
 " 依赖 "
 " 文件类型图标
-Plug 'ryanoasis/vim-devicons'
-Plug 'junegunn/fzf.vim'
-Plug 'junegunn/fzf'
 call plug#end()
 " ===
 " === MarkdownPreview
@@ -376,16 +388,21 @@ color snazzy
 " 使用CocInstall 安装语言支持 例子:CocInstall coc-xx
 " TextEdit might fail if hidden is not set.
 set hidden
+
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
+
 " Give more space for displaying messages.
 set cmdheight=1
+
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
 set updatetime=300
+
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
+
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
 if has("patch-8.1.1564")
@@ -394,6 +411,7 @@ if has("patch-8.1.1564")
 else
   set signcolumn=yes
 endif
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
@@ -402,31 +420,38 @@ inoremap <silent><expr> <TAB>
       \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
+
 " Use <c-space> to trigger completion.
 if has('nvim')
   inoremap <silent><expr> <c-space> coc#refresh()
 else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
+
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
+" nmap <silent> [g <Plug>(coc-diagnostic-prev)
+" nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
 " GoTo code navigation.
-" nmap <silent> gd <Plug>(coc-definition)
-" nmap <silent> gy <Plug>(coc-type-definition)
-" nmap <silent> gi <Plug>(coc-implementation)
-" nmap <silent> gr <Plug>(coc-references)
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-refactor)
+
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
+
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
     execute 'h '.expand('<cword>')
@@ -436,21 +461,40 @@ function! s:show_documentation()
     execute '!' . &keywordprg . " " . expand('<cword>')
   endif
 endfunction
+
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
 
-" ===
-" === Ultisnips
-" ===
-" let g:tex_flavor = "latex"
-" inoremap <c-n> <nop>
-" let g:UltiSnipsExpandTrigger="<c-e>"
-" let g:UltiSnipsJumpForwardTrigger="<c-e>"
-" let g:UltiSnipsJumpBackwardTrigger="<c-n>"
-" let g:UltiSnipsSnippetDirectories = [$HOME.'/.config/nvim/Ultisnips/', 'UltiSnips']
-" silent! au BufEnter,BufRead,BufNewFile * silent! unmap <c-r>
+augroup mygroup
+  autocmd!
+  " Setup formatexpr specified filetype(s).
+  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
+  " Update signature help on jump placeholder.
+  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
+augroup end
+
+
+" Add `:Format` command to format current buffer.
+command! -nargs=0 Format :call CocAction('format')
+
+" Add `:OR` command for organize imports of the current buffer.
+command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
+
+" Add (Neo)Vim's native statusline support.
+" NOTE: Please see `:h coc-status` for integrations with external plugins that
+" provide custom statusline: lightline.vim, vim-airline.
+set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>cf <Plug>(coc-format)
+nmap <leader>jf <Plug>(coc-float-jump)
+noremap <LEADER>jn :e /home/yzl178me/.config/nvim/init.vim<CR>
+" Apply AutoFix to problem on the current line.
+" nmap <leader>qf  <Plug>(coc-fix-current)
 
 " ===
 " === NERDTree
@@ -485,50 +529,57 @@ let g:NERDTreeIndicatorMapCustom = {
             \ "Unknown"  : "?"
             \ }
 
-" ==
-" == GitGutter
-" ==
-let g:gitgutter_map_keys = 0
-let g:gitgutter_override_sign_column_highlight = 0
-let g:gitgutter_preview_win_floating = 1
-autocmd BufWritePost * GitGutter
-nnoremap <LEADER>gf :GitGutterFold<CR>
-" nnoremap H :GitGutterPreviewHunk<CR>
-nnoremap <LEADER>g- :GitGutterPrevHunk<CR>
-nnoremap <LEADER>g= :GitGutterNextHunk<CR>
 
 " ===
 " === Vista.vim
 " ===
 " 我最初启动vista.vim的目的是替换标签栏，因为它似乎没有计划支持有前途的Language Server协议和异步处理。
 " 除了成为标签查看器之外，vista.vim还可以是类似于ctrlp-funky的符号导航器。最后但并非最不重要的一点，vista.vim的一个重要目标是支持LSP符号，该符号理解语义，而不仅是正则表达式。
-noremap <LEADER>cv  :Vista!!<CR>
-noremap <LEADER>cV  :Vista finder<CR>
-function! NearestMethodOrFunction() abort
-    return get(b:, 'vista_nearest_method_or_function', '')
-endfunction
-set statusline+=%{NearestMethodOrFunction()}
-autocmd VimEnter * call vista#RunForNearestMethodOrFunction()
+" How each level is indented and what to prepend.
+" This could make the display more compact or more spacious.
 " e.g., more compact: ["▸ ", ""]
+" Note: this option only works the LSP executives, doesn't work for `:Vista ctags`.
 let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
-"let g:vista_default_executive = 'ctags'
+
+" Executive used when opening vista sidebar without specifying it.
+" See all the avaliable executives via `:echo g:vista#executives`.
+let g:vista_default_executive = 'ctags'
+
+" Set the executive for some filetypes explicitly. Use the explicit executive
+" instead of the default one for these filetypes when using `:Vista` without
+" specifying the executive.
+let g:vista_executive_for = {
+  \ 'cpp': 'vim_lsp',
+  \ 'php': 'vim_lsp',
+  \ }
+noremap <LEADER>cv  :Vista nvim_lsp<CR>
+" noremap <LEADER>cV  :Vista finder fzf<CR>
+noremap <LEADER>cV  :call vista#finder#fzf#Run('coc')<CR>
+" inoremap <C-P> <C-\><C-O>:call CocActionAsync('showSignatureHelp')<cr>
+
+" Declare the command including the executable and options used to generate ctags output
+" for some certain filetypes.The file path will be appened to your custom command.
+" For example:
+let g:vista_ctags_cmd = {
+      \ 'haskell': 'hasktags -x -o - -c',
+      \ }
+
 " To enable fzf's preview window set g:vista_fzf_preview.
 " The elements of g:vista_fzf_preview will be passed as arguments to fzf#vim#with_preview()
 " For example:
 let g:vista_fzf_preview = ['right:50%']
+" Ensure you have installed some decent font to show these pretty symbols, then you can enable icon for the kind.
+let g:vista#renderer#enable_icon = 1
 
+" The default icons can't be suitable for all the filetypes, you can extend it as you wish.
+let g:vista#renderer#icons = {
+\   "function": "\uf794",
+\   "variable": "\uf71b",
+\  }
 " ===
 " === FZF
 " ===
 noremap <Leader>fF :FZF<CR>
-
-" ===
-" === Undotree
-" ===
-noremap <LEADER>wu :UndotreeToggle<CR>
-let g:undotree_DiffAutoOpen = 1
-let g:undotree_SetFocusWhenToggle = 1
-let g:undotree_ShortIndicators = 1
 
 " === ranger
 nnoremap <LEADER>fR :Ranger<CR>
@@ -561,18 +612,6 @@ let g:SignatureMap = {
             \ 'ListLocalMarkers':"m?"
             \ }
 
-" ==
-" == vim-multiple-cursor
-" ==
-let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_start_word_key = '<c-k>'
-let g:multi_cursor_select_all_word_key = '<a-k>'
-let g:multi_cursor_start_key = 'g<c-k>'
-let g:multi_cursor_select_all_key = 'g<a-k>'
-let g:multi_cursor_next_key = '<c-k>'
-let g:multi_cursor_prev_key = '<c-p>'
-let g:multi_cursor_skip_key = '<C-x>'
-let g:multi_cursor_quit_key = '<Esc>'
 
 " ===
 " === ale
@@ -620,10 +659,6 @@ nmap <leader>cI :ALEDetail<CR>
 " 自动修复
 nmap <leader>cx <Plug>(ale_fix)
 
-" === AutoFormat
-" ===
-nnoremap <leader>cf :Autoformat<CR>
-
 " nerdcommenter
 let g:NERDSpaceDelims=1
 
@@ -648,16 +683,18 @@ let g:which_key_map.c = {
             \ 'V' : '寻找标签',
             \ 'r' : '运行代码',
             \ 'n' : '重命名',
+            \ 'f' : '格式化代码',
             \}
 let g:which_key_map.f = {
             \'name' : '文件',
-            \ 'f' : '替换光标下的字符串',
+            \ 'y' : '替换光标下的字符串',
             \ 'F' : '模糊搜索',
             \ 'r' : '刷新nvim配置文件',
             \ 'q' : '错误信息开关',
             \ 'w' : '强制写入',
             \ 's' : '艺术字',
-            \ '%' : '替换字符串',
+            \ '%' : '全局替换字符串',
+            \ '4' : '局部替换字符串',
             \}
 let g:which_key_map.w = {
             \'name' : '窗口',
@@ -675,9 +712,10 @@ let g:which_key_map.w = {
             \}
 let g:which_key_map.t = {
             \'name' : '标签',
-            \ 't' : '新建标签',
-            \ ',' : '向前切换标签',
-            \ '.' : '向后切换标签',
+            \ 't' : '打开文件树',
+            \ 'j' : '向前切换标签',
+            \ 'k' : '向后切换标签',
+            \ 'q' : '退出标签',
             \}
 let g:which_key_map.g = {
             \'name' : 'Git',
@@ -687,8 +725,22 @@ let g:which_key_map.m = {
             \'t' : '表格模式',
             \}
 let g:which_key_map.r = {
-            \'name' : 'rename',
+            \'name' : '代码工具',
             \'n' : '重命名',
+            \}
+let g:which_key_map.y = {
+            \'name' : '复制操作',
+            \'a' : '复制到a',
+            \'b' : '复制到b',
+            \}
+let g:which_key_map.j = {
+            \'name' : '跳转',
+            \'f' : '跳转到浮动窗口',
+            \'n' : '跳转到配置文件',
+            \}
+let g:which_key_map.v = {
+            \'name' : '选择',
+            \'a' : '选择全部',
             \}
 
 " indentLine 缩进线条显示
@@ -758,9 +810,9 @@ nmap <leader>t7 <Plug>AirlineSelectTab7
 nmap <leader>t8 <Plug>AirlineSelectTab8
 nmap <leader>t9 <Plug>AirlineSelectTab9
 " 设置切换tab的快捷键 <\> + <-> 切换到前一个 tab
-nmap <leader>t- <Plug>AirlineSelectPrevTab
+nmap <leader>tj <Plug>AirlineSelectPrevTab
 " 设置切换tab的快捷键 <\> + <+> 切换到后一个 tab
-nmap <leader>t+ <Plug>AirlineSelectNextTab
+nmap <leader>tk <Plug>AirlineSelectNextTab
 " 设置切换tab的快捷键 <\> + <q> 退出当前的 tab
 nmap <leader>tq :bp<cr>:bd #<cr>
 " 修改了一些个人不喜欢的字符
@@ -774,4 +826,3 @@ let g:airline_symbols.branch = 'BR'
 let g:airline_symbols.readonly = "RO"
 let g:airline_symbols.dirty = "DT"
 let g:airline_symbols.crypt = "CR" 
-

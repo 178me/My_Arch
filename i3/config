@@ -1,15 +1,19 @@
+focus_follows_mouse no
 # 设置功能键为Mod1（Alt)
 set $mod Mod4
 set $toast exec notify-send -t 3000
 
+# 自动返回工作区
+workspace_auto_back_and_forth yes
+
 # 设置新窗口像素
-new_window pixel 4
+default_border pixel 4
 
 # 新的浮动标准
-new_float normal
+default_floating_border pixel 1
 
 # 隐藏边框
-hide_edge_borders none
+hide_edge_borders smart
 
 # 字体等宽大小
 font xft:monospace 16
@@ -25,8 +29,11 @@ floating_maximum_size -1 x 1000
 # 触摸板模块重新加载
 bindsym F10 exec sh ~/.i2c_hid.sh;$toast "触摸板模块重新加载"
 
+bindsym $mod+Escape exec "i3-instant-layout --list | rofi -dmenu -i | i3-instant-layout -"
+
 # 打开终端
 bindsym $mod+Shift+Return exec alacritty
+# bindsym $mod+Return exec echo mr | i3-instant-layout -
 
 # 设置边框快捷键
 bindsym $mod+u border none;$toast "设置为无边框"
@@ -36,12 +43,13 @@ bindsym $mod+n border normal;$toast "设置为正常边框"
 # 打开ranger文件管理器
 # bindsym mod1+d exec alacritty -e ranger
 
+
 # 谷歌浏览器
 #bindsym $mod+Control+g exec google-chrome-stable --proxy-server="socks5://127.0.0.1:1080"
 
 # emacs
 # bindsym mod1+e exec emacsclient c -a %
-bindsym mod1+e move up 150 px resize set 1200 800
+# bindsym mod1+e move up 150 px resize set 1200 800
 
 # 调节亮度
 bindcode 232 exec xbacklight -dec 5
@@ -55,12 +63,12 @@ bindsym XF86AudioLowerVolume exec pulseaudio-ctl down
 # 修改键位
 bindsym mod1+Shift+x exec xmodmap ~/.Xmodmap;$toast "交换键位"
 
-# 获取鼠标坐标
-bindsym $mod+Shift+p exec python /home/yzl178me/test/python/lib/getPostion.py | xargs notify-send -t 3000
+# 切换鼠标跟随
+bindsym $mod+Shift+f exec python /home/yzl178me/.config/i3/focus_mouse.py
 
-# 点击
-bindsym mod1+1 exec python /home/yzl178me/test/python/auto_read_up.py;$toast "上一页"
-bindsym mod1+2 exec python /home/yzl178me/test/python/auto_read.py;$toast "下一页"
+
+# bindsym mod1+j exec python /home/yzl178me/test/python/my_fun/scroll.py 1
+# bindsym mod1+k exec python /home/yzl178me/test/python/my_fun/scroll.py 0
 
 # 火狐浏览器
 # bindsym $mod+Control+f exec firefox
@@ -101,13 +109,17 @@ bindsym $mod+q kill
 # split orientation 垂直分屏开关
 bindsym $mod+v split toggle;$toast "垂直水平分屏开关"
 
+# bindsym $mod+b auto;$toast "垂直水平分屏开关"
+
 # 全屏
 bindsym $mod+f fullscreen toggle
 
 # 调整窗口模式
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+# 一键切换布局
+bindsym $mod+t layout toggle all
+# bindsym $mod+s layout stacking
+# bindsym $mod+w layout tabbed
+# bindsym $mod+e layout toggle split
 
 # 浮动窗口
 bindsym $mod+Shift+space floating toggle
@@ -129,7 +141,10 @@ bindsym $mod+minus scratchpad show;$toast "显示隐藏的窗口"
 # 动态壁纸(有点耗电)
 
 # 桌面通知
+exec_always i3-layouts
 exec_always deadd-notification-center
+# 翻译
+exec_always pkill copytranslator ; /opt/appimages/copytranslator.AppImage
 # 半透明
 exec_always --no-startup-id killall picom | sleep 1s && picom --config ~/.config/picom.conf
 # 状态栏
@@ -143,10 +158,10 @@ exec_always --no-startup-id fcitx5
 exec_always --no-startup-id i3-battery-popup -L 30 -m "电量低，及时充电" -s "/home/yzl178me/Music/kgmusic/机器猫.mp3" -n
 
 # 护眼程序
-exec_always redshift-gtk -l 53:113
+# exec_always killall redshift-gtk;redshift-gtk -l 53:113
 
 # 电源管理
-exec --no-startup-id xfce4-power-manager
+# exec --no-startup-id xfce4-power-manager
 
 #代理
 exec_always qv2ray
@@ -157,7 +172,7 @@ exec_always qv2ray
 #exec_always --no-startup-id ibus-daemon -x -d
 # exec_always --no-startup-id albert
 # 十分钟自动睡眠
-# exec_always --no-startup-id xset dpms 600
+exec_always --no-startup-id xset dpms 300 900
 # 蓝牙管理工具
 #exec_always --no-startup-id blueberry &
 
@@ -185,7 +200,16 @@ set $ws5 5.Chat
 set $ws6 6.Music
 set $ws7 7.Study
 set $ws8 8.Other
+set                     $i3l 3columns to workspace $ws1
+set                     $i3l 3columns to workspace $ws2
+set                     $i3l 3columns to workspace $ws3
+set                     $i3l 3columns to workspace $ws4
+set                     $i3l 3columns to workspace $ws5
+set                     $i3l 3columns to workspace $ws6
+set                     $i3l 3columns to workspace $ws7
+set                     $i3l 3columns to workspace $ws8
 
+# workspace_layout tabbed
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -209,6 +233,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # navigate workspaces next / previous
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
+bindsym mod1+Tab workspace back_and_forth
 
 # change focus
 bindsym $mod+h focus left
@@ -222,10 +247,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+h move left 
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
+bindsym $mod+Shift+h exec i3l move left 
+bindsym $mod+Shift+j exec i3l move down
+bindsym $mod+Shift+k exec i3l move up
+bindsym $mod+Shift+l exec i3l move right
 
 bindsym $mod+Shift+Left move left 50 px
 bindsym $mod+Shift+Down move down 50 px
@@ -254,8 +279,12 @@ assign [class="VirtualBox"] $ws8
 # 特定窗口的配置
 # 全屏模式下智能弹出窗口
 popup_during_fullscreen smart
+# i3-instant-layout
+for_window [class="^.*"] border pixel 3
 # 将第三个工作区设置为标签模式
 for_window [class="Chromium"] layout tabbed
+for_window [class="uTools"] border pixel 1
+for_window [class="copytranslator"] move scratchpad
 #workspace $ws3 stacking
 # 打开窗口时不聚焦
 #no_focus [class="Chromium"]
@@ -275,6 +304,7 @@ for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Lightdm-gtk-greeter-settings"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
+for_window [class="Tk"] floating enable
 #for_window [class="xfce4-appfinder"] floating enable
 
 # 自动切换到具有紧急窗口的工作区
@@ -288,7 +318,7 @@ focus_on_window_activation smart
 bindsym $mod+Shift+c reload
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r exec python ~/.config/i3/restart.py
 
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e mode "$exit_i3"
@@ -371,8 +401,19 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+bindsym $mod+Shift+m mode "$layout_mode"
+set $layout_mode select layout snr|mc|ml|mr
+mode "$layout_mode"{
+    bindsym s exec python /home/yzl178me/.config/i3/update_layout.py nr, mode "default"
+    bindsym r exec python /home/yzl178me/.config/i3/update_layout.py mr, mode "default"
+    bindsym l exec python /home/yzl178me/.config/i3/update_layout.py ml, mode "default"
+    bindsym c exec python /home/yzl178me/.config/i3/update_layout.py mc, mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
 # set power-manager and volume control
-exec --no-startup-id mate-power-manager
+# 电源管理
+# exec --no-startup-id mate-power-manager
 
 # 音量调节  不是很好用
 #bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -c 0 -q set Master 2dB+ unmute

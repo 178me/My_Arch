@@ -104,16 +104,18 @@ alias vfi='nvim ~/.config/fish/conf.d/omf.fish'
 alias vpo='nvim ~/.config/polybar/config'
 alias cdmd='cd ~/Blog/source/_posts'
 alias aa='sudo pacman -S'
+alias as='pacman -Ss'
 alias au='sudo pacman -Syyu'
 alias ys='yay -Ss'
-alias as='pacman -Ss'
 alias zj='neofetch'
-alias gitc="git commit -m "updata""
-alias gitp='git push'
+alias gitc="git add -A;git commit"
+alias gitp='pc;git push'
 alias gits='git status'
 alias mymc='cd ~/MC/client;sh ~/MC/start.sh'
 alias pc='export https_proxy="127.0.0.1:12333";export http_proxy="127.0.0.1:12333"'
 alias adb3='adb -s MTK0002004091859200 push *'
 alias p='proxychains'
+alias de='cd ~/.emacs.d;emacs --batch -q -l /home/yzl178me/.emacs.d/dump.el'
+alias deg='emacs --dump-file ~/.emacs.d/emacs.pdmp'
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE

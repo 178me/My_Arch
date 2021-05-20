@@ -240,14 +240,24 @@
         "body": "import pudb; pudb.set_trace()",
         "description": "Code snippet for pudb debug"
     },
-    "docs": {
-        "prefix": "docs",
+    "docstring_fun": {
+        "prefix": "docstring_fun",
         "body": [
             "''' ${1:description}",
             ":param ${2:var}: ${3:description}",
             ":return: ${4:True} || ${5:False}",
             "'''"
         ],
-        "description": "Code snippet for pudb debug"
+        "description": "添加函数注释文档模板"
+    },
+    "docstring_auther": {
+        "prefix": "docstring_auther",
+        "body": [
+            "'''",
+            "@author: 178me",
+            "@description: ${1:描述作用}",
+            "'''"
+        ],
+        "description": "添加文件注释模板"
     }
 }
