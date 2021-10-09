@@ -1,0 +1,54 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node" />
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1gpRh2WhE6KcjJUf5EWJ4L4tzW6">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="InstalledPluginsSearchHistory" value="tra&#10;vim&#10;ch&#10;chi&#10;china" />
+    <property name="MarketplacePluginsSearchHistory" value="tra&#10;tr&#10;vim&#10;v&#10;eas" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="ch" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="IU-203.5981.155-b8a3eec203a6928853fa7c4c3c51ad67bda7d7babc2c210288c6e5c123566fc5" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="cn.yiiguxing.plugin.translate.version" value="2.9.2" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="源" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="evlsprt3.201" value="15" />
+    <property name="evlsprt3.203" value="10" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/source/EC/5.9.0-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/IdeaProjects/MyAutoTasks&#10;/home/yzl178me/Downloads/Telegram Desktop/4.2.0-EasyClickDevTools-idea插件.zip" />
+    <property name="file.gist.reindex.count" value="2" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="IU-203.5981.155" />
+    <property name="ideavim.statistics.timestamp" value="1606060194375" />
+    <property name="installed.kotlin.plugin.version" value="203-1.4.10-release-IJ5981.133" />
+    <property name="jdk.selected.EC_PLUGIN_MODULE" value="1.8" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="lastSeenTip" value="neue-JupyterAddCell.html" />
+    <property name="lastTimeTipsWereShown" value="1591595005589" />
+    <property name="last_opened_file_path" value="$USER_HOME$/source/EC/5.9.0-EasyClickDevTools-idea插件.zip" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1608202925071" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/source/EC" />
+    <property name="power.save.mode" value="true" />
+    <property name="project.wizard.group" value="EC_PLUGIN_MODULE" />
+    <property name="seenTips" value="neue-CommentCode.html,neue-CopyWithNoSelection.html,neue-CheckRegExp.html,neue-DeleteLine.html,neue-JupyterAddCell.html" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.0.3" />
+  </component>
+</application>

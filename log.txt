@@ -1,0 +1,218 @@
+17:42:19.21-INFO: .config
+17:42:19.21-INFO: /home/yzl178me/My_Arch
+17:42:23.276-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+17:42:23.276-INFO: .emacs.d
+17:42:23.276-INFO: /home/yzl178me/My_Arch
+17:42:24.878-INFO: 复制文件夹: /home/yzl178me/.emacs.d -> /home/yzl178me/My_Arch/.emacs.d 
+17:42:24.878-INFO: .oh-my-zsh
+17:42:24.878-INFO: /home/yzl178me/My_Arch
+17:42:24.962-INFO: 复制文件夹: /home/yzl178me/.oh-my-zsh -> /home/yzl178me/My_Arch/.oh-my-zsh 
+17:42:24.962-INFO: .pip
+17:42:24.962-INFO: /home/yzl178me/My_Arch
+17:42:24.965-INFO: 复制文件夹: /home/yzl178me/.pip -> /home/yzl178me/My_Arch/.pip 
+17:42:24.965-INFO: .vim/Markdown.vim
+17:42:24.965-INFO: /home/yzl178me/My_Arch/.vim
+17:42:24.976-INFO: 创建文件链接: /home/yzl178me/.vim/Markdown.vim -> /home/yzl178me/My_Arch/.vim/Markdown.vim 
+17:42:24.976-INFO: .xprofile
+17:42:24.976-INFO: /home/yzl178me/My_Arch
+17:42:24.987-INFO: 创建文件链接: /home/yzl178me/.xprofile -> /home/yzl178me/My_Arch/.xprofile 
+17:42:24.987-INFO: .Xmodmap
+17:42:24.987-INFO: /home/yzl178me/My_Arch
+17:42:24.997-INFO: 创建文件链接: /home/yzl178me/.Xmodmap -> /home/yzl178me/My_Arch/.Xmodmap 
+17:42:24.997-INFO: .vimrc
+17:42:24.997-INFO: /home/yzl178me/My_Arch
+17:42:25.7-INFO: 创建文件链接: /home/yzl178me/.vimrc -> /home/yzl178me/My_Arch/.vimrc 
+17:42:25.7-INFO: .zshrc
+17:42:25.8-INFO: /home/yzl178me/My_Arch
+17:42:25.16-INFO: 创建文件链接: /home/yzl178me/.zshrc -> /home/yzl178me/My_Arch/.zshrc 
+17:42:25.17-INFO: .bashrc
+17:42:25.17-INFO: /home/yzl178me/My_Arch
+17:42:25.26-INFO: 创建文件链接: /home/yzl178me/.bashrc -> /home/yzl178me/My_Arch/.bashrc 
+17:42:25.26-INFO: .i2c_hid.sh
+17:42:25.26-INFO: /home/yzl178me/My_Arch
+17:42:25.26-INFO: 本地文件路径不存在
+17:42:25.36-INFO: 创建文件链接: /home/yzl178me/.i2c_hid.sh -> /home/yzl178me/My_Arch/.i2c_hid.sh 
+17:42:25.36-INFO: .xinitrc
+17:42:25.37-INFO: /home/yzl178me/My_Arch
+17:42:25.37-INFO: 本地文件路径不存在
+17:42:25.48-INFO: 创建文件链接: /home/yzl178me/.xinitrc -> /home/yzl178me/My_Arch/.xinitrc 
+17:50:13.239-INFO: .config
+17:50:13.239-INFO: /home/yzl178me/My_Arch
+17:50:18.49-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+17:50:18.49-INFO: .emacs.d
+17:50:18.49-INFO: /home/yzl178me/My_Arch
+17:50:19.946-INFO: 复制文件夹: /home/yzl178me/.emacs.d -> /home/yzl178me/My_Arch/.emacs.d 
+17:50:19.948-INFO: .oh-my-zsh
+17:50:19.948-INFO: /home/yzl178me/My_Arch
+17:50:20.24-INFO: 复制文件夹: /home/yzl178me/.oh-my-zsh -> /home/yzl178me/My_Arch/.oh-my-zsh 
+17:50:20.24-INFO: .pip
+17:50:20.24-INFO: /home/yzl178me/My_Arch
+17:50:20.27-INFO: 复制文件夹: /home/yzl178me/.pip -> /home/yzl178me/My_Arch/.pip 
+17:50:20.27-INFO: .vim/Markdown.vim
+17:50:20.27-INFO: /home/yzl178me/My_Arch/.vim
+17:50:20.38-INFO: 创建文件链接: /home/yzl178me/.vim/Markdown.vim -> /home/yzl178me/My_Arch/.vim/Markdown.vim 
+17:50:20.38-INFO: .xprofile
+17:50:20.38-INFO: /home/yzl178me/My_Arch
+17:50:20.49-INFO: 创建文件链接: /home/yzl178me/.xprofile -> /home/yzl178me/My_Arch/.xprofile 
+17:50:20.50-INFO: .Xmodmap
+17:50:20.50-INFO: /home/yzl178me/My_Arch
+17:50:20.58-INFO: 创建文件链接: /home/yzl178me/.Xmodmap -> /home/yzl178me/My_Arch/.Xmodmap 
+17:50:20.58-INFO: .vimrc
+17:50:20.58-INFO: /home/yzl178me/My_Arch
+17:50:20.70-INFO: 创建文件链接: /home/yzl178me/.vimrc -> /home/yzl178me/My_Arch/.vimrc 
+17:50:20.70-INFO: .zshrc
+17:50:20.70-INFO: /home/yzl178me/My_Arch
+17:50:20.78-INFO: 创建文件链接: /home/yzl178me/.zshrc -> /home/yzl178me/My_Arch/.zshrc 
+17:50:20.79-INFO: .bashrc
+17:50:20.79-INFO: /home/yzl178me/My_Arch
+17:50:20.88-INFO: 创建文件链接: /home/yzl178me/.bashrc -> /home/yzl178me/My_Arch/.bashrc 
+17:50:20.88-INFO: .i2c_hid.sh
+17:50:20.88-INFO: /home/yzl178me/My_Arch
+17:50:20.88-INFO: 本地文件路径不存在
+17:50:20.98-INFO: 创建文件链接: /home/yzl178me/.i2c_hid.sh -> /home/yzl178me/My_Arch/.i2c_hid.sh 
+17:50:20.98-INFO: .xinitrc
+17:50:20.98-INFO: /home/yzl178me/My_Arch
+17:50:20.98-INFO: 本地文件路径不存在
+17:50:20.106-INFO: 创建文件链接: /home/yzl178me/.xinitrc -> /home/yzl178me/My_Arch/.xinitrc 
+17:51:10.61-INFO: .config
+17:51:10.61-INFO: /home/yzl178me/My_Arch
+17:51:15.402-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+17:51:15.403-INFO: .emacs.d
+17:51:15.403-INFO: /home/yzl178me/My_Arch
+17:51:17.515-INFO: 复制文件夹: /home/yzl178me/.emacs.d -> /home/yzl178me/My_Arch/.emacs.d 
+17:51:17.515-INFO: .oh-my-zsh
+17:51:17.515-INFO: /home/yzl178me/My_Arch
+17:51:17.593-INFO: 复制文件夹: /home/yzl178me/.oh-my-zsh -> /home/yzl178me/My_Arch/.oh-my-zsh 
+17:51:17.593-INFO: .pip
+17:51:17.593-INFO: /home/yzl178me/My_Arch
+17:51:17.597-INFO: 复制文件夹: /home/yzl178me/.pip -> /home/yzl178me/My_Arch/.pip 
+17:51:17.597-INFO: .vim/Markdown.vim
+17:51:17.597-INFO: /home/yzl178me/My_Arch/.vim
+17:51:17.607-INFO: 创建文件链接: /home/yzl178me/.vim/Markdown.vim -> /home/yzl178me/My_Arch/.vim/Markdown.vim 
+17:51:17.607-INFO: .xprofile
+17:51:17.607-INFO: /home/yzl178me/My_Arch
+17:51:17.618-INFO: 创建文件链接: /home/yzl178me/.xprofile -> /home/yzl178me/My_Arch/.xprofile 
+17:51:17.618-INFO: .Xmodmap
+17:51:17.618-INFO: /home/yzl178me/My_Arch
+17:51:17.626-INFO: 创建文件链接: /home/yzl178me/.Xmodmap -> /home/yzl178me/My_Arch/.Xmodmap 
+17:51:17.626-INFO: .vimrc
+17:51:17.626-INFO: /home/yzl178me/My_Arch
+17:51:17.636-INFO: 创建文件链接: /home/yzl178me/.vimrc -> /home/yzl178me/My_Arch/.vimrc 
+17:51:17.636-INFO: .zshrc
+17:51:17.636-INFO: /home/yzl178me/My_Arch
+17:51:17.644-INFO: 创建文件链接: /home/yzl178me/.zshrc -> /home/yzl178me/My_Arch/.zshrc 
+17:51:17.644-INFO: .bashrc
+17:51:17.644-INFO: /home/yzl178me/My_Arch
+17:51:17.654-INFO: 创建文件链接: /home/yzl178me/.bashrc -> /home/yzl178me/My_Arch/.bashrc 
+17:51:17.654-INFO: .i2c_hid.sh
+17:51:17.654-INFO: /home/yzl178me/My_Arch
+17:51:17.654-INFO: 本地文件路径不存在
+17:51:17.654-INFO: .xinitrc
+17:51:17.654-INFO: /home/yzl178me/My_Arch
+17:51:17.654-INFO: 本地文件路径不存在
+17:51:36.409-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+17:51:38.187-INFO: 复制文件夹: /home/yzl178me/.emacs.d -> /home/yzl178me/My_Arch/.emacs.d 
+17:51:38.258-INFO: 复制文件夹: /home/yzl178me/.oh-my-zsh -> /home/yzl178me/My_Arch/.oh-my-zsh 
+17:51:38.261-INFO: 复制文件夹: /home/yzl178me/.pip -> /home/yzl178me/My_Arch/.pip 
+17:51:38.269-INFO: 创建文件链接: /home/yzl178me/.vim/Markdown.vim -> /home/yzl178me/My_Arch/.vim/Markdown.vim 
+17:51:38.279-INFO: 创建文件链接: /home/yzl178me/.xprofile -> /home/yzl178me/My_Arch/.xprofile 
+17:51:38.288-INFO: 创建文件链接: /home/yzl178me/.Xmodmap -> /home/yzl178me/My_Arch/.Xmodmap 
+17:51:38.298-INFO: 创建文件链接: /home/yzl178me/.vimrc -> /home/yzl178me/My_Arch/.vimrc 
+17:51:38.307-INFO: 创建文件链接: /home/yzl178me/.zshrc -> /home/yzl178me/My_Arch/.zshrc 
+17:51:38.319-INFO: 创建文件链接: /home/yzl178me/.bashrc -> /home/yzl178me/My_Arch/.bashrc 
+17:51:38.319-INFO: 本地文件路径不存在
+17:51:38.319-INFO: 本地文件路径不存在
+18:13:14.689-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+18:13:17.35-INFO: 复制文件夹: /home/yzl178me/.emacs.d -> /home/yzl178me/My_Arch/.emacs.d 
+18:13:17.126-INFO: 复制文件夹: /home/yzl178me/.oh-my-zsh -> /home/yzl178me/My_Arch/.oh-my-zsh 
+18:13:17.130-INFO: 复制文件夹: /home/yzl178me/.pip -> /home/yzl178me/My_Arch/.pip 
+18:13:17.147-INFO: 创建文件链接: /home/yzl178me/.vim/Markdown.vim -> /home/yzl178me/My_Arch/.vim/Markdown.vim 
+18:13:17.164-INFO: 创建文件链接: /home/yzl178me/.xprofile -> /home/yzl178me/My_Arch/.xprofile 
+18:13:17.186-INFO: 创建文件链接: /home/yzl178me/.Xmodmap -> /home/yzl178me/My_Arch/.Xmodmap 
+18:13:17.202-INFO: 创建文件链接: /home/yzl178me/.vimrc -> /home/yzl178me/My_Arch/.vimrc 
+18:13:17.217-INFO: 创建文件链接: /home/yzl178me/.zshrc -> /home/yzl178me/My_Arch/.zshrc 
+18:13:17.246-INFO: 创建文件链接: /home/yzl178me/.bashrc -> /home/yzl178me/My_Arch/.bashrc 
+18:13:17.246-INFO: 本地文件路径不存在
+18:13:17.246-INFO: 本地文件路径不存在
+18:15:19.622-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+18:15:21.785-INFO: 复制文件夹: /home/yzl178me/.emacs.d -> /home/yzl178me/My_Arch/.emacs.d 
+18:15:21.943-INFO: 复制文件夹: /home/yzl178me/.oh-my-zsh -> /home/yzl178me/My_Arch/.oh-my-zsh 
+18:15:21.949-INFO: 复制文件夹: /home/yzl178me/.pip -> /home/yzl178me/My_Arch/.pip 
+18:15:21.969-INFO: 创建文件链接: /home/yzl178me/.vim/Markdown.vim -> /home/yzl178me/My_Arch/.vim/Markdown.vim 
+18:15:21.993-INFO: 创建文件链接: /home/yzl178me/.xprofile -> /home/yzl178me/My_Arch/.xprofile 
+18:15:22.18-INFO: 创建文件链接: /home/yzl178me/.Xmodmap -> /home/yzl178me/My_Arch/.Xmodmap 
+18:15:22.54-INFO: 创建文件链接: /home/yzl178me/.vimrc -> /home/yzl178me/My_Arch/.vimrc 
+18:15:22.75-INFO: 创建文件链接: /home/yzl178me/.zshrc -> /home/yzl178me/My_Arch/.zshrc 
+18:15:22.89-INFO: 创建文件链接: /home/yzl178me/.bashrc -> /home/yzl178me/My_Arch/.bashrc 
+18:15:22.90-INFO: 本地文件路径不存在
+18:15:22.90-INFO: 本地文件路径不存在
+18:16:05.566-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+18:16:07.854-INFO: 复制文件夹: /home/yzl178me/.emacs.d -> /home/yzl178me/My_Arch/.emacs.d 
+18:16:07.935-INFO: 复制文件夹: /home/yzl178me/.oh-my-zsh -> /home/yzl178me/My_Arch/.oh-my-zsh 
+18:16:07.939-INFO: 复制文件夹: /home/yzl178me/.pip -> /home/yzl178me/My_Arch/.pip 
+18:16:07.955-INFO: 创建文件链接: /home/yzl178me/.vim/Markdown.vim -> /home/yzl178me/My_Arch/.vim/Markdown.vim 
+18:16:07.969-INFO: 创建文件链接: /home/yzl178me/.xprofile -> /home/yzl178me/My_Arch/.xprofile 
+18:16:07.984-INFO: 创建文件链接: /home/yzl178me/.Xmodmap -> /home/yzl178me/My_Arch/.Xmodmap 
+18:16:08.4-INFO: 创建文件链接: /home/yzl178me/.vimrc -> /home/yzl178me/My_Arch/.vimrc 
+18:16:08.24-INFO: 创建文件链接: /home/yzl178me/.zshrc -> /home/yzl178me/My_Arch/.zshrc 
+18:16:08.40-INFO: 创建文件链接: /home/yzl178me/.bashrc -> /home/yzl178me/My_Arch/.bashrc 
+18:16:08.41-INFO: 本地文件路径不存在
+18:16:08.41-INFO: 本地文件路径不存在
+18:25:57.334-INFO: 本地文件路径不存在
+18:25:57.335-INFO: 本地文件路径不存在
+18:25:57.335-INFO: 本地文件路径不存在
+18:25:57.335-INFO: 本地文件路径不存在
+18:25:57.335-INFO: 本地文件路径不存在
+18:25:57.335-INFO: 本地文件路径不存在
+18:25:57.335-INFO: 本地文件路径不存在
+18:25:57.335-INFO: 本地文件路径不存在
+18:25:57.336-INFO: 本地文件路径不存在
+18:25:57.336-INFO: 本地文件路径不存在
+18:26:24.485-INFO: 创建文件链接: /etc/hosts -> /home/yzl178me/My_Arch/hosts 
+18:26:48.384-INFO: 创建文件链接: /etc/hosts -> /home/yzl178me/My_Arch/hosts 
+18:28:38.670-INFO: 创建文件链接: /etc/hosts -> /home/yzl178me/My_Arch/hosts 
+18:29:10.147-INFO: 复制文件夹: /etc/X11 -> /home/yzl178me/My_Arch/X11 
+18:31:12.711-INFO: 复制文件夹: /etc/X11 -> /home/yzl178me/My_Arch/X11 
+18:31:12.752-INFO: 创建文件链接: /etc/hosts -> /home/yzl178me/My_Arch/hosts 
+18:31:12.782-INFO: 创建文件链接: /etc/pacman.conf -> /home/yzl178me/My_Arch/pacman.conf 
+18:31:12.823-INFO: 创建文件链接: /etc/sudoers -> /home/yzl178me/My_Arch/sudoers 
+18:31:12.858-INFO: 创建文件链接: /etc/pacman.d/mirrorlist -> /home/yzl178me/My_Arch/pacman.d/mirrorlist 
+18:31:20.774-INFO: 复制文件夹: /etc/X11 -> /home/yzl178me/My_Arch/X11 
+18:31:20.799-INFO: 创建文件链接: /etc/hosts -> /home/yzl178me/My_Arch/hosts 
+18:31:20.821-INFO: 创建文件链接: /etc/pacman.conf -> /home/yzl178me/My_Arch/pacman.conf 
+18:31:20.841-INFO: 创建文件链接: /etc/sudoers -> /home/yzl178me/My_Arch/sudoers 
+18:31:20.862-INFO: 创建文件链接: /etc/pacman.d/mirrorlist -> /home/yzl178me/My_Arch/pacman.d/mirrorlist 
+21:00:53.478-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:01:54.420-INFO: .config发生错误
+21:02:16.27-ERROR: local variable 'size' referenced before assignment
+Traceback (most recent call last):
+  File "/home/yzl178me/My_Arch/arch_config.py", line 125, in <module>
+    arch_auto.ln_to_config(arch_auto.user_path + config_path,
+  File "/home/yzl178me/My_Arch/arch_config.py", line 55, in ln_to_config
+    self.copy_config(local_path, config_path)
+  File "/home/yzl178me/My_Arch/arch_config.py", line 77, in copy_config
+    if size < 10 * 1024 * 1024:
+UnboundLocalError: local variable 'size' referenced before assignment
+21:02:16.28-INFO: .config发生错误
+21:02:40.589-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:04:05.267-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:04:53.478-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:14:54.135-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:15:08.487-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:16:03.980-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:31:07.192-ERROR: [Errno 2] No such file or directory: '/home/yzl178me/.config/krdc.kmessagebox'
+Traceback (most recent call last):
+  File "/home/yzl178me/My_Arch/arch_config.py", line 129, in <module>
+    arch_auto.ln_to_config(arch_auto.user_path + config_path,
+  File "/home/yzl178me/My_Arch/arch_config.py", line 55, in ln_to_config
+    self.copy_config(local_path, config_path)
+  File "/home/yzl178me/My_Arch/arch_config.py", line 80, in copy_config
+    size = os.path.getsize(filepath)
+  File "/usr/lib/python3.9/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yzl178me/.config/krdc.kmessagebox'
+21:31:07.192-INFO: .config发生错误
+21:32:53.362-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:34:15.729-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:34:29.932-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 
+21:40:06.566-INFO: 复制文件夹: /home/yzl178me/.config -> /home/yzl178me/My_Arch/.config 

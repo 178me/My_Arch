@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/%E9%9B%B7%E7%94%B5%E4%B8%AD%E6%8E%A7/src/cache" added="2021-10-07T12:25:57.381490Z" modified="2021-10-07T12:25:57.381495Z" visited="2021-10-07T12:25:57.381492Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381493Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/QQ%E4%B8%AD%E6%8E%A7" added="2021-10-07T12:25:57.381497Z" modified="2021-10-07T12:25:57.381499Z" visited="2021-10-07T12:25:57.381497Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381498Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/feiwu" added="2021-10-07T12:25:57.381501Z" modified="2021-10-07T12:25:57.381503Z" visited="2021-10-07T12:25:57.381501Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381501Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/%E6%9B%B4%E6%96%B0%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%97%B6%E9%97%B4" added="2021-10-07T12:25:57.381505Z" modified="2021-10-07T12:25:57.381507Z" visited="2021-10-07T12:25:57.381505Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381506Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81" added="2021-10-07T12:25:57.381509Z" modified="2021-10-07T12:25:57.381511Z" visited="2021-10-07T12:25:57.381509Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381510Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/%E9%9B%B7%E7%94%B5%E4%B8%AD%E6%8E%A7" added="2021-10-07T12:25:57.381512Z" modified="2021-10-07T12:25:57.381515Z" visited="2021-10-07T12:25:57.381512Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381513Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/lib" added="2021-10-07T12:25:57.381516Z" modified="2021-10-07T12:25:57.381518Z" visited="2021-10-07T12:25:57.381517Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381517Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/QQ%E4%B8%AD%E6%8E%A7/src" added="2021-10-07T12:25:57.381529Z" modified="2021-10-07T12:25:57.381531Z" visited="2021-10-07T12:25:57.381529Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381530Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/Image/flameshot" added="2021-10-07T12:25:57.381532Z" modified="2021-10-07T12:25:57.381534Z" visited="2021-10-07T12:25:57.381532Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381533Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/test/python/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/get_tiktok_cookie_by_phone_dm/src" added="2021-10-07T12:25:57.381536Z" modified="2021-10-07T12:25:57.381538Z" visited="2021-10-07T12:25:57.381536Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381537Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/source/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/get_tiktok_cookie_by_phone_dm/src" added="2021-10-07T12:25:57.381540Z" modified="2021-10-07T12:25:57.381542Z" visited="2021-10-07T12:25:57.381540Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381541Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/source/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7/get_tiktok_cookie_by_phone_dm" added="2021-10-07T12:25:57.381543Z" modified="2021-10-07T12:25:57.381547Z" visited="2021-10-07T12:25:57.381543Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381546Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/source/python%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%B7%A5%E5%85%B7" added="2021-10-07T12:25:57.381548Z" modified="2021-10-07T12:25:57.381551Z" visited="2021-10-07T12:25:57.381548Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381550Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/yzl178me/source" added="2021-10-07T12:25:57.381552Z" modified="2021-10-07T12:25:57.381554Z" visited="2021-10-07T12:25:57.381553Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2021-10-07T12:25:57.381554Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

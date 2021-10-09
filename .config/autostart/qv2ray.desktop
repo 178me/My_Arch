@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=qv2ray
+GenericName=V2Ray Frontend
+Exec=/usr/bin/qv2ray
+Terminal=false
+Icon=qv2ray
+Categories=Network
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

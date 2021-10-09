@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Warning! -->
+<!-- Manually altering this file can generate unpredictable behavior in the application. You can lose customization and migration functionality. -->
+<!-- If you need to change information in the file, use the appropriate commands and dialog boxes in the software. -->
+<settings>
+    <group name="profile" >
+        <setting type="QString" value="" name="description" />
+        <setting type="QString" value="fixed" name="name" />
+    </group>
+    <group name="profile_names" >
+        <setting type="QString" value="&lt;&lt;unnamed profile>>" name="__unnamed profile__" />
+    </group>
+    <group name="variables" >
+        <setting type="QString" value="&lt;&lt;unnamed profile>>" name="cprofile" />
+    </group>
+</settings>

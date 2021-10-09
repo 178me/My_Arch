@@ -1,0 +1,39 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/javascrice">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1keQFJA6FM13p8kY96MYhLgldHo">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-202.7660.26" />
+              <option name="buildTimestamp" value="1601973177444" />
+              <frame x="0" y="4" width="1920" height="1076" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1606058765889" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/MyAutoTasks">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1gpRh2WhE6KcjJUf5EWJ4L4tzW6">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-202.7660.26" />
+              <option name="buildTimestamp" value="1601973177444" />
+              <frame x="0" y="4" width="1920" height="1076" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1606058779603" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/MyAutoTasks" />
+        <option value="$USER_HOME$/IdeaProjects/javascrice" />
+      </list>
+    </option>
+  </component>
+</application>

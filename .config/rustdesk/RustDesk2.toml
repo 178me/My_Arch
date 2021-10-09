@@ -1,0 +1,7 @@
+remote_id = "338636561"
+size = [960, 240, 800, 600]
+rendezvous_server = ""
+nat_type = 1
+serial = 0
+
+[options]

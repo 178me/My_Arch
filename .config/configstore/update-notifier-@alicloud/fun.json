@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1631550530682,
+	"update": {
+		"latest": "3.6.23",
+		"current": "3.6.22",
+		"type": "patch",
+		"name": "@alicloud/fun"
+	}
+}

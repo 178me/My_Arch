@@ -1,0 +1,24 @@
+password = [68, 19, 122, 178, 172, 141, 4, 109, 124, 20, 2, 12, 18, 37, 136, 249, 179, 4, 47, 73, 83, 116, 169, 110, 58, 87, 81, 254, 154, 193, 7, 113]
+size = [5, 40, 1910, 1035]
+size_ft = [970, 46, 939, 1023]
+size_pf = [970, 46, 939, 1023]
+view_style = "shrink"
+image_quality = "low"
+custom_image_quality = []
+show_remote_cursor = false
+lock_after_session_end = false
+privacy_mode = false
+port_forwards = []
+direct_failures = 0
+disable_audio = false
+disable_clipboard = false
+
+[options]
+local_dir = "/home/yzl178me/Pictures"
+alias = "小古"
+remote_dir = "C:\\Users\\evanshady\\Desktop"
+
+[info]
+username = "evanshady"
+hostname = "DESKTOP-IV3IMOM"
+platform = "Windows"

@@ -1,0 +1,40 @@
+<application>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1gpRh2WhE6KcjJUf5EWJ4L4tzW6">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="InstalledPluginsSearchHistory" value="tra&#10;翻译" />
+    <property name="MarketplacePluginsSearchHistory" value="js&#10;j&#10;javasc&#10;javas&#10;java" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="appcds.runOnSecondStart" value="IC-203.5981.155-fd5ddd2aadb9e0d75ed83ea3efb9e88b8535daf23c033007500538913a7c86f6" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="cn.yiiguxing.plugin.translate.version" value="2.9.2" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/javascrice&#10;/home/yzl178me/IdeaProjects/MyAutoTasks&#10;/home/yzl178me/source/EC/5.9.0-EasyClickDevTools-idea插件.zip" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="IC-203.5981.155" />
+    <property name="ideavim.statistics.timestamp" value="1608201432933" />
+    <property name="installed.kotlin.plugin.version" value="203-1.4.10-release-IJ5981.133" />
+    <property name="kotlin.lastUpdateCheck" value="1606058283345" />
+    <property name="lastSeenTip" value="neue-HideWidgets.html" />
+    <property name="lastTimeTipsWereShown" value="1607412408673" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/javascrice" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1608094393146" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/source/EC" />
+    <property name="project.wizard.group" value="EC_MODULE_TYPE" />
+    <property name="seenTips" value="neue-CommitCtrlK.html,neue-ColorEditingInCss.html,neue-SmartTypeAfterNew.html,neue-HideWidgets.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+</application>

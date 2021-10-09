@@ -1,0 +1,14 @@
+#History lists
+
+[shortcuts]
+".[path](null)"
+"主目录[path]/home/yzl178me"
+"Desktop[path]/home/yzl178me/Desktop"
+"图片集[path]/home/yzl178me/.local/share/geeqie/collections"
+
+[path_list]
+"/home/yzl178me"
+"/home/yzl178me/Image"
+"/home/yzl178me/Image/数据结构"
+
+#end

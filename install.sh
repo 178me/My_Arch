@@ -209,10 +209,3 @@ aa 0 zsh-completions
 
 pacman -S $(cat ~/My_Arch/packge)
 yay -S $(cat ~/My_Arch/packge)
-
-
-
-
-
-
-

@@ -1,0 +1,685 @@
+{
+   "account_id_migration_state": 2,
+   "account_tracker_service_last_update": "13267482980819914",
+   "alternate_error_pages": {
+      "backup": false
+   },
+   "announcement_notification_service_first_run_time": "13267482980485606",
+   "autocomplete": {
+      "retention_policy_last_version": 10
+   },
+   "autofill": {
+      "orphan_rows_removed": true
+   },
+   "browser": {
+      "ees": {
+
+      },
+      "has_seen_welcome_page": false,
+      "window_placement": {
+         "bottom": 1070,
+         "left": 10,
+         "maximized": true,
+         "right": 955,
+         "top": 10,
+         "work_area_bottom": 1080,
+         "work_area_left": 0,
+         "work_area_right": 1920,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 17230,
+   "data_reduction": {
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "3546" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "3546" ],
+      "last_update_date": "13267468800000000",
+      "this_week_number": 2683,
+      "this_week_services_downstream_foreground_kb": {
+         "77012883": 1,
+         "95682324": 3
+      }
+   },
+   "domain_diversity": {
+      "last_reporting_timestamp": "13267482989909963"
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ {
+            "active": true,
+            "entry": "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html"
+         } ]
+      },
+      "garbagecollect": {
+         "lasttime": "13267483010504397"
+      },
+      "last_chrome_version": "10.4.1006.26",
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_permissions": {
+               "api": [ "management", "system.display", "system.storage", "webstorePrivate", "system.cpu", "system.memory", "system.network" ],
+               "manifest_permissions": [  ]
+            },
+            "app_launcher_ordinal": "t",
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13267482980500965",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://chrome.google.com/webstore"
+                  },
+                  "urls": [ "https://chrome.google.com/webstore", "https://ext.chrome.360.cn", "https://ext.se.360.cn", "https://skin.chrome.360.cn", "http://chrome.360.cn/themes", "http://warn.se.360.cn" ]
+               },
+               "description": "在这里，您可以找到适用于 Chromium 的精彩应用、游戏、扩展程序和主题背景。",
+               "icons": {
+                  "128": "webstore_icon_128.png",
+                  "16": "webstore_icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+               "name": "Chrome 网上应用店",
+               "permissions": [ "account360", "webstorePrivate", "management", "themes", "tabs", "usercenter", "system.cpu", "system.display", "system.memory", "system.network", "system.storage" ],
+               "version": "0.2"
+            },
+            "page_ordinal": "n",
+            "path": "/opt/browser360/resources/web_store",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "dbpfchgnbphgoilmgebhjooaabjdmlbd": {
+            "active_permissions": {
+               "api": [ "devtools", "notifications", "storage", "system.display", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "system.cpu" ],
+               "explicit_host": [ "\u003Call_urls>", "chrome://favicon/*" ],
+               "manifest_permissions": [  ],
+               "scriptable_host": [ "\u003Call_urls>" ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13267483871750633",
+            "location": 5,
+            "manifest": {
+               "background": {
+                  "page": "background.html",
+                  "persistent": true
+               },
+               "browser_action": {
+                  "default_popup": "popup.html",
+                  "default_title": "扁鹊"
+               },
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "content.js", "dynamic/constants.js", "dynamic/loader.js", "dynamic/framework.js", "dynamic/framework_shared.js", "dynamic/base_detection.js", "dynamic/config.js", "dynamic/w3help_issues.js", "dynamic/non_w3help_issues.js", "dynamic/detectors/absolute_font_size.js", "dynamic/detectors/img_text_decoration.js", "dynamic/detectors/align_middle.js", "dynamic/detectors/influencing_margin_collapsing.js", "dynamic/detectors/align_nowrap.js", "dynamic/detectors/inline_no_relpace_width_height.js", "dynamic/detectors/array_direct_volume.js", "dynamic/detectors/invalid_list_item.js", "dynamic/detectors/associating_map_only_by_id_attribute.js", "dynamic/detectors/invisible_element_overflow.js", "dynamic/detectors/background_attachment_fixed.js", "dynamic/detectors/location_reload.js", "dynamic/detectors/background_attachment_scroll.js", "dynamic/detectors/margintop_on_clearance_element.js", "dynamic/detectors/background_disappear_without_haslayout.js", "dynamic/detectors/marquee_width.js", "dynamic/detectors/background_image_on_broken_inline.js", "dynamic/detectors/meta_charset.js", "dynamic/detectors/background_image_position.js", "dynamic/detectors/meta_content_separator.js", "dynamic/detectors/base_tag_position.js", "dynamic/detectors/minimal_font_size.js", "dynamic/detectors/bold_element_font_weight.js", "dynamic/detectors/missing_tags.js", "dynamic/detectors/border_spacing_between_multiple_table_row_groups.js", "dynamic/detectors/modifying_display_property_on_table_elements.js", "dynamic/detectors/button_type_form.js", "dynamic/detectors/mouse_enter_leave.js", "dynamic/detectors/center_element.js", "dynamic/detectors/native_code_this_binding.js", "dynamic/detectors/child_overflow_container.js", "dynamic/detectors/navigator_language.js", "dynamic/detectors/clear_float.js", "dynamic/detectors/nbsp_before_object.js", "dynamic/detectors/clear_property_on_flow_element.js", "dynamic/detectors/negative_margin.js", "dynamic/detectors/clonenode_script.js", "dynamic/detectors/nowrap_attribute.js", "dynamic/detectors/colspan_width_adjustment.js", "dynamic/detectors/object_onerror.js", "dynamic/detectors/combination_of_visible_and_hidden_value_on_overflow.js", "dynamic/detectors/onreadystatechange.js", "dynamic/detectors/comment_before_doctype.js", "dynamic/detectors/optgroup_tag.js", "dynamic/detectors/computing_absolutely_positioned_elements_width_and_height_according_to_offset.js", "dynamic/detectors/option_label_attribute.js", "dynamic/detectors/conditional_comments.js", "dynamic/detectors/overflow.js", "dynamic/detectors/createelement_argument.js", "dynamic/detectors/percent_height_in_auto_height.js", "dynamic/detectors/decoration_font_color.js", "dynamic/detectors/plugin.js", "dynamic/detectors/default_margin_disappear.js", "dynamic/detectors/positioned_by_inline_elements.js", "dynamic/detectors/disabled_attribute.js", "dynamic/detectors/protocol_target.js", "dynamic/detectors/display_table_width.js", "dynamic/detectors/radio_name.js", "dynamic/detectors/document_all.js", "dynamic/detectors/relative_position_with_table_elements.js", "dynamic/detectors/document_execcommand.js", "dynamic/detectors/replaced_element_lineheight.js", "dynamic/detectors/document_type_and_boxsizing.js", "dynamic/detectors/right_floats_stretch_parent_elements.js", "dynamic/detectors/document_write_history.js", "dynamic/detectors/script_language_type.js", "dynamic/detectors/documentls.js", "dynamic/detectors/scripts_src_attribute_without_its_value.js", "dynamic/detectors/element_click.js", "dynamic/detectors/scroll_top_left.js", "dynamic/detectors/element_click_focus.js", "dynamic/detectors/select_options_add_remove_option.js", "dynamic/detectors/empty_cell.js", "dynamic/detectors/selects_value_attribute_without_its_value.js", "dynamic/detectors/empty_float_left_element_in_auto_tablelayout.js", "dynamic/detectors/setTimeout_setInterval.js", "dynamic/detectors/empty_inline_box_model.js", "dynamic/detectors/shrink_to_fit_and_replace_element_width.js", "dynamic/detectors/empty_table_width_height_is_zero.js", "dynamic/detectors/shrink_to_fit_percentage_child.js", "dynamic/detectors/excessive_colspan_with_cellspacing.js", "dynamic/detectors/static_position.js", "dynamic/detectors/execScript.js", "dynamic/detectors/static_position_after_inline.js", "dynamic/detectors/expression.js", "dynamic/detectors/stretched_cell_align.js", "dynamic/detectors/fieldset_width.js", "dynamic/detectors/style_attribute_value_in_braces.js", "dynamic/detectors/flash_object_embed.js", "dynamic/detectors/table_border_color.js", "dynamic/detectors/flash_percentloaded.js", "dynamic/detectors/table_cellspacing_border_collapse.js", "dynamic/detectors/float_center_css.js", "dynamic/detectors/table_margin_affects_align_center.js", "dynamic/detectors/float_element_overflow_container.js", "dynamic/detectors/td_nowrap_inheritence.js", "dynamic/detectors/float_margin_bottom.js", "dynamic/detectors/text_align.js", "dynamic/detectors/font_family_quotation_marks.js", "dynamic/detectors/text_decoration_propagation.js", "dynamic/detectors/font_style_element_affects_css.js", "dynamic/detectors/text_overflow_ellipsis.js", "dynamic/detectors/fontsize_stretching.js", "dynamic/detectors/tr_height.js", "dynamic/detectors/forbidden_content_selection.js", "dynamic/detectors/useragent_check.js", "dynamic/detectors/frame_margin.js", "dynamic/detectors/white_space_after_iframe_object.js", "dynamic/detectors/full_shape_space_no_wrap.js", "dynamic/detectors/whitespace_nowrap_on_text_content.js", "dynamic/detectors/get_and_set_attribute.js", "dynamic/detectors/window_close.js", "dynamic/detectors/get_year.js", "dynamic/detectors/window_constructor.js", "dynamic/detectors/getelementbyid_and_getelementsbyname.js", "dynamic/detectors/window_eval.js", "dynamic/detectors/haslayout_full_shape_space.js", "dynamic/detectors/window_navigate.js", "dynamic/detectors/haslayout_in_shrink_to_fit.js", "dynamic/detectors/window_onerror.js", "dynamic/detectors/iframe_background_color_transparent.js", "dynamic/detectors/word_wrap_spaces.js", "dynamic/detectors/iframe_scroll.js", "dynamic/detectors/wordspacing_on_space.js", "dynamic/detectors/img_alt_title.js", "dynamic/detectors/z_index_auto.js", "dynamic/detectors/img_empty_src_and_img_lowsrc.js", "dynamic/detectors/zero_hight_flow_element.js", "dynamic/detectors/img_iframe_object_embed_baseline.js", "dynamic/detectors/zoom_style.js", "dynamic/detectors/img_padding.js", "dynamic/detectors/flash_dom.js", "dynamic/detectors/inline_tag_wrap.js", "dynamic/detectors/iframe_default_border.js", "dynamic/detectors/css_classname.js", "dynamic/detectors/sort_return_value.js", "dynamic/detectors/img_reload.js", "dynamic/detectors/input_size.js", "dynamic/detectors/img_src_error.js", "dynamic/detectors/image_selector.js", "dynamic/detectors/table_child_overflow.js", "dynamic/detectors/float_margin.js", "dynamic/detectors/element_all.js", "dynamic/detectors/table_cells.js", "dynamic/detectors/abbr.js", "dynamic/detectors/colgroup_and_col.js", "dynamic/detectors/float_padding_top.js", "dynamic/detectors/overflow_ie.js", "dynamic/detectors/list_style_type.js", "dynamic/detectors/baseline.js", "dynamic/annotation.js" ],
+                  "matches": [ "\u003Call_urls>" ],
+                  "run_at": "document_start"
+               } ],
+               "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+               "default_locale": "zh_CN",
+               "description": "用来识别网页兼容问题，并给出修复方案",
+               "devtools_page": "devtools.html",
+               "icons": {
+                  "48": "public/icon.png"
+               },
+               "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtvpGm2POSozeijXCQIrh8M2f/xmTnTJx4KYjLAC8KxA/0KRLt9MqjFc0dSNSwY8dYGxbi0OVBy6So8vYA5iC1edDBzeHAaGCZGo8rBnkODvWhzrUcDqc77G5ThAHmz54ZlPjhB4LJDChQGr77cVYepCLJhdnElYzlVEtrNWUCV0GR0MYPNFv0KSKWoGmYq/gdiBbJxLYpHeICR/JVnIIcSXeXSC82BdBy5ys60B62Cla7Epg40hHVixwZiebuUU5xMg50M6xwaDeZ7P702HqeYFmNhvSCA21Bi5plhzFxmmdqbiurBXzmLBNdC6havKhcGDUldIYgEnKGoeCLnKMiQIDAQAB",
+               "manifest_version": 2,
+               "name": "360扁鹊",
+               "options_ui": {
+                  "open_in_tab": true,
+                  "page": "report.html"
+               },
+               "permissions": [ "tabs", "webNavigation", "storage", "webRequestBlocking", "unlimitedStorage", "notifications", "webRequest", "system.display", "system.cpu", "\u003Call_urls>" ],
+               "version": "0.0.37",
+               "web_accessible_resources": [ "dynamic/constants.js", "dynamic/loader.js", "dynamic/framework.js", "dynamic/framework_shared.js", "dynamic/base_detection.js", "dynamic/config.js", "dynamic/w3help_issues.js", "dynamic/non_w3help_issues.js", "dynamic/detectors/absolute_font_size.js", "dynamic/detectors/img_text_decoration.js", "dynamic/detectors/align_middle.js", "dynamic/detectors/influencing_margin_collapsing.js", "dynamic/detectors/align_nowrap.js", "dynamic/detectors/inline_no_relpace_width_height.js", "dynamic/detectors/array_direct_volume.js", "dynamic/detectors/invalid_list_item.js", "dynamic/detectors/associating_map_only_by_id_attribute.js", "dynamic/detectors/invisible_element_overflow.js", "dynamic/detectors/background_attachment_fixed.js", "dynamic/detectors/location_reload.js", "dynamic/detectors/background_attachment_scroll.js", "dynamic/detectors/margintop_on_clearance_element.js", "dynamic/detectors/background_disappear_without_haslayout.js", "dynamic/detectors/marquee_width.js", "dynamic/detectors/background_image_on_broken_inline.js", "dynamic/detectors/meta_charset.js", "dynamic/detectors/background_image_position.js", "dynamic/detectors/meta_content_separator.js", "dynamic/detectors/base_tag_position.js", "dynamic/detectors/minimal_font_size.js", "dynamic/detectors/bold_element_font_weight.js", "dynamic/detectors/missing_tags.js", "dynamic/detectors/border_spacing_between_multiple_table_row_groups.js", "dynamic/detectors/modifying_display_property_on_table_elements.js", "dynamic/detectors/button_type_form.js", "dynamic/detectors/mouse_enter_leave.js", "dynamic/detectors/center_element.js", "dynamic/detectors/native_code_this_binding.js", "dynamic/detectors/child_overflow_container.js", "dynamic/detectors/navigator_language.js", "dynamic/detectors/clear_float.js", "dynamic/detectors/nbsp_before_object.js", "dynamic/detectors/clear_property_on_flow_element.js", "dynamic/detectors/negative_margin.js", "dynamic/detectors/clonenode_script.js", "dynamic/detectors/nowrap_attribute.js", "dynamic/detectors/colspan_width_adjustment.js", "dynamic/detectors/object_onerror.js", "dynamic/detectors/combination_of_visible_and_hidden_value_on_overflow.js", "dynamic/detectors/onreadystatechange.js", "dynamic/detectors/comment_before_doctype.js", "dynamic/detectors/optgroup_tag.js", "dynamic/detectors/computing_absolutely_positioned_elements_width_and_height_according_to_offset.js", "dynamic/detectors/option_label_attribute.js", "dynamic/detectors/conditional_comments.js", "dynamic/detectors/overflow.js", "dynamic/detectors/createelement_argument.js", "dynamic/detectors/percent_height_in_auto_height.js", "dynamic/detectors/decoration_font_color.js", "dynamic/detectors/plugin.js", "dynamic/detectors/default_margin_disappear.js", "dynamic/detectors/positioned_by_inline_elements.js", "dynamic/detectors/disabled_attribute.js", "dynamic/detectors/protocol_target.js", "dynamic/detectors/display_table_width.js", "dynamic/detectors/radio_name.js", "dynamic/detectors/document_all.js", "dynamic/detectors/relative_position_with_table_elements.js", "dynamic/detectors/document_execcommand.js", "dynamic/detectors/replaced_element_lineheight.js", "dynamic/detectors/document_type_and_boxsizing.js", "dynamic/detectors/right_floats_stretch_parent_elements.js", "dynamic/detectors/document_write_history.js", "dynamic/detectors/script_language_type.js", "dynamic/detectors/documentls.js", "dynamic/detectors/scripts_src_attribute_without_its_value.js", "dynamic/detectors/element_click.js", "dynamic/detectors/scroll_top_left.js", "dynamic/detectors/element_click_focus.js", "dynamic/detectors/select_options_add_remove_option.js", "dynamic/detectors/empty_cell.js", "dynamic/detectors/selects_value_attribute_without_its_value.js", "dynamic/detectors/empty_float_left_element_in_auto_tablelayout.js", "dynamic/detectors/setTimeout_setInterval.js", "dynamic/detectors/empty_inline_box_model.js", "dynamic/detectors/shrink_to_fit_and_replace_element_width.js", "dynamic/detectors/empty_table_width_height_is_zero.js", "dynamic/detectors/shrink_to_fit_percentage_child.js", "dynamic/detectors/excessive_colspan_with_cellspacing.js", "dynamic/detectors/static_position.js", "dynamic/detectors/execScript.js", "dynamic/detectors/static_position_after_inline.js", "dynamic/detectors/expression.js", "dynamic/detectors/stretched_cell_align.js", "dynamic/detectors/fieldset_width.js", "dynamic/detectors/style_attribute_value_in_braces.js", "dynamic/detectors/flash_object_embed.js", "dynamic/detectors/table_border_color.js", "dynamic/detectors/flash_percentloaded.js", "dynamic/detectors/table_cellspacing_border_collapse.js", "dynamic/detectors/float_center_css.js", "dynamic/detectors/table_margin_affects_align_center.js", "dynamic/detectors/float_element_overflow_container.js", "dynamic/detectors/td_nowrap_inheritence.js", "dynamic/detectors/float_margin_bottom.js", "dynamic/detectors/text_align.js", "dynamic/detectors/font_family_quotation_marks.js", "dynamic/detectors/text_decoration_propagation.js", "dynamic/detectors/font_style_element_affects_css.js", "dynamic/detectors/text_overflow_ellipsis.js", "dynamic/detectors/fontsize_stretching.js", "dynamic/detectors/tr_height.js", "dynamic/detectors/forbidden_content_selection.js", "dynamic/detectors/useragent_check.js", "dynamic/detectors/frame_margin.js", "dynamic/detectors/white_space_after_iframe_object.js", "dynamic/detectors/full_shape_space_no_wrap.js", "dynamic/detectors/whitespace_nowrap_on_text_content.js", "dynamic/detectors/get_and_set_attribute.js", "dynamic/detectors/window_close.js", "dynamic/detectors/get_year.js", "dynamic/detectors/window_constructor.js", "dynamic/detectors/getelementbyid_and_getelementsbyname.js", "dynamic/detectors/window_eval.js", "dynamic/detectors/haslayout_full_shape_space.js", "dynamic/detectors/window_navigate.js", "dynamic/detectors/haslayout_in_shrink_to_fit.js", "dynamic/detectors/window_onerror.js", "dynamic/detectors/iframe_background_color_transparent.js", "dynamic/detectors/word_wrap_spaces.js", "dynamic/detectors/iframe_scroll.js", "dynamic/detectors/wordspacing_on_space.js", "dynamic/detectors/img_alt_title.js", "dynamic/detectors/z_index_auto.js", "dynamic/detectors/img_empty_src_and_img_lowsrc.js", "dynamic/detectors/zero_hight_flow_element.js", "dynamic/detectors/img_iframe_object_embed_baseline.js", "dynamic/detectors/zoom_style.js", "dynamic/detectors/img_padding.js", "dynamic/detectors/flash_dom.js", "dynamic/detectors/inline_tag_wrap.js", "dynamic/detectors/iframe_default_border.js", "dynamic/detectors/css_classname.js", "dynamic/detectors/sort_return_value.js", "dynamic/detectors/img_reload.js", "dynamic/detectors/input_size.js", "dynamic/detectors/img_src_error.js", "dynamic/detectors/image_selector.js", "dynamic/detectors/table_child_overflow.js", "dynamic/detectors/float_margin.js", "dynamic/detectors/element_all.js", "dynamic/detectors/table_cells.js", "dynamic/detectors/abbr.js", "dynamic/detectors/colgroup_and_col.js", "dynamic/detectors/float_padding_top.js", "dynamic/detectors/overflow_ie.js", "dynamic/detectors/list_style_type.js", "dynamic/detectors/baseline.js", "dynamic/annotation.js" ]
+            },
+            "path": "/opt/browser360/resources/360bianque",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "eemcgdkfndhakfknompkggombfjjjeno": {
+            "active_permissions": {
+               "api": [ "bookmarks", "bookmarkManagerPrivate", "management", "metricsPrivate", "systemPrivate", "tabs" ],
+               "explicit_host": [ "chrome://favicon/*", "chrome://resources/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13267482980496151",
+            "location": 5,
+            "manifest": {
+               "chrome_url_overrides": {
+                  "bookmarks": "main.html"
+               },
+               "content_security_policy": "object-src 'none'; script-src chrome://resources 'self'",
+               "description": "Bookmark Manager",
+               "icons": {
+
+               },
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Bookmark Manager",
+               "permissions": [ "bookmarks", "management", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs", "chrome://favicon/", "chrome://resources/" ],
+               "version": "0.1"
+            },
+            "path": "/opt/browser360/resources/bookmark_manager_360linux",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "kmendfapggjehodndflmmgagdbamhnfd": {
+            "active_permissions": {
+               "api": [ "cryptotokenPrivate", "externally_connectable.all_urls", "tabs" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [ "runtime.onConnectExternal" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13267482980501765",
+            "location": 5,
+            "manifest": {
+               "background": {
+                  "persistent": false,
+                  "scripts": [ "util.js", "b64.js", "cbor.js", "sha256.js", "timer.js", "countdown.js", "countdowntimer.js", "devicestatuscodes.js", "approvedorigins.js", "errorcodes.js", "webrequest.js", "messagetypes.js", "factoryregistry.js", "requesthelper.js", "asn1.js", "enroller.js", "requestqueue.js", "signer.js", "origincheck.js", "textfetcher.js", "appid.js", "watchdog.js", "logging.js", "webrequestsender.js", "window-timer.js", "cryptotokenorigincheck.js", "cryptotokenapprovedorigins.js", "inherits.js", "individualattest.js", "googlecorpindividualattest.js", "cryptotokenbackground.js" ]
+               },
+               "description": "CryptoToken Component Extension",
+               "externally_connectable": {
+                  "ids": [ "fjajfjhkeibgmiggdfehjplbhmfkialk" ],
+                  "matches": [ "https://*/*" ]
+               },
+               "incognito": "split",
+               "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq7zRobvA+AVlvNqkHSSVhh1sEWsHSqz4oR/XptkDe/Cz3+gW9ZGumZ20NCHjaac8j1iiesdigp8B1LJsd/2WWv2Dbnto4f8GrQ5MVphKyQ9WJHwejEHN2K4vzrTcwaXqv5BSTXwxlxS/mXCmXskTfryKTLuYrcHEWK8fCHb+0gvr8b/kvsi75A1aMmb6nUnFJvETmCkOCPNX5CHTdy634Ts/x0fLhRuPlahk63rdf7agxQv5viVjQFk+tbgv6aa9kdSd11Js/RZ9yZjrFgHOBWgP4jTBqud4+HUglrzu8qynFipyNRLCZsaxhm+NItTyNgesxLdxZcwOz56KD1Q4IQIDAQAB",
+               "manifest_version": 2,
+               "name": "CryptoTokenExtension",
+               "permissions": [ "cryptotokenPrivate", "externally_connectable.all_urls", "tabs", "https://*/*", "http://*/*" ],
+               "version": "0.9.74"
+            },
+            "path": "/opt/browser360/resources/cryptotoken",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "mfehgcgbbipciphmccgaenjidiccnmng": {
+            "active_permissions": {
+               "api": [ "cloudPrintPrivate" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13267482980500196",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://www.google.com/cloudprint"
+                  },
+                  "urls": [ "https://www.google.com/cloudprint/enable_chrome_connector" ]
+               },
+               "description": "Cloud Print",
+               "display_in_launcher": false,
+               "icons": {
+
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqOhnwk4+HXVfGyaNsAQdU/js1Na56diW08oF1MhZiwzSnJsEaeuMN9od9q9N4ZdK3o1xXOSARrYdE+syV7Dl31nf6qz3A6K+D5NHe6sSB9yvYlIiN37jdWdrfxxE0pRYEVYZNTe3bzq3NkcYJlOdt1UPcpJB+isXpAGUKUvt7EQIDAQAB",
+               "name": "Cloud Print",
+               "permissions": [ "cloudPrintPrivate" ],
+               "version": "0.1"
+            },
+            "path": "/opt/browser360/resources/cloud_print",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "mhjfbmdgcfjbbpaeojofohoefgiehjai": {
+            "active_permissions": {
+               "api": [ "contentSettings", "fileSystem", "fileSystem.write", "metricsPrivate", "resourcesPrivate" ],
+               "explicit_host": [ "chrome://resources/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13267482980501370",
+            "location": 5,
+            "manifest": {
+               "content_security_policy": "script-src 'self' 'wasm-eval' blob: filesystem: chrome://resources; object-src * blob: externalfile: file: filesystem: data:; plugin-types application/x-google-chrome-pdf",
+               "description": "",
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN6hM0rsDYGbzQPQfOygqlRtQgKUXMfnSjhIBL7LnReAVBEd7ZmKtyN2qmSasMl4HZpMhVe2rPWVVwBDl6iyNE/Kok6E6v6V3vCLGsOpQAuuNVye/3QxzIldzG/jQAdWZiyXReRVapOhZtLjGfywCvlWq7Sl/e3sbc0vWybSDI2QIDAQAB",
+               "manifest_version": 2,
+               "mime_types": [ "application/pdf" ],
+               "mime_types_handler": "index.html",
+               "name": "Chromium PDF Viewer",
+               "offline_enabled": true,
+               "permissions": [ "chrome://resources/", "contentSettings", "metricsPrivate", "resourcesPrivate", {
+                  "fileSystem": [ "write" ]
+               } ],
+               "version": "1"
+            },
+            "path": "/opt/browser360/resources/pdf",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         }
+      },
+      "theme": {
+         "id": "jisu9"
+      }
+   },
+   "gcm": {
+      "product_category_for_subtypes": "cn.360chrome.linux"
+   },
+   "google": {
+      "services": {
+         "signin_scoped_device_id": "e2dca86d-2160-4afe-8e72-8cc57d3b2d5c"
+      }
+   },
+   "homepage": "",
+   "homepage_is_newtabpage": false,
+   "http_original_content_length": "3546",
+   "http_received_content_length": "3546",
+   "kMouseGestureProfile": {
+      "kMGPUserOpenNewTabOrder": 0
+   },
+   "media": {
+      "device_id_salt": "05B40E26070BB2B156BCF711100EC430",
+      "engagement": {
+         "schema_version": 4
+      }
+   },
+   "media_router": {
+      "receiver_id_hash_token": "y+9kEBtY8hpzNALO8EJ2g8nmzFC3bOVxG6CZpJdLGMuYoYbkYF6SY2TEXzY3ruZDaNlh52HcUT7EQ3spoS+piQ=="
+   },
+   "ntp": {
+      "custom_background_local_to_device": false,
+      "num_personal_suggestions": 9,
+      "pinned_urls": {
+
+      }
+   },
+   "pinned_tabs": [  ],
+   "plugins": {
+      "plugins_list": [  ]
+   },
+   "preset_popup_host_loaded": 3,
+   "previews": {
+      "litepage": {
+         "user-needs-notification": false
+      }
+   },
+   "pro": {
+      "bianque": {
+         "enable": false
+      },
+      "uacutomize": {
+         "type": 0
+      }
+   },
+   "profile": {
+      "avatar_bubble_tutorial_shown": 2,
+      "avatar_index": 26,
+      "content_settings": {
+         "exceptions": {
+            "accessibility_events": {
+
+            },
+            "app_banner": {
+
+            },
+            "ar": {
+
+            },
+            "auto_select_certificate": {
+
+            },
+            "automatic_downloads": {
+
+            },
+            "autoplay": {
+
+            },
+            "background_sync": {
+
+            },
+            "bluetooth_chooser_data": {
+
+            },
+            "bluetooth_guard": {
+
+            },
+            "bluetooth_scanning": {
+
+            },
+            "camera_pan_tilt_zoom": {
+
+            },
+            "client_hints": {
+
+            },
+            "clipboard": {
+
+            },
+            "cookies": {
+
+            },
+            "durable_storage": {
+
+            },
+            "file_system_read_guard": {
+
+            },
+            "file_system_write_guard": {
+
+            },
+            "flash_data": {
+
+            },
+            "font_access": {
+
+            },
+            "fullscreen": {
+
+            },
+            "geolocation": {
+
+            },
+            "hid_chooser_data": {
+
+            },
+            "hid_guard": {
+
+            },
+            "images": {
+
+            },
+            "important_site_info": {
+
+            },
+            "insecure_private_network": {
+
+            },
+            "installed_web_app_metadata": {
+
+            },
+            "intent_picker_auto_display": {
+
+            },
+            "javascript": {
+
+            },
+            "legacy_cookie_access": {
+
+            },
+            "media_engagement": {
+
+            },
+            "media_stream_camera": {
+
+            },
+            "media_stream_mic": {
+
+            },
+            "midi_sysex": {
+
+            },
+            "mixed_script": {
+
+            },
+            "mouselock": {
+
+            },
+            "nfc": {
+
+            },
+            "notifications": {
+
+            },
+            "password_protection": {
+
+            },
+            "payment_handler": {
+
+            },
+            "permission_autoblocking_data": {
+
+            },
+            "plugins": {
+
+            },
+            "popups": {
+               "[*.]99bill.com,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442168",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]alipay.com,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442194",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]dangdang.com,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442209",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]ipos.10086.cn,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442152",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]netpay.sdo.com,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442133",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]pay.ips.com.cn,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442180",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]pay.soopay.net,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442174",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]payment.chinapnr.com,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442160",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]pingan.com,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442200",
+                  "model": 0,
+                  "setting": 1
+               },
+               "[*.]tenpay.com,*": {
+                  "expiration": "0",
+                  "last_modified": "13267482980442187",
+                  "model": 0,
+                  "setting": 1
+               }
+            },
+            "ppapi_broker": {
+
+            },
+            "protocol_handler": {
+
+            },
+            "safe_browsing_url_check_data": {
+
+            },
+            "sensors": {
+
+            },
+            "serial_chooser_data": {
+
+            },
+            "serial_guard": {
+
+            },
+            "site_engagement": {
+
+            },
+            "sound": {
+
+            },
+            "ssl_cert_decisions": {
+
+            },
+            "storage_access": {
+
+            },
+            "subresource_filter": {
+
+            },
+            "subresource_filter_data": {
+
+            },
+            "usb_chooser_data": {
+
+            },
+            "usb_guard": {
+
+            },
+            "vr": {
+
+            },
+            "window_placement": {
+
+            }
+         },
+         "pref_version": 1
+      },
+      "created_by_version": "10.4.1005.66",
+      "creation_time": "13267482980430058",
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "managed_user_id": "",
+      "migration_to_logindb_step": 3,
+      "name": "用户1",
+      "password_manager_onboarding_state": 1,
+      "per_host_zoom_levels": {
+
+      }
+   },
+   "translate_site_blacklist_with_time": {
+
+   },
+   "web_apps": {
+      "system_web_app_failure_count": 0,
+      "system_web_app_last_attempted_language": "zh-CN",
+      "system_web_app_last_attempted_update": "10.4.1006.26",
+      "system_web_app_last_installed_language": "zh-CN",
+      "system_web_app_last_update": "10.4.1006.26",
+      "user_display_mode_cleaned_up": false
+   }
+}

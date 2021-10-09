@@ -1,0 +1,8 @@
+<keymap version="1" name="XWin复制" parent="Default for XWin">
+  <action id="EasyClick.Run.Project">
+    <keyboard-shortcut first-keystroke="ctrl windows" second-keystroke="r" />
+  </action>
+  <action id="EasyClick.Stop.Run">
+    <keyboard-shortcut first-keystroke="ctrl windows" second-keystroke="s" />
+  </action>
+</keymap>

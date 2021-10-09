@@ -1,0 +1,126 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$SelectAll">
+        <ActionSummary times="1" last="1591601489812" />
+      </entry>
+      <entry key="About">
+        <ActionSummary times="3" last="1608355361032" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="1" last="1591602657727" />
+      </entry>
+      <entry key="ConsoleView.ClearAll">
+        <ActionSummary times="1" last="1590928941395" />
+      </entry>
+      <entry key="EasyClick.Active.Device">
+        <ActionSummary times="3" last="1591602292035" />
+      </entry>
+      <entry key="EasyClick.Connect.Device">
+        <ActionSummary times="4" last="1607181695350" />
+      </entry>
+      <entry key="EasyClick.Connect.Device.Wifi">
+        <ActionSummary times="4" last="1591602228198" />
+      </entry>
+      <entry key="EasyClick.Disconnect.Device">
+        <ActionSummary times="1" last="1590922139016" />
+      </entry>
+      <entry key="EasyClick.Node.Fetch">
+        <ActionSummary times="3" last="1607181706085" />
+      </entry>
+      <entry key="EasyClick.Preview.Project">
+        <ActionSummary times="14" last="1591602668305" />
+      </entry>
+      <entry key="EasyClick.Run.Project">
+        <ActionSummary times="21" last="1591602890173" />
+      </entry>
+      <entry key="EasyClick.Setting.Debug">
+        <ActionSummary times="2" last="1591602729053" />
+      </entry>
+      <entry key="EasyClick.Setting.Local">
+        <ActionSummary times="1" last="1590923457497" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="141" last="1606060035382" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="1" last="1590923258219" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="5" last="1591602807608" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="5" last="1591602813503" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="10" last="1608353040335" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="3" last="1590923396994" />
+      </entry>
+      <entry key="Exit">
+        <ActionSummary times="4" last="1608353228392" />
+      </entry>
+      <entry key="ExpressionTypeInfo">
+        <ActionSummary times="5" last="1591602664325" />
+      </entry>
+      <entry key="NewDir">
+        <ActionSummary times="2" last="1591602452238" />
+      </entry>
+      <entry key="NewJavaScriptFile">
+        <ActionSummary times="3" last="1591602555543" />
+      </entry>
+      <entry key="NewProject">
+        <ActionSummary times="1" last="1591601954964" />
+      </entry>
+      <entry key="Register">
+        <ActionSummary times="3" last="1608353210064" />
+      </entry>
+      <entry key="ReplaceInPath">
+        <ActionSummary times="1" last="1591601880073" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="6" last="1608353122317" />
+      </entry>
+      <entry key="TogglePowerSave">
+        <ActionSummary times="1" last="1590928929695" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="3" last="1590920956450" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="1" last="1606060099331" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="3" last="1606059968462" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.PluginManagerConfigurable$InstallFromDiskAction">
+        <ActionSummary times="3" last="1607181543005" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.PluginManagerMain$2">
+        <ActionSummary times="1" last="1591601510263" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+        <ActionSummary times="6" last="1607181541328" />
+      </entry>
+      <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+        <ActionSummary times="5" last="1606060290516" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="1" last="1591601881661" />
+      </entry>
+      <entry key="com.intellij.openapi.updateSettings.impl.UpdateChecker$showUpdateResult$4$1">
+        <ActionSummary times="1" last="1591601011666" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="12" last="1606060213259" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+        <ActionSummary times="8" last="1606060199463" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
+        <ActionSummary times="6" last="1606059962726" />
+      </entry>
+    </data>
+  </component>
+</application>

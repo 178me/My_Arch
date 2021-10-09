@@ -1,0 +1,3286 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"common": {
+			"name": "新建 0",
+			"folder": "\/home\/yzl178me",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 1398,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "重试已达上限。",
+							"type": 3,
+							"time": 1619971172
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "mSkqAP4",
+					"uri": "https:\/\/discord.gg\/mSkqAP4",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 99,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 3,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 614189,
+					"total": 28217976,
+					"elapsed": 92,
+					"uploaded": 0,
+					"percent": 2
+				},
+				"log": {
+					"added-time": 1618946482,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "可续传",
+							"type": 2,
+							"time": 1618946483
+						}
+					]
+				},
+				"http": {
+					"referrer": "chrome:\/\/downloads\/",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "python-3.8.8-amd64.exe",
+					"uri": "https:\/\/www.python.org\/ftp\/python\/3.8.8\/python-3.8.8-amd64.exe",
+					"file": "python-3.8.8-amd64.exe",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/python-3.8.8-amd64.exe",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/yzl178me\/python-3.8.8-amd64.exe.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 649,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1614055918,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "重试已达上限。",
+							"type": 3,
+							"time": 1614056567
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/github.com\/jackfrued\/Python-100-Days\/blob\/master\/Day31-35\/code\/homework01.py",
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/3B7CDAA1.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "homework01.py",
+					"uri": "https:\/\/raw.githubusercontent.com\/jackfrued\/Python-100-Days\/master\/Day31-35\/code\/homework01.py",
+					"file": "homework01.py",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 99,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 3,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 262144,
+					"total": 5728933888,
+					"elapsed": 17,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1613039403,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "可续传",
+							"type": 2,
+							"time": 1613039406
+						}
+					]
+				},
+				"common": {
+					"name": "Win10_20H2_v2_China_GGK_Chinese(Simplified)_x64.iso",
+					"uri": "https:\/\/software-download.microsoft.com\/sg\/Win10_20H2_v2_China_GGK_Chinese(Simplified)_x64.iso?t=0d73f8b2-24ee-45d8-8858-8064ddd3e5b9&e=1613110929&h=2fdaeb2034a61ea3375d592b767e935c",
+					"file": "Win10_20H2_v2_China_GGK_Chinese(Simplified)_x64.iso",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/Win10_20H2_v2_China_GGK_Chinese(Simplified)_x64.iso",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/yzl178me\/Win10_20H2_v2_China_GGK_Chinese(Simplified)_x64.iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969895,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969895
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "rss",
+					"uri": "https:\/\/www.planetemu.net\/rss",
+					"file": "rss",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/rss",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 49107,
+					"total": 49107,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969894,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969893
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "zx-spectrum",
+					"uri": "https:\/\/www.planetemu.net\/machine\/zx-spectrum",
+					"file": "zx-spectrum",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/zx-spectrum",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969892,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969892
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "to7",
+					"uri": "https:\/\/www.planetemu.net\/machine\/to7",
+					"file": "to7",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/to7",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969891,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969891
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "tandy-trs-80",
+					"uri": "https:\/\/www.planetemu.net\/machine\/tandy-trs-80",
+					"file": "tandy-trs-80",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/tandy-trs-80",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 27237,
+					"total": 27237,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969890,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969890
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "oric",
+					"uri": "https:\/\/www.planetemu.net\/machine\/oric",
+					"file": "oric",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/oric",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 25401,
+					"total": 25401,
+					"elapsed": 8,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969889,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969888
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "mo6",
+					"uri": "https:\/\/www.planetemu.net\/machine\/mo6",
+					"file": "mo6",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/mo6",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 34056,
+					"total": 34056,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969888,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969887
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "msx-1-2",
+					"uri": "https:\/\/www.planetemu.net\/machine\/msx-1-2",
+					"file": "msx-1-2",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/msx-1-2",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 25737,
+					"total": 25737,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969886,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969884
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "mo5",
+					"uri": "https:\/\/www.planetemu.net\/machine\/mo5",
+					"file": "mo5",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/mo5",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 58944,
+					"total": 58944,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969881,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969880
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "commodore-64",
+					"uri": "https:\/\/www.planetemu.net\/machine\/commodore-64",
+					"file": "commodore-64",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/commodore-64",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 44314,
+					"total": 44314,
+					"elapsed": 11,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969881,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969872
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "amstrad-cpc",
+					"uri": "https:\/\/www.planetemu.net\/machine\/amstrad-cpc",
+					"file": "amstrad-cpc",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/amstrad-cpc",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 46781,
+					"total": 46781,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969879,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969877
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "atari-st",
+					"uri": "https:\/\/www.planetemu.net\/machine\/atari-st",
+					"file": "atari-st",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/atari-st",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 26905,
+					"total": 26905,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969874,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969874
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "apple-ii",
+					"uri": "https:\/\/www.planetemu.net\/machine\/apple-ii",
+					"file": "apple-ii",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/apple-ii",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 36468,
+					"total": 36468,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969870,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969870
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "amiga",
+					"uri": "https:\/\/www.planetemu.net\/machine\/amiga",
+					"file": "amiga",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/amiga",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969870,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969870
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "non-mame",
+					"uri": "https:\/\/www.planetemu.net\/machine\/non-mame",
+					"file": "non-mame",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/non-mame",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 28336,
+					"total": 28336,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969869,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969869
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "wonderswan",
+					"uri": "https:\/\/www.planetemu.net\/machine\/wonderswan",
+					"file": "wonderswan",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/wonderswan",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 28158,
+					"total": 28158,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969869,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969869
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "virtual-boy",
+					"uri": "https:\/\/www.planetemu.net\/machine\/virtual-boy",
+					"file": "virtual-boy",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/virtual-boy",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 57441,
+					"total": 57441,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969867,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969865
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "super-nes",
+					"uri": "https:\/\/www.planetemu.net\/machine\/super-nes",
+					"file": "super-nes",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/super-nes",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 37394,
+					"total": 37394,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969867,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969866
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "saturn",
+					"uri": "https:\/\/www.planetemu.net\/machine\/saturn",
+					"file": "saturn",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/saturn",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969864,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969863
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "playstation",
+					"uri": "https:\/\/www.planetemu.net\/machine\/playstation",
+					"file": "playstation",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/playstation",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 35511,
+					"total": 35511,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969864,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969863
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "pc-engine",
+					"uri": "https:\/\/www.planetemu.net\/machine\/pc-engine",
+					"file": "pc-engine",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/pc-engine",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 28217,
+					"total": 28217,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969862,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969861
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "odyssey",
+					"uri": "https:\/\/www.planetemu.net\/machine\/odyssey",
+					"file": "odyssey",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/odyssey",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 64073,
+					"total": 64073,
+					"elapsed": 26,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969862,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969860
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "mega-drive",
+					"uri": "https:\/\/www.planetemu.net\/machine\/mega-drive",
+					"file": "mega-drive",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/mega-drive",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 30575,
+					"total": 30575,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969860,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969859
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "nintendo-64",
+					"uri": "https:\/\/www.planetemu.net\/machine\/nintendo-64",
+					"file": "nintendo-64",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/nintendo-64",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 44644,
+					"total": 44644,
+					"elapsed": 6,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969857,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969852
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "nes",
+					"uri": "https:\/\/www.planetemu.net\/machine\/nes",
+					"file": "nes",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/nes",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 26295,
+					"total": 26295,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969851,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969851
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "neo-geo-cd",
+					"uri": "https:\/\/www.planetemu.net\/machine\/neo-geo-cd",
+					"file": "neo-geo-cd",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/neo-geo-cd",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 32180,
+					"total": 32180,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969850,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969849
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "neo-geo-pocket",
+					"uri": "https:\/\/www.planetemu.net\/machine\/neo-geo-pocket",
+					"file": "neo-geo-pocket",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/neo-geo-pocket",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 30070,
+					"total": 30070,
+					"elapsed": 24,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969846,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969845
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "lynx",
+					"uri": "https:\/\/www.planetemu.net\/machine\/lynx",
+					"file": "lynx",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/lynx",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 38733,
+					"total": 38733,
+					"elapsed": 11,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969836,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969827
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "master-system",
+					"uri": "https:\/\/www.planetemu.net\/machine\/master-system",
+					"file": "master-system",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/master-system",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 24781,
+					"total": 24781,
+					"elapsed": 39,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969825,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969790
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "3do",
+					"uri": "https:\/\/www.planetemu.net\/machine\/3do",
+					"file": "3do",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/3do",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 29070,
+					"total": 29070,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969822,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969822
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "jaguar",
+					"uri": "https:\/\/www.planetemu.net\/machine\/jaguar",
+					"file": "jaguar",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/jaguar",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 29034,
+					"total": 29034,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969820,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969820
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "intellivision",
+					"uri": "https:\/\/www.planetemu.net\/machine\/intellivision",
+					"file": "intellivision",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/intellivision",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969818,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969818
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "gba",
+					"uri": "https:\/\/www.planetemu.net\/machine\/gba",
+					"file": "gba",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/gba",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 34540,
+					"total": 34540,
+					"elapsed": 12,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969816,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969815
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "game-gear",
+					"uri": "https:\/\/www.planetemu.net\/machine\/game-gear",
+					"file": "game-gear",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/game-gear",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 37133,
+					"total": 37133,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969804,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969800
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "game-boy",
+					"uri": "https:\/\/www.planetemu.net\/machine\/game-boy",
+					"file": "game-boy",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/game-boy",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969797,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969797
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "colecovision",
+					"uri": "https:\/\/www.planetemu.net\/machine\/colecovision",
+					"file": "colecovision",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/colecovision",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 28939,
+					"total": 28939,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969795,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969795
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "atari-7800",
+					"uri": "https:\/\/www.planetemu.net\/machine\/atari-7800",
+					"file": "atari-7800",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/atari-7800",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 7471,
+					"total": 7471,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969793,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969792
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "atari-5200",
+					"uri": "https:\/\/www.planetemu.net\/machine\/atari-5200",
+					"file": "atari-5200",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/atari-5200",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 29687,
+					"total": 29687,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969789,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969788
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "atari-2600",
+					"uri": "https:\/\/www.planetemu.net\/machine\/atari-2600",
+					"file": "atari-2600",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/atari-2600",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 209526,
+					"total": 209526,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969787,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969783
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "hbmame-0-198-roms-merged",
+					"uri": "https:\/\/www.planetemu.net\/roms\/hbmame-0-198-roms-merged",
+					"file": "hbmame-0-198-roms-merged",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/hbmame-0-198-roms-merged",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 11763,
+					"total": 11763,
+					"elapsed": 6,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969786,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969782
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "index.php",
+					"uri": "https:\/\/www.planetemu.net\/php\/recherche\/index.php",
+					"file": "index.php",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/index.php",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 41274,
+					"total": 41274,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969782,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969781
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "mame",
+					"uri": "https:\/\/www.planetemu.net\/machine\/mame",
+					"file": "mame",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/mame",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 22152,
+					"total": 22152,
+					"elapsed": 21,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969781,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969780
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "daimakai-mura-japan",
+					"uri": "https:\/\/www.planetemu.net\/?gotorom=1483366",
+					"file": "daimakai-mura-japan",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/daimakai-mura-japan",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 23250,
+					"total": 23250,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969780,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969779
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "contacts",
+					"uri": "https:\/\/www.planetemu.net\/contacts",
+					"file": "contacts",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/contacts",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 18656,
+					"total": 18656,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969777,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969776
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "faq",
+					"uri": "https:\/\/www.planetemu.net\/faq",
+					"file": "faq",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/faq",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 29734,
+					"total": 29734,
+					"elapsed": 12,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969775,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969772
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "articles",
+					"uri": "https:\/\/www.planetemu.net\/articles",
+					"file": "articles",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/articles",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 44525,
+					"total": 44525,
+					"elapsed": 10,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969774,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969772
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "index.0",
+					"uri": "https:\/\/forums.planetemu.net\/",
+					"file": "index.0",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/index.0",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 21139,
+					"total": 21139,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969764,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969761
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "index",
+					"uri": "https:\/\/www.planetemu.net\/",
+					"file": "index",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/index",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 44014,
+					"total": 44014,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1619969760,
+					"completed-time": 1619969763,
+					"messages": [
+						{
+							"string": "不可续传",
+							"type": 2,
+							"time": 1619969762
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/796349E5.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "news",
+					"uri": "https:\/\/www.planetemu.net\/news",
+					"file": "news",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/news",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 7548583,
+					"total": 7548583,
+					"elapsed": 71,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1615709418,
+					"completed-time": 1615709489,
+					"messages": [
+						{
+							"string": "可续传",
+							"type": 2,
+							"time": 1615709419
+						}
+					]
+				},
+				"http": {
+					"referrer": "http:\/\/www.pdfdo.com\/pdf-split.aspx",
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/55F02128.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "031416070286.zip",
+					"uri": "http:\/\/q6.pdfdo.com\/Download\/031416070286.zip?t=244",
+					"file": "031416070286.zip",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/031416070286.zip",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1682,
+					"total": 1682,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1615274243,
+					"completed-time": 1615274244,
+					"messages": [
+						{
+							"string": "可续传",
+							"type": 2,
+							"time": 1615274243
+						}
+					]
+				},
+				"http": {
+					"referrer": "http:\/\/178me.ys168.com\/",
+					"cookie-file": "\/home\/yzl178me\/.config\/uGet\/attachment\/75DA2313.cookie",
+					"redirection-limit": 30
+				},
+				"common": {
+					"name": "auto_grab_topic.js",
+					"uri": "http:\/\/ys-n.ys168.com\/615032545\/813441191\/k6IKsjk33683T5H7HM76d2\/auto_grab_topic.js",
+					"file": "auto_grab_topic.js",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/auto_grab_topic.js",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 13079845,
+					"total": 13079845,
+					"elapsed": 163,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1613896289,
+					"completed-time": 1613896452,
+					"messages": [
+						{
+							"string": "可续传",
+							"type": 2,
+							"time": 1613896289
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "H21-Python编程：从入门到实践.rar",
+					"uri": "https:\/\/xact02.baidupcs.com\/file\/37bb3107es79058105d0cc87c55ade98?bkt=en-26dcfdb4e5ee1a497a79cdefc5d823b67fabeebc88b2c0ac5c9458a939232c5a50f5f90119c63f4b&fid=1102550777672-250528-497695769460699&time=1613896252&sign=FDTAXUGERLQlBHSKfWqi-DCb740ccc5511e5e8fedcff06b081203-%2B%2BS%2FTRRNw2aNNfw2pCEGzfayM24%3D&to=126&size=13079845&sta_dx=13079845&sta_cs=140&sta_ft=rar&sta_ct=5&sta_mt=5&fm2=MH%2CXian%2CAnywhere%2C%2Cguangdong%2Cct&ctime=1605102157&mtime=1605102157&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=13079845&vuk=1865844781&iv=0&htype=&randtype=&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-9a227e5531f680b979c32db7991887b917d63138b3af74e55b591ed8b6d693abf0da4726202cb4dd&sl=76480590&expires=8h&rt=sh&r=876007189&vbdid=457437647&fin=H21-Python%E7%BC%96%E7%A8%8B%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5.rar&fn=H21-Python%E7%BC%96%E7%A8%8B%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5.rar&rtype=1&dp-logid=1198792899475773794&dp-callid=0.1&hps=1&tsl=80&csl=80&fsl=-1&csign=x7TXUsl%2FuH4%2BISjPz7ysECq2lJE%3D&so=0&ut=6&uter=4&serv=0&uc=3601469187&ti=068bcab50ae430c7949660ae4142f20201d0a93c0c092b1f&hflag=30&from_type=1&adg=c_a3f3de7d5442e962dc172468091d2fc5&reqlabel=250528_f_d0181af2b3b7598b78f051ee23dcc0de_-1_7ca8e015f23155fb060bbf540e833f9e&by=themis",
+					"file": "H21-Python编程：从入门到实践.rar",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/H21-Python编程：从入门到实践.rar",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 15061762,
+					"total": 15061762,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1613814282,
+					"completed-time": 1613814288,
+					"messages": [
+						{
+							"string": "可续传",
+							"type": 2,
+							"time": 1613814283
+						}
+					]
+				},
+				"common": {
+					"name": " 远程脚本.apk",
+					"uri": "https:\/\/developer9.baidupan.com\/022017bb\/2020\/05\/15\/005be3073d2ea483230672f140e57823.apk?st=-WvU_WVi8pb3qVOLVWPn4Q&e=1613816282&b=ALpc4wiUUbNTrgXYUupQ0AfIALpTzguhVClYNFMkUzo_c&fi=22976795&pid=218-20-228-155&up=",
+					"file": " 远程脚本.apk",
+					"folder": "\/home\/yzl178me",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/yzl178me\/ 远程脚本.apk",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

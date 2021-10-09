@@ -1,0 +1,2045 @@
+2019-10-29 15:13:48:274 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-10-29 15:13:51:790 [info] start download ssrr
+2019-10-29 15:14:29:521 [info] ssrr download success
+2019-10-29 15:14:34:584 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s 127.0.0.1 -p 8388 -k ****** -m aes-256-cfb -O origin -o plain -b 127.0.0.1 -l 1080
+2019-10-29 15:14:34:593 [info] pac server listen at: 127.0.0.1:2333
+2019-10-29 15:14:34:593 [info] http proxy server listen at: 127.0.0.1:12333
+2019-10-29 15:14:34:695 [error] 2019-10-29 15:14:34 WARNING  shell.py:116 warning: server set to listen on 127.0.0.1:8388, are you sure?
+
+2019-10-29 15:14:34:765 [error] 2019-10-29 15:14:34 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:34:765 [error] 2019-10-29 15:14:34 INFO     local.py:50 local start with protocol[origin] password [b'0'] method [aes-256-cfb] obfs [plain] obfs_param []
+2019-10-29 15:14:34 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:34 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2019-10-29 15:14:34:766 [error] 2019-10-29 15:14:34 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:37:547 [info] Kill client
+2019-10-29 15:14:37:547 [info] pac server closed.
+2019-10-29 15:14:37:548 [info] http proxy server closed.
+2019-10-29 15:14:43:026 [info] pac server listen at: 127.0.0.1:2333
+2019-10-29 15:14:43:040 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s 137.74.141.42 -p 80 -k ****** -m none -O auth_chain_a -o http_simple -b 127.0.0.1 -l 1080
+2019-10-29 15:14:43:044 [info] http proxy server listen at: 127.0.0.1:12333
+2019-10-29 15:14:43:096 [error] 2019-10-29 15:14:43 INFO     local.py:50 local start with protocol[auth_chain_a] password [b'androidssr'] method [none] obfs [http_simple] obfs_param []
+2019-10-29 15:14:43 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:43 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2019-10-29 15:14:43:096 [error] 2019-10-29 15:14:43 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:45:967 [info] Kill client
+2019-10-29 15:14:45:970 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:46:093 [error] 2019-10-29 15:14:46 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:46:093 [error] 2019-10-29 15:14:46 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:46 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:46 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:14:46 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:47:934 [info] Kill client
+2019-10-29 15:14:47:937 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:48:056 [error] 2019-10-29 15:14:48 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:48:057 [error] 2019-10-29 15:14:48 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:48 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:48 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:14:48 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:49:773 [info] Kill client
+2019-10-29 15:14:49:778 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:49:909 [error] 2019-10-29 15:14:49 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:49:909 [error] 2019-10-29 15:14:49 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:49 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:49 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:14:49 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:51:200 [info] Kill client
+2019-10-29 15:14:51:203 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:51:320 [error] 2019-10-29 15:14:51 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:51:320 [error] 2019-10-29 15:14:51 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:51 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:51 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:14:51 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:53:924 [info] Kill client
+2019-10-29 15:14:53:929 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:54:060 [error] 2019-10-29 15:14:54 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:54:060 [error] 2019-10-29 15:14:54 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:54 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:54 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:14:54 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:55:418 [info] Kill client
+2019-10-29 15:14:55:421 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:55:546 [error] 2019-10-29 15:14:55 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:55:547 [error] 2019-10-29 15:14:55 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:55 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:55 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2019-10-29 15:14:55:547 [error] 2019-10-29 15:14:55 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:56:002 [info] Kill client
+2019-10-29 15:14:56:005 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:56:131 [error] 2019-10-29 15:14:56 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:56:132 [error] 2019-10-29 15:14:56 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:56 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:56 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:14:56 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:14:58:609 [info] Kill client
+2019-10-29 15:14:58:612 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:14:58:731 [error] 2019-10-29 15:14:58 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:14:58:732 [error] 2019-10-29 15:14:58 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:14:58 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:14:58 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:14:58 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:15:11:781 [info] Kill client
+2019-10-29 15:15:11:785 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s45.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 15:15:11:907 [error] 2019-10-29 15:15:11 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 15:15:11:907 [error] 2019-10-29 15:15:11 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 15:15:11 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 15:15:11 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 15:15:11 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 15:15:58:312 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-10-29 15:16:00:327 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-10-29 15:16:00:328 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-10-29 22:48:32:855 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-10-29 22:48:32:860 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s45.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 22:48:32:865 [info] pac server listen at: 127.0.0.1:2333
+2019-10-29 22:48:32:865 [info] http proxy server listen at: 127.0.0.1:12333
+2019-10-29 22:48:33:035 [error] 2019-10-29 22:48:33 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-10-29 22:48:33 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 22:48:33 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 22:48:33 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 22:48:33 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-29 22:48:33:045 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2019-10-29 22:48:35:314 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-10-29 22:48:35:315 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-10-29 22:49:06:599 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-10-29 22:49:36:607 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-10-29 22:49:36:609 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-10-29 23:05:42:903 [info] Kill client
+2019-10-29 23:05:42:906 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-29 23:05:43:016 [error] 2019-10-29 23:05:43 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-29 23:05:43:017 [error] 2019-10-29 23:05:43 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-29 23:05:43 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-29 23:05:43 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-29 23:05:43 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-30 03:38:47:469 [info] power suspend
+2019-10-30 03:38:47:470 [info] Kill client
+2019-10-30 03:39:34:515 [info] power resumed
+2019-10-30 03:39:34:516 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 03:39:34:636 [error] 2019-10-30 03:39:34 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 03:39:34:637 [error] 2019-10-30 03:39:34 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 03:39:34 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 03:39:34 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 03:39:34 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 03:40:03:663 [info] power suspend
+2019-10-30 03:40:03:664 [info] Kill client
+2019-10-30 04:00:18:458 [info] power resumed
+2019-10-30 04:00:18:458 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 04:00:18:596 [error] 2019-10-30 04:00:18 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 04:00:18:597 [error] 2019-10-30 04:00:18 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 04:00:18 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 04:00:18 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 04:00:18 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 05:17:05:531 [info] power suspend
+2019-10-30 05:17:05:531 [info] Kill client
+2019-10-30 13:29:47:512 [info] power resumed
+2019-10-30 13:29:47:513 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 13:29:47:654 [error] 2019-10-30 13:29:47 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 13:29:47:654 [error] 2019-10-30 13:29:47 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 13:29:47 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 13:29:47 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 13:29:47 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 13:37:53:712 [info] power suspend
+2019-10-30 13:37:53:712 [info] Kill client
+2019-10-30 13:42:18:515 [info] power resumed
+2019-10-30 13:42:18:516 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 13:42:18:676 [error] 2019-10-30 13:42:18 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 13:42:18:677 [error] 2019-10-30 13:42:18 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 13:42:18 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 13:42:18 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 13:42:18 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 13:42:47:642 [info] power suspend
+2019-10-30 13:42:47:642 [info] Kill client
+2019-10-30 13:43:48:447 [info] power resumed
+2019-10-30 13:43:48:449 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 13:43:48:583 [error] 2019-10-30 13:43:48 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-10-30 13:43:48 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 13:43:48 INFO     local.py:54 starting local at 127.0.0.1:1080
+
+2019-10-30 13:43:48:584 [error] 2019-10-30 13:43:48 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 13:43:48 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 13:43:55:694 [info] power suspend
+2019-10-30 13:43:55:694 [info] Kill client
+2019-10-30 13:44:35:762 [info] power resumed
+2019-10-30 13:44:35:763 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 13:44:35:771 [info] power suspend
+2019-10-30 13:44:35:771 [info] Kill client
+2019-10-30 13:49:19:517 [info] power resumed
+2019-10-30 13:49:19:518 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 13:49:19:645 [error] 2019-10-30 13:49:19 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 13:49:19:646 [error] 2019-10-30 13:49:19 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 13:49:19 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 13:49:19 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 13:49:19 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 13:56:55:974 [info] power suspend
+2019-10-30 13:56:55:975 [info] Kill client
+2019-10-30 15:33:46:513 [info] power resumed
+2019-10-30 15:33:46:513 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:33:46:632 [error] 2019-10-30 15:33:46 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:33:46:633 [error] 2019-10-30 15:33:46 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:33:46 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:33:46 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:33:46 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:34:15:699 [info] power suspend
+2019-10-30 15:34:15:699 [info] Kill client
+2019-10-30 15:39:57:443 [info] power resumed
+2019-10-30 15:39:57:444 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:39:57:559 [error] 2019-10-30 15:39:57 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:39:57:559 [error] 2019-10-30 15:39:57 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:39:57 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:39:57 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:39:57 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:40:04:250 [info] power suspend
+2019-10-30 15:40:04:251 [info] Kill client
+2019-10-30 15:40:44:340 [info] power resumed
+2019-10-30 15:40:44:340 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:40:44:348 [info] power suspend
+2019-10-30 15:40:44:348 [info] Kill client
+2019-10-30 15:46:32:526 [info] power resumed
+2019-10-30 15:46:32:527 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:46:32:682 [error] 2019-10-30 15:46:32 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:46:32:682 [error] 2019-10-30 15:46:32 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:46:32 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:46:32 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:46:32 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:46:56:472 [info] power suspend
+2019-10-30 15:46:56:473 [info] Kill client
+2019-10-30 15:47:44:444 [info] power resumed
+2019-10-30 15:47:44:445 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:47:44:559 [error] 2019-10-30 15:47:44 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:47:44:559 [error] 2019-10-30 15:47:44 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:47:44 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:47:44 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:47:44 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:47:45:944 [info] power suspend
+2019-10-30 15:47:45:944 [info] Kill client
+2019-10-30 15:47:55:569 [info] power resumed
+2019-10-30 15:47:55:569 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:47:55:669 [error] 2019-10-30 15:47:55 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:47:55:670 [error] 2019-10-30 15:47:55 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:47:55 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:47:55 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:47:55 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:48:24:738 [info] power suspend
+2019-10-30 15:48:24:738 [info] Kill client
+2019-10-30 15:52:22:451 [info] power resumed
+2019-10-30 15:52:22:451 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:52:22:580 [error] 2019-10-30 15:52:22 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:52:22:581 [error] 2019-10-30 15:52:22 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:52:22 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:52:22 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:52:22 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:52:28:113 [info] power suspend
+2019-10-30 15:52:28:114 [info] Kill client
+2019-10-30 15:52:39:513 [info] power resumed
+2019-10-30 15:52:39:514 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:52:39:626 [error] 2019-10-30 15:52:39 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:52:39:627 [error] 2019-10-30 15:52:39 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:52:39 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:52:39 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:52:39 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:53:08:734 [info] power suspend
+2019-10-30 15:53:08:735 [info] Kill client
+2019-10-30 15:56:43:447 [info] power resumed
+2019-10-30 15:56:43:448 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:56:43:566 [error] 2019-10-30 15:56:43 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 15:56:43:567 [error] 2019-10-30 15:56:43 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 15:56:43 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 15:56:43 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 15:56:43 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 15:56:49:871 [info] power suspend
+2019-10-30 15:56:49:872 [info] Kill client
+2019-10-30 15:57:29:964 [info] power resumed
+2019-10-30 15:57:29:964 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 15:57:30:003 [info] power suspend
+2019-10-30 15:57:30:003 [info] Kill client
+2019-10-30 16:51:29:517 [info] power resumed
+2019-10-30 16:51:29:519 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 16:51:29:651 [error] 2019-10-30 16:51:29 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-10-30 16:51:29 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+
+2019-10-30 16:51:29:652 [error] 2019-10-30 16:51:29 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 16:51:29 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 16:51:29 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 16:54:01:087 [info] power suspend
+2019-10-30 16:54:01:087 [info] Kill client
+2019-10-30 17:00:32:510 [info] power resumed
+2019-10-30 17:00:32:512 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 17:00:32:679 [error] 2019-10-30 17:00:32 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 17:00:32:679 [error] 2019-10-30 17:00:32 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 17:00:32 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 17:00:32 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 17:00:32 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 17:22:04:203 [info] power suspend
+2019-10-30 17:22:04:203 [info] Kill client
+2019-10-30 17:40:46:523 [info] power resumed
+2019-10-30 17:40:46:524 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 17:40:46:652 [error] 2019-10-30 17:40:46 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 17:40:46:653 [error] 2019-10-30 17:40:46 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 17:40:46 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 17:40:46 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 17:40:46 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 17:40:56:078 [info] power suspend
+2019-10-30 17:40:56:078 [info] Kill client
+2019-10-30 17:41:36:176 [info] power resumed
+2019-10-30 17:41:36:176 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 17:41:36:313 [error] 2019-10-30 17:41:36 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 17:41:36:313 [error] 2019-10-30 17:41:36 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 17:41:36 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 17:41:36 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 17:41:36 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-10-30 19:08:57:128 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-10-30 19:08:57:134 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 19:08:57:137 [info] pac server listen at: 127.0.0.1:2333
+2019-10-30 19:08:57:138 [info] http proxy server listen at: 127.0.0.1:12333
+2019-10-30 19:08:57:279 [error] 2019-10-30 19:08:57 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-10-30 19:08:57 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 19:08:57 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 19:08:57 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 19:08:57 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-30 19:11:07:366 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-10-30 19:11:08:539 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-10-30 19:11:08:540 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-10-30 19:12:30:352 [info] Kill client
+2019-10-30 19:12:30:366 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s59.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-30 19:12:30:481 [error] 2019-10-30 19:12:30 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-30 19:12:30:482 [error] 2019-10-30 19:12:30 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-30 19:12:30 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-30 19:12:30 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-30 19:12:30 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-30 19:15:13:122 [error] 2019-10-30 19:15:13 ERROR    tcprelay.py:1039 [Errno 110] Connection timed out
+2019-10-30 19:15:13 ERROR    tcprelay.py:1041 remote error, when connect to localhost:80
+
+2019-10-30 19:21:30:826 [info] Kill client
+2019-10-31 00:34:24:029 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-10-31 00:34:24:034 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s59.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-31 00:34:24:038 [info] pac server listen at: 127.0.0.1:2333
+2019-10-31 00:34:24:039 [info] http proxy server listen at: 127.0.0.1:12333
+2019-10-31 00:34:24:145 [error] 2019-10-31 00:34:24 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-31 00:34:24:145 [error] 2019-10-31 00:34:24 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-31 00:34:24 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-31 00:34:24 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-31 00:34:24 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-31 00:34:35:729 [info] Kill client
+2019-10-31 00:34:37:213 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-10-31 00:34:37:218 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s59.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-10-31 00:34:37:222 [info] pac server listen at: 127.0.0.1:2333
+2019-10-31 00:34:37:222 [info] http proxy server listen at: 127.0.0.1:12333
+2019-10-31 00:34:37:323 [error] 2019-10-31 00:34:37 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-10-31 00:34:37:324 [error] 2019-10-31 00:34:37 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-10-31 00:34:37 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-10-31 00:34:37 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-10-31 00:34:37 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-10-31 00:36:46:990 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-10-31 00:37:17:006 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-10-31 00:37:17:008 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-10-31 00:37:47:023 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-10-31 00:37:47:024 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-04 21:17:52:173 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_PROXY_CONNECTION_FAILED
+2019-11-04 21:17:52:259 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-11-04 21:17:52:266 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s59.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-04 21:17:52:273 [info] pac server listen at: 127.0.0.1:2333
+2019-11-04 21:17:52:273 [info] http proxy server listen at: 127.0.0.1:12333
+2019-11-04 21:17:52:275 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_PROXY_CONNECTION_FAILED
+2019-11-04 21:17:52:275 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_PROXY_CONNECTION_FAILED
+2019-11-04 21:17:52:389 [error] 2019-11-04 21:17:52 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-04 21:17:52:389 [error] 2019-11-04 21:17:52 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-11-04 21:17:52 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-04 21:17:52 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-04 21:17:52 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-11-04 21:18:01:353 [info] Kill client
+2019-11-04 21:18:01:367 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-04 21:18:01:534 [error] 2019-11-04 21:18:01 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-04 21:18:01:535 [error] 2019-11-04 21:18:01 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-11-04 21:18:01 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-04 21:18:01 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-04 21:18:01 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-11-04 21:20:34:292 [info] Kill client
+2019-11-04 21:20:34:302 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-04 21:20:34:423 [error] 2019-11-04 21:20:34 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-04 21:20:34:424 [error] 2019-11-04 21:20:34 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-11-04 21:20:34 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-04 21:20:34 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-04 21:20:34 INFO     asyncdns.py:335 dns server: [('202.96.128.86', 53), ('114.114.114.114', 53)]
+
+2019-11-04 21:43:31:882 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2019-11-04 21:43:35:054 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-04 21:43:35:054 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-04 21:43:39:883 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2019-11-04 21:43:40:164 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-04 21:43:40:166 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-04 22:03:16:851 [info] power suspend
+2019-11-04 22:03:16:852 [info] Kill client
+2019-11-04 23:22:59:515 [info] power resumed
+2019-11-04 23:22:59:516 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-04 23:22:59:674 [error] 2019-11-04 23:22:59 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-04 23:22:59:674 [error] 2019-11-04 23:22:59 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-11-04 23:22:59 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-04 23:22:59 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-04 23:22:59 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-11-04 23:25:44:761 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-04 23:25:44:762 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-04 23:25:46:467 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-04 23:25:47:384 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-04 23:25:47:384 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-04 23:26:13:773 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-04 23:26:14:023 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-04 23:26:14:023 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-05 19:06:44:299 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-11-05 19:06:44:306 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s55.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-05 19:06:44:311 [info] pac server listen at: 127.0.0.1:2333
+2019-11-05 19:06:44:312 [info] http proxy server listen at: 127.0.0.1:12333
+2019-11-05 19:06:44:487 [error] 2019-11-05 19:06:44 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-11-05 19:06:44 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+
+2019-11-05 19:06:44:493 [error] 2019-11-05 19:06:44 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 19:06:44 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 19:06:44 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 19:06:44:517 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2019-11-05 19:06:46:206 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-05 19:06:46:206 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-05 19:07:14:631 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2019-11-05 19:07:15:053 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-05 19:07:15:054 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-05 19:07:22:917 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2019-11-05 19:07:23:278 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-05 19:07:23:279 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2019-11-05 19:40:31:431 [info] Kill client
+2019-11-05 19:40:31:436 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-05 19:40:31:558 [error] 2019-11-05 19:40:31 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 19:40:31:558 [error] 2019-11-05 19:40:31 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-11-05 19:40:31 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 19:40:31 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 19:40:31 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 19:45:08:153 [info] Kill client
+2019-11-05 20:03:14:847 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-11-05 20:03:14:859 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-05 20:03:14:864 [info] pac server listen at: 127.0.0.1:2333
+2019-11-05 20:03:14:864 [info] http proxy server listen at: 127.0.0.1:12333
+2019-11-05 20:03:15:007 [error] 2019-11-05 20:03:14 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-11-05 20:03:14 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-11-05 20:03:14 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 20:03:14 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 20:03:14 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 20:05:23:788 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-05 20:06:24:656 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 20:06:24:657 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 20:06:54:688 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 20:06:54:690 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 20:07:24:696 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 20:07:24:698 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 20:09:51:730 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-05 20:09:51:737 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-05 20:10:19:036 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-05 20:10:53:388 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 20:10:53:390 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 20:11:37:244 [error] 2019-11-05 20:11:37 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:37 ERROR    tcprelay.py:396 exception from 127.0.0.1:34006
+
+2019-11-05 20:11:38:360 [error] 2019-11-05 20:11:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:34042
+
+2019-11-05 20:11:38:611 [error] 2019-11-05 20:11:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:34058
+
+2019-11-05 20:11:38:844 [error] 2019-11-05 20:11:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:34064
+
+2019-11-05 20:11:38:846 [error] 2019-11-05 20:11:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:34066
+
+2019-11-05 20:11:39:134 [error] 2019-11-05 20:11:39 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:11:39:136 [error] 2019-11-05 20:11:39 ERROR    tcprelay.py:396 exception from 127.0.0.1:34074
+
+2019-11-05 20:11:45:241 [error] 2019-11-05 20:11:45 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:45 ERROR    tcprelay.py:396 exception from 127.0.0.1:34092
+
+2019-11-05 20:11:45:245 [error] 2019-11-05 20:11:45 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:11:45:246 [error] 2019-11-05 20:11:45 ERROR    tcprelay.py:396 exception from 127.0.0.1:34090
+
+2019-11-05 20:11:46:337 [error] 2019-11-05 20:11:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:34116
+
+2019-11-05 20:11:46:442 [error] 2019-11-05 20:11:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:34128
+
+2019-11-05 20:11:46:701 [error] 2019-11-05 20:11:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:34136
+
+2019-11-05 20:11:47:121 [error] 2019-11-05 20:11:47 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:47 ERROR    tcprelay.py:396 exception from 127.0.0.1:34144
+
+2019-11-05 20:11:54:245 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 20:11:54:247 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 20:11:54:253 [error] 2019-11-05 20:11:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:34158
+2019-11-05 20:11:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:34156
+
+2019-11-05 20:11:54:651 [error] 2019-11-05 20:11:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:34184
+
+2019-11-05 20:11:55:201 [error] 2019-11-05 20:11:55 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:11:55 ERROR    tcprelay.py:396 exception from 127.0.0.1:34208
+
+2019-11-05 20:12:02:293 [error] 2019-11-05 20:12:02 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:02 ERROR    tcprelay.py:396 exception from 127.0.0.1:34218
+
+2019-11-05 20:12:10:561 [error] 2019-11-05 20:12:10 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:12:10:570 [error] 2019-11-05 20:12:10 ERROR    tcprelay.py:396 exception from 127.0.0.1:34248
+2019-11-05 20:12:10 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:10 ERROR    tcprelay.py:396 exception from 127.0.0.1:34252
+
+2019-11-05 20:12:11:254 [error] 2019-11-05 20:12:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:34286
+
+2019-11-05 20:12:11:256 [error] 2019-11-05 20:12:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:34290
+
+2019-11-05 20:12:11:409 [error] 2019-11-05 20:12:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:12:11:411 [error] 2019-11-05 20:12:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:34300
+
+2019-11-05 20:12:11:649 [error] 2019-11-05 20:12:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:34304
+
+2019-11-05 20:12:11:728 [error] 2019-11-05 20:12:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:34310
+
+2019-11-05 20:12:13:250 [error] 2019-11-05 20:12:13 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:13 ERROR    tcprelay.py:396 exception from 127.0.0.1:34334
+
+2019-11-05 20:12:18:345 [error] 2019-11-05 20:12:18 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:12:18:348 [error] 2019-11-05 20:12:18 ERROR    tcprelay.py:396 exception from 127.0.0.1:34358
+
+2019-11-05 20:12:18:450 [error] 2019-11-05 20:12:18 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:18 ERROR    tcprelay.py:396 exception from 127.0.0.1:34370
+
+2019-11-05 20:12:19:384 [error] 2019-11-05 20:12:19 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:12:19:393 [error] 2019-11-05 20:12:19 ERROR    tcprelay.py:396 exception from 127.0.0.1:34386
+2019-11-05 20:12:19 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:19 ERROR    tcprelay.py:396 exception from 127.0.0.1:34390
+
+2019-11-05 20:12:21:897 [error] 2019-11-05 20:12:21 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:21 ERROR    tcprelay.py:396 exception from 127.0.0.1:34454
+
+2019-11-05 20:12:21:899 [error] 2019-11-05 20:12:21 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:21 ERROR    tcprelay.py:396 exception from 127.0.0.1:34450
+
+2019-11-05 20:12:21:901 [error] 2019-11-05 20:12:21 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:21 ERROR    tcprelay.py:396 exception from 127.0.0.1:34452
+
+2019-11-05 20:12:22:043 [error] 2019-11-05 20:12:22 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:22 ERROR    tcprelay.py:396 exception from 127.0.0.1:34462
+
+2019-11-05 20:12:26:291 [error] 2019-11-05 20:12:26 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:26 ERROR    tcprelay.py:396 exception from 127.0.0.1:34484
+
+2019-11-05 20:12:27:301 [error] 2019-11-05 20:12:27 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:27 ERROR    tcprelay.py:396 exception from 127.0.0.1:34496
+
+2019-11-05 20:12:27:302 [error] 2019-11-05 20:12:27 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:27 ERROR    tcprelay.py:396 exception from 127.0.0.1:34494
+
+2019-11-05 20:12:29:268 [error] 2019-11-05 20:12:29 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:29 ERROR    tcprelay.py:396 exception from 127.0.0.1:34576
+
+2019-11-05 20:12:29:508 [error] 2019-11-05 20:12:29 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:29 ERROR    tcprelay.py:396 exception from 127.0.0.1:34592
+
+2019-11-05 20:12:29:821 [error] 2019-11-05 20:12:29 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:29 ERROR    tcprelay.py:396 exception from 127.0.0.1:34602
+
+2019-11-05 20:12:35:341 [error] 2019-11-05 20:12:35 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:12:35:343 [error] 2019-11-05 20:12:35 ERROR    tcprelay.py:396 exception from 127.0.0.1:34608
+
+2019-11-05 20:12:37:280 [error] 2019-11-05 20:12:37 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:12:37:282 [error] 2019-11-05 20:12:37 ERROR    tcprelay.py:396 exception from 127.0.0.1:34624
+2019-11-05 20:12:37 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:37 ERROR    tcprelay.py:396 exception from 127.0.0.1:34626
+
+2019-11-05 20:12:37:597 [error] 2019-11-05 20:12:37 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:37 ERROR    tcprelay.py:396 exception from 127.0.0.1:34634
+
+2019-11-05 20:12:53:243 [error] 2019-11-05 20:12:53 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:53 ERROR    tcprelay.py:396 exception from 127.0.0.1:34680
+
+2019-11-05 20:12:53:244 [error] 2019-11-05 20:12:53 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:53 ERROR    tcprelay.py:396 exception from 127.0.0.1:34678
+
+2019-11-05 20:12:53:492 [error] 2019-11-05 20:12:53 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:12:53 ERROR    tcprelay.py:396 exception from 127.0.0.1:34694
+
+2019-11-05 20:12:55:723 [error] 2019-11-05 20:12:55 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:12:55:725 [error] 2019-11-05 20:12:55 ERROR    tcprelay.py:396 exception from 127.0.0.1:34704
+
+2019-11-05 20:13:04:323 [error] 2019-11-05 20:13:04 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 20:13:04 ERROR    tcprelay.py:396 exception from 127.0.0.1:34722
+
+2019-11-05 20:13:04:630 [error] 2019-11-05 20:13:04 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 20:13:04:632 [error] 2019-11-05 20:13:04 ERROR    tcprelay.py:396 exception from 127.0.0.1:34738
+
+2019-11-05 20:56:11:700 [info] Kill client
+2019-11-05 20:56:11:706 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 20673:fKndD6 -o http_simple -g download.windowsupdate.com -b 127.0.0.1 -l 1080
+2019-11-05 20:56:11:885 [error] 2019-11-05 20:56:11 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 20:56:11:886 [error] 2019-11-05 20:56:11 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [download.windowsupdate.com]
+2019-11-05 20:56:11 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 20:56:11 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 20:56:11 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 20:57:19:892 [info] Kill client
+2019-11-05 20:57:19:897 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 127.0.0.1 -l 1080
+2019-11-05 20:57:20:047 [error] 2019-11-05 20:57:20 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 20:57:20:048 [error] 2019-11-05 20:57:20 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 20:57:20 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 20:57:20 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 20:57:20 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 20:57:53:548 [info] Kill client
+2019-11-05 20:57:53:552 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s35.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 127.0.0.1 -l 1080
+2019-11-05 20:57:53:667 [error] 2019-11-05 20:57:53 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 20:57:53:668 [error] 2019-11-05 20:57:53 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 20:57:53 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 20:57:53 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 20:57:53 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 20:58:18:181 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-05 20:58:55:148 [info] Kill client
+2019-11-05 20:58:55:157 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s56.boom.party -p 53760 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 127.0.0.1 -l 1080
+2019-11-05 20:58:55:331 [error] 2019-11-05 20:58:55 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 20:58:55:332 [error] 2019-11-05 20:58:55 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 20:58:55 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 20:58:55 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 20:58:55 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 20:59:19:634 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 20:59:19:636 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 21:00:20:729 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 21:00:20:730 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_EMPTY_RESPONSE
+2019-11-05 21:00:38:982 [info] Kill client
+2019-11-05 21:00:38:988 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s71.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 127.0.0.1 -l 1080
+2019-11-05 21:00:39:152 [error] 2019-11-05 21:00:39 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:00:39:152 [error] 2019-11-05 21:00:39 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:00:39 INFO     local.py:54 starting local at 127.0.0.1:1080
+2019-11-05 21:00:39 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:00:39 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:02:37:711 [info] Kill client
+2019-11-05 21:02:37:713 [info] http proxy server closed.
+2019-11-05 21:02:37:716 [info] http proxy server listen at: 0.0.0.0:12333
+2019-11-05 21:02:37:726 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s71.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:02:37:872 [error] 2019-11-05 21:02:37 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:02:37:873 [error] 2019-11-05 21:02:37 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:02:37 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:02:37 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:02:37 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:03:54:473 [info] Kill client
+2019-11-05 21:03:58:757 [info] last update time: Tue Nov 05 2019 21:03:58 GMT+0800 (中国标准时间)
+2019-11-05 21:03:58:839 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-11-05 21:03:58:844 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s71.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:03:58:850 [info] pac server listen at: 0.0.0.0:2333
+2019-11-05 21:03:58:851 [info] http proxy server listen at: 0.0.0.0:12333
+2019-11-05 21:03:58:886 [info] next subscribe update time: Wed Nov 06 2019 21:03:58 GMT+0800 (中国标准时间)
+2019-11-05 21:03:59:029 [error] 2019-11-05 21:03:59 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-11-05 21:03:59 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:03:59 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:03:59 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:03:59 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:04:17:131 [info] Kill client
+2019-11-05 21:04:17:148 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s06.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:04:17:366 [error] 2019-11-05 21:04:17 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:04:17:367 [error] 2019-11-05 21:04:17 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:04:17 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:04:17 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:04:17 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:04:44:042 [info] Kill client
+2019-11-05 21:04:44:047 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s11.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:04:44:229 [error] 2019-11-05 21:04:44 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:04:44:229 [error] 2019-11-05 21:04:44 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:04:44 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:04:44 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:04:44 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:06:09:227 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_TIMED_OUT
+2019-11-05 21:06:39:251 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 21:06:39:253 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 21:07:09:271 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 21:07:09:273 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_TIMED_OUT
+2019-11-05 21:07:27:910 [error] 2019-11-05 21:07:27 ERROR    tcprelay.py:1039 [Errno 32] Broken pipe
+2019-11-05 21:07:27 ERROR    tcprelay.py:1041 remote error, when connect to 2001:b28:f23d:f001::a:443
+
+2019-11-05 21:07:29:210 [error] 2019-11-05 21:07:29 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:29 ERROR    tcprelay.py:396 exception from 127.0.0.1:50590
+
+2019-11-05 21:07:29:439 [error] 2019-11-05 21:07:29 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:29 ERROR    tcprelay.py:396 exception from 127.0.0.1:50648
+
+2019-11-05 21:07:29:687 [error] 2019-11-05 21:07:29 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:29 ERROR    tcprelay.py:396 exception from 127.0.0.1:50672
+
+2019-11-05 21:07:30:095 [error] 2019-11-05 21:07:30 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:30:097 [error] 2019-11-05 21:07:30 ERROR    tcprelay.py:396 exception from 127.0.0.1:50708
+
+2019-11-05 21:07:30:744 [error] 2019-11-05 21:07:30 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:30:745 [error] 2019-11-05 21:07:30 ERROR    tcprelay.py:396 exception from 127.0.0.1:50816
+
+2019-11-05 21:07:30:953 [error] 2019-11-05 21:07:30 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:30 ERROR    tcprelay.py:396 exception from 127.0.0.1:50832
+
+2019-11-05 21:07:31:679 [error] 2019-11-05 21:07:31 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:31 ERROR    tcprelay.py:396 exception from 127.0.0.1:50860
+
+2019-11-05 21:07:32:321 [error] 2019-11-05 21:07:32 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:32 ERROR    tcprelay.py:396 exception from 127.0.0.1:50962
+
+2019-11-05 21:07:32:723 [error] 2019-11-05 21:07:32 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:32 ERROR    tcprelay.py:396 exception from 127.0.0.1:51044
+
+2019-11-05 21:07:34:676 [error] 2019-11-05 21:07:34 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:34 ERROR    tcprelay.py:396 exception from 127.0.0.1:51076
+
+2019-11-05 21:07:34:736 [error] 2019-11-05 21:07:34 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:34 ERROR    tcprelay.py:396 exception from 127.0.0.1:51098
+
+2019-11-05 21:07:36:239 [error] 2019-11-05 21:07:36 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:36 ERROR    tcprelay.py:396 exception from 127.0.0.1:51154
+
+2019-11-05 21:07:36:312 [error] 2019-11-05 21:07:36 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:36:315 [error] 2019-11-05 21:07:36 ERROR    tcprelay.py:396 exception from 127.0.0.1:51164
+
+2019-11-05 21:07:38:306 [error] 2019-11-05 21:07:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:51250
+
+2019-11-05 21:07:38:550 [error] 2019-11-05 21:07:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:38:552 [error] 2019-11-05 21:07:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:51294
+
+2019-11-05 21:07:38:621 [error] 2019-11-05 21:07:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:51302
+
+2019-11-05 21:07:38:622 [error] 2019-11-05 21:07:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:51304
+
+2019-11-05 21:07:38:784 [error] 2019-11-05 21:07:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:51326
+
+2019-11-05 21:07:38:784 [error] 2019-11-05 21:07:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:51320
+2019-11-05 21:07:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:51324
+
+2019-11-05 21:07:40:484 [error] 2019-11-05 21:07:40 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:40:485 [error] 2019-11-05 21:07:40 ERROR    tcprelay.py:396 exception from 127.0.0.1:51472
+
+2019-11-05 21:07:40:591 [error] 2019-11-05 21:07:40 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:40 ERROR    tcprelay.py:396 exception from 127.0.0.1:51480
+
+2019-11-05 21:07:45:310 [error] 2019-11-05 21:07:45 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:45 ERROR    tcprelay.py:396 exception from 127.0.0.1:51594
+
+2019-11-05 21:07:45:312 [error] 2019-11-05 21:07:45 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:45 ERROR    tcprelay.py:396 exception from 127.0.0.1:51592
+
+2019-11-05 21:07:46:228 [error] 2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51630
+
+2019-11-05 21:07:46:231 [error] 2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51636
+
+2019-11-05 21:07:46:485 [error] 2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51666
+
+2019-11-05 21:07:46:703 [error] 2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51710
+
+2019-11-05 21:07:46:794 [error] 2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:46:796 [error] 2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51726
+2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51724
+
+2019-11-05 21:07:46:854 [error] 2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51740
+
+2019-11-05 21:07:46:930 [error] 2019-11-05 21:07:46 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:46:932 [error] 2019-11-05 21:07:46 ERROR    tcprelay.py:396 exception from 127.0.0.1:51746
+
+2019-11-05 21:07:47:256 [error] 2019-11-05 21:07:47 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:47 ERROR    tcprelay.py:396 exception from 127.0.0.1:51826
+
+2019-11-05 21:07:47:365 [error] 2019-11-05 21:07:47 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:47:366 [error] 2019-11-05 21:07:47 ERROR    tcprelay.py:396 exception from 127.0.0.1:51844
+
+2019-11-05 21:07:48:513 [error] 2019-11-05 21:07:48 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:48 ERROR    tcprelay.py:396 exception from 127.0.0.1:51938
+
+2019-11-05 21:07:50:797 [error] 2019-11-05 21:07:50 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:50:799 [error] 2019-11-05 21:07:50 ERROR    tcprelay.py:396 exception from 127.0.0.1:51964
+
+2019-11-05 21:07:54:573 [error] 2019-11-05 21:07:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:54:574 [error] 2019-11-05 21:07:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:52024
+
+2019-11-05 21:07:54:769 [error] 2019-11-05 21:07:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:54:770 [error] 2019-11-05 21:07:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:52040
+
+2019-11-05 21:07:54:907 [error] 2019-11-05 21:07:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:54:910 [error] 2019-11-05 21:07:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:52048
+2019-11-05 21:07:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:52044
+
+2019-11-05 21:07:54:974 [error] 2019-11-05 21:07:54 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:54 ERROR    tcprelay.py:396 exception from 127.0.0.1:52056
+
+2019-11-05 21:07:55:024 [error] 2019-11-05 21:07:55 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:07:55:026 [error] 2019-11-05 21:07:55 ERROR    tcprelay.py:396 exception from 127.0.0.1:52060
+
+2019-11-05 21:07:59:378 [error] 2019-11-05 21:07:59 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:07:59 ERROR    tcprelay.py:396 exception from 127.0.0.1:52128
+
+2019-11-05 21:08:01:211 [error] 2019-11-05 21:08:01 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:01 ERROR    tcprelay.py:396 exception from 127.0.0.1:52198
+
+2019-11-05 21:08:01:794 [error] 2019-11-05 21:08:01 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:01 ERROR    tcprelay.py:396 exception from 127.0.0.1:52240
+
+2019-11-05 21:08:02:881 [error] 2019-11-05 21:08:02 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:02:882 [error] 2019-11-05 21:08:02 ERROR    tcprelay.py:396 exception from 127.0.0.1:52324
+
+2019-11-05 21:08:02:975 [error] 2019-11-05 21:08:02 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:02:976 [error] 2019-11-05 21:08:02 ERROR    tcprelay.py:396 exception from 127.0.0.1:52328
+
+2019-11-05 21:08:03:188 [error] 2019-11-05 21:08:03 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:03 ERROR    tcprelay.py:396 exception from 127.0.0.1:52348
+
+2019-11-05 21:08:03:231 [error] 2019-11-05 21:08:03 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:03:232 [error] 2019-11-05 21:08:03 ERROR    tcprelay.py:396 exception from 127.0.0.1:52352
+
+2019-11-05 21:08:03:345 [error] 2019-11-05 21:08:03 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:03 ERROR    tcprelay.py:396 exception from 127.0.0.1:52388
+
+2019-11-05 21:08:03:367 [error] 2019-11-05 21:08:03 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:03 ERROR    tcprelay.py:396 exception from 127.0.0.1:52392
+
+2019-11-05 21:08:03:395 [error] 2019-11-05 21:08:03 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:03 ERROR    tcprelay.py:396 exception from 127.0.0.1:52396
+
+2019-11-05 21:08:04:560 [error] 2019-11-05 21:08:04 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:04:561 [error] 2019-11-05 21:08:04 ERROR    tcprelay.py:396 exception from 127.0.0.1:52406
+
+2019-11-05 21:08:10:378 [error] 2019-11-05 21:08:10 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:10:379 [error] 2019-11-05 21:08:10 ERROR    tcprelay.py:396 exception from 127.0.0.1:52468
+
+2019-11-05 21:08:10:595 [error] 2019-11-05 21:08:10 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:10 ERROR    tcprelay.py:396 exception from 127.0.0.1:52488
+
+2019-11-05 21:08:11:093 [error] 2019-11-05 21:08:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:52528
+
+2019-11-05 21:08:11:094 [error] 2019-11-05 21:08:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:52526
+
+2019-11-05 21:08:11:228 [error] 2019-11-05 21:08:11 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:11 ERROR    tcprelay.py:396 exception from 127.0.0.1:52540
+
+2019-11-05 21:08:12:409 [error] 2019-11-05 21:08:12 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:12 ERROR    tcprelay.py:396 exception from 127.0.0.1:52552
+
+2019-11-05 21:08:14:823 [error] 2019-11-05 21:08:14 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:14 ERROR    tcprelay.py:396 exception from 127.0.0.1:52592
+
+2019-11-05 21:08:18:507 [error] 2019-11-05 21:08:18 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:18 ERROR    tcprelay.py:396 exception from 127.0.0.1:52646
+
+2019-11-05 21:08:18:508 [error] 2019-11-05 21:08:18 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:18 ERROR    tcprelay.py:396 exception from 127.0.0.1:52650
+
+2019-11-05 21:08:18:589 [error] 2019-11-05 21:08:18 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:18:591 [error] 2019-11-05 21:08:18 ERROR    tcprelay.py:396 exception from 127.0.0.1:52668
+
+2019-11-05 21:08:18:854 [error] 2019-11-05 21:08:18 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:18 ERROR    tcprelay.py:396 exception from 127.0.0.1:52710
+
+2019-11-05 21:08:19:842 [error] 2019-11-05 21:08:19 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:19 ERROR    tcprelay.py:396 exception from 127.0.0.1:52738
+
+2019-11-05 21:08:19:844 [error] 2019-11-05 21:08:19 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:19 ERROR    tcprelay.py:396 exception from 127.0.0.1:52736
+
+2019-11-05 21:08:20:350 [error] 2019-11-05 21:08:20 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:20:352 [error] 2019-11-05 21:08:20 ERROR    tcprelay.py:396 exception from 127.0.0.1:52856
+
+2019-11-05 21:08:21:451 [error] 2019-11-05 21:08:21 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:21 ERROR    tcprelay.py:396 exception from 127.0.0.1:52892
+
+2019-11-05 21:08:21:621 [error] 2019-11-05 21:08:21 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:21 ERROR    tcprelay.py:396 exception from 127.0.0.1:52910
+
+2019-11-05 21:08:21:623 [error] 2019-11-05 21:08:21 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:21 ERROR    tcprelay.py:396 exception from 127.0.0.1:52908
+
+2019-11-05 21:08:23:701 [error] 2019-11-05 21:08:23 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:23 ERROR    tcprelay.py:396 exception from 127.0.0.1:52922
+
+2019-11-05 21:08:23:765 [error] 2019-11-05 21:08:23 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:23 ERROR    tcprelay.py:396 exception from 127.0.0.1:52936
+
+2019-11-05 21:08:26:409 [error] 2019-11-05 21:08:26 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:26 ERROR    tcprelay.py:396 exception from 127.0.0.1:52988
+
+2019-11-05 21:08:26:562 [error] 2019-11-05 21:08:26 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:26 ERROR    tcprelay.py:396 exception from 127.0.0.1:53010
+
+2019-11-05 21:08:26:563 [error] 2019-11-05 21:08:26 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:26 ERROR    tcprelay.py:396 exception from 127.0.0.1:53004
+
+2019-11-05 21:08:26:689 [error] 2019-11-05 21:08:26 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:26 ERROR    tcprelay.py:396 exception from 127.0.0.1:53036
+
+2019-11-05 21:08:27:010 [error] 2019-11-05 21:08:27 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:27 ERROR    tcprelay.py:396 exception from 127.0.0.1:53092
+
+2019-11-05 21:08:27:285 [error] 2019-11-05 21:08:27 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:27 ERROR    tcprelay.py:396 exception from 127.0.0.1:53128
+
+2019-11-05 21:08:27:287 [error] 2019-11-05 21:08:27 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:27 ERROR    tcprelay.py:396 exception from 127.0.0.1:53130
+
+2019-11-05 21:08:28:349 [error] 2019-11-05 21:08:28 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:28:351 [error] 2019-11-05 21:08:28 ERROR    tcprelay.py:396 exception from 127.0.0.1:53144
+
+2019-11-05 21:08:28:401 [error] 2019-11-05 21:08:28 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:28 ERROR    tcprelay.py:396 exception from 127.0.0.1:53156
+
+2019-11-05 21:08:28:483 [error] 2019-11-05 21:08:28 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:28 ERROR    tcprelay.py:396 exception from 127.0.0.1:53164
+
+2019-11-05 21:08:30:696 [error] 2019-11-05 21:08:30 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:30 ERROR    tcprelay.py:396 exception from 127.0.0.1:53184
+
+2019-11-05 21:08:30:713 [error] 2019-11-05 21:08:30 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:30 ERROR    tcprelay.py:396 exception from 127.0.0.1:53186
+
+2019-11-05 21:08:30:806 [error] 2019-11-05 21:08:30 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:30 ERROR    tcprelay.py:396 exception from 127.0.0.1:53208
+
+2019-11-05 21:08:32:290 [error] 2019-11-05 21:08:32 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:32 ERROR    tcprelay.py:396 exception from 127.0.0.1:53244
+
+2019-11-05 21:08:34:319 [error] 2019-11-05 21:08:34 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:34:320 [error] 2019-11-05 21:08:34 ERROR    tcprelay.py:396 exception from 127.0.0.1:53332
+
+2019-11-05 21:08:34:658 [error] 2019-11-05 21:08:34 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:34 ERROR    tcprelay.py:396 exception from 127.0.0.1:53364
+
+2019-11-05 21:08:36:423 [error] 2019-11-05 21:08:36 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:08:36 ERROR    tcprelay.py:987 exception from 127.0.0.1:53402
+
+2019-11-05 21:08:37:701 [error] 2019-11-05 21:08:37 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:37 ERROR    tcprelay.py:396 exception from 127.0.0.1:53446
+
+2019-11-05 21:08:38:071 [error] 2019-11-05 21:08:38 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:38 ERROR    tcprelay.py:396 exception from 127.0.0.1:53480
+
+2019-11-05 21:08:39:320 [error] 2019-11-05 21:08:39 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:39 ERROR    tcprelay.py:396 exception from 127.0.0.1:53504
+
+2019-11-05 21:08:41:735 [error] 2019-11-05 21:08:41 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:41:736 [error] 2019-11-05 21:08:41 ERROR    tcprelay.py:396 exception from 127.0.0.1:53516
+2019-11-05 21:08:41 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:41 ERROR    tcprelay.py:396 exception from 127.0.0.1:53520
+
+2019-11-05 21:08:41:835 [error] 2019-11-05 21:08:41 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:41:836 [error] 2019-11-05 21:08:41 ERROR    tcprelay.py:396 exception from 127.0.0.1:53528
+
+2019-11-05 21:08:42:631 [error] 2019-11-05 21:08:42 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:42 ERROR    tcprelay.py:396 exception from 127.0.0.1:53576
+
+2019-11-05 21:08:43:189 [error] 2019-11-05 21:08:43 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:43:191 [error] 2019-11-05 21:08:43 ERROR    tcprelay.py:396 exception from 127.0.0.1:53630
+
+2019-11-05 21:08:43:194 [error] 2019-11-05 21:08:43 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:43 ERROR    tcprelay.py:396 exception from 127.0.0.1:53628
+
+2019-11-05 21:08:43:320 [error] 2019-11-05 21:08:43 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+
+2019-11-05 21:08:43:321 [error] 2019-11-05 21:08:43 ERROR    tcprelay.py:396 exception from 127.0.0.1:53668
+
+2019-11-05 21:08:50:713 [error] 2019-11-05 21:08:50 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:50 ERROR    tcprelay.py:396 exception from 127.0.0.1:53800
+
+2019-11-05 21:08:50:789 [error] 2019-11-05 21:08:50 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:50 ERROR    tcprelay.py:396 exception from 127.0.0.1:53804
+
+2019-11-05 21:08:53:024 [error] 2019-11-05 21:08:53 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:53 ERROR    tcprelay.py:396 exception from 127.0.0.1:53864
+
+2019-11-05 21:08:53:307 [error] 2019-11-05 21:08:53 ERROR    shell.py:49 [Errno 104] Connection reset by peer
+2019-11-05 21:08:53 ERROR    tcprelay.py:396 exception from 127.0.0.1:53872
+
+2019-11-05 21:09:07:441 [error] 2019-11-05 21:09:07 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:09:07 ERROR    tcprelay.py:987 exception from 127.0.0.1:54008
+
+2019-11-05 21:09:23:513 [error] 2019-11-05 21:09:23 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:09:23:522 [error] 2019-11-05 21:09:23 ERROR    tcprelay.py:987 exception from 127.0.0.1:54142
+
+2019-11-05 21:09:36:619 [error] 2019-11-05 21:09:36 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:09:36:621 [error] 2019-11-05 21:09:36 ERROR    tcprelay.py:987 exception from 127.0.0.1:54266
+
+2019-11-05 21:09:45:396 [error] 2019-11-05 21:09:45 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:09:45 ERROR    tcprelay.py:987 exception from 127.0.0.1:54430
+
+2019-11-05 21:09:45:543 [error] 2019-11-05 21:09:45 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:09:45:544 [error] 2019-11-05 21:09:45 ERROR    tcprelay.py:987 exception from 127.0.0.1:54436
+2019-11-05 21:09:45 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:09:45 ERROR    tcprelay.py:987 exception from 127.0.0.1:54420
+
+2019-11-05 21:09:45:545 [error] 2019-11-05 21:09:45 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:09:45 ERROR    tcprelay.py:987 exception from 127.0.0.1:54428
+
+2019-11-05 21:09:46:548 [error] 2019-11-05 21:09:46 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:09:46 ERROR    tcprelay.py:987 exception from 127.0.0.1:54466
+
+2019-11-05 21:09:49:882 [error] 2019-11-05 21:09:49 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:09:49 ERROR    tcprelay.py:987 exception from 127.0.0.1:54552
+
+2019-11-05 21:09:55:576 [error] 2019-11-05 21:09:55 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:09:55:578 [error] 2019-11-05 21:09:55 ERROR    tcprelay.py:987 exception from 127.0.0.1:54654
+
+2019-11-05 21:09:56:474 [error] 2019-11-05 21:09:56 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:09:56:475 [error] 2019-11-05 21:09:56 ERROR    tcprelay.py:987 exception from 127.0.0.1:54680
+
+2019-11-05 21:10:02:411 [error] 2019-11-05 21:10:02 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:10:02:412 [error] 2019-11-05 21:10:02 ERROR    tcprelay.py:987 exception from 127.0.0.1:54784
+
+2019-11-05 21:10:06:657 [error] 2019-11-05 21:10:06 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:10:06 ERROR    tcprelay.py:987 exception from 127.0.0.1:54834
+
+2019-11-05 21:10:10:474 [error] 2019-11-05 21:10:10 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:10:10:475 [error] 2019-11-05 21:10:10 ERROR    tcprelay.py:987 exception from 127.0.0.1:54922
+
+2019-11-05 21:10:20:782 [error] 2019-11-05 21:10:20 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:10:20 ERROR    tcprelay.py:987 exception from 127.0.0.1:55082
+
+2019-11-05 21:10:22:924 [info] Kill client
+2019-11-05 21:10:22:929 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s114.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:10:23:070 [error] 2019-11-05 21:10:23 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:10:23:070 [error] 2019-11-05 21:10:23 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:10:23 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:10:23 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:10:23 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:10:24:555 [error] 2019-11-05 21:10:24 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:10:24:557 [error] 2019-11-05 21:10:24 ERROR    tcprelay.py:987 exception from 127.0.0.1:55186
+
+2019-11-05 21:10:27:495 [error] 2019-11-05 21:10:27 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:10:27 ERROR    tcprelay.py:987 exception from 127.0.0.1:55272
+
+2019-11-05 21:10:40:435 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:436 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.50:80
+
+2019-11-05 21:10:40:437 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:438 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.55:80
+
+2019-11-05 21:10:40:439 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:447 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:40:463 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:464 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:40:473 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:40:494 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:495 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:40:498 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:40:501 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:502 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.55:80
+
+2019-11-05 21:10:40:513 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:515 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.50:80
+
+2019-11-05 21:10:40:524 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:526 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:531 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:532 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:40:537 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:538 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:544 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:545 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:40:560 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:562 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:40:570 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:572 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:40:610 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:40:619 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:621 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.50:80
+
+2019-11-05 21:10:40:633 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:635 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.55:80
+
+2019-11-05 21:10:40:689 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:692 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:694 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:795 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:797 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:804 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:443
+
+2019-11-05 21:10:40:817 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 2001:67c:4e8:f002::a:443
+
+2019-11-05 21:10:40:819 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:820 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:887 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:40:889 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:40:981 [error] 2019-11-05 21:10:40 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:40 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:41:079 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:41:081 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:41:204 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:41:205 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 2001:b28:f23f:f005::a:443
+2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:41:207 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:443
+2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:41:208 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:443
+
+2019-11-05 21:10:41:223 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:443
+
+2019-11-05 21:10:41:240 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.167.51:80
+
+2019-11-05 21:10:41:259 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 2001:67c:4e8:f002::a:443
+
+2019-11-05 21:10:41:291 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:41:362 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:41:444 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:41:446 [error] 2019-11-05 21:10:41 ERROR    tcprelay.py:1041 remote error, when connect to 91.108.56.130:80
+
+2019-11-05 21:10:43:195 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:43:197 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:43:238 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:43:239 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:443
+2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:43:241 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 2001:b28:f23d:f003::a:443
+
+2019-11-05 21:10:43:273 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:43:275 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:43:368 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:43:369 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:43:454 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:43:456 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:43:518 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:443
+
+2019-11-05 21:10:43:519 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:43:579 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:43:580 [error] 2019-11-05 21:10:43 ERROR    tcprelay.py:1041 remote error, when connect to 2001:b28:f23d:f003::a:443
+
+2019-11-05 21:10:44:403 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:44:403 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:44:478 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:44:546 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:44:638 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:44:640 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.171.5:80
+
+2019-11-05 21:10:44:661 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:44:662 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:44:729 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:44:730 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:44:794 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:44:796 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:44:873 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:44:874 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 2001:b28:f23d:f003::a:443
+
+2019-11-05 21:10:44:886 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:44:889 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:443
+
+2019-11-05 21:10:44:954 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:44:955 [error] 2019-11-05 21:10:44 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:45:037 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:45:129 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:45:195 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:443
+
+2019-11-05 21:10:45:196 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:45:241 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:45:242 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:45:250 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:45:254 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 2001:b28:f23d:f003::a:443
+
+2019-11-05 21:10:45:427 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:45:428 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:45:632 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:45:633 [error] 2019-11-05 21:10:45 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:46:727 [error] 2019-11-05 21:10:46 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:46:728 [error] 2019-11-05 21:10:46 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:443
+
+2019-11-05 21:10:46:763 [error] 2019-11-05 21:10:46 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:46:764 [error] 2019-11-05 21:10:46 ERROR    tcprelay.py:1041 remote error, when connect to 2001:b28:f23d:f003::a:443
+
+2019-11-05 21:10:46:773 [error] 2019-11-05 21:10:46 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:46 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:46:964 [error] 2019-11-05 21:10:46 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+2019-11-05 21:10:46 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:47:043 [error] 2019-11-05 21:10:47 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:47:044 [error] 2019-11-05 21:10:47 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:10:47:167 [error] 2019-11-05 21:10:47 ERROR    tcprelay.py:1039 [Errno 111] Connection refused
+
+2019-11-05 21:10:47:169 [error] 2019-11-05 21:10:47 ERROR    tcprelay.py:1041 remote error, when connect to 149.154.175.100:80
+
+2019-11-05 21:12:24:385 [info] Kill client
+2019-11-05 21:12:24:392 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s71.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:12:24:537 [error] 2019-11-05 21:12:24 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:12:24:537 [error] 2019-11-05 21:12:24 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:12:24 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:12:24 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2019-11-05 21:12:24:539 [error] 2019-11-05 21:12:24 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:28:04:169 [error] 2019-11-05 21:28:04 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:28:04:171 [error] 2019-11-05 21:28:04 ERROR    tcprelay.py:987 exception from 127.0.0.1:57534
+
+2019-11-05 21:28:10:991 [error] 2019-11-05 21:28:10 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:28:10 ERROR    tcprelay.py:987 exception from 127.0.0.1:57610
+
+2019-11-05 21:28:10:992 [error] 2019-11-05 21:28:10 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:28:10 ERROR    tcprelay.py:987 exception from 127.0.0.1:57612
+
+2019-11-05 21:28:35:699 [error] 2019-11-05 21:28:35 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:28:35 ERROR    tcprelay.py:987 exception from 127.0.0.1:57852
+
+2019-11-05 21:28:36:942 [error] 2019-11-05 21:28:36 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:28:36:943 [error] 2019-11-05 21:28:36 ERROR    tcprelay.py:987 exception from 127.0.0.1:57884
+2019-11-05 21:28:36 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:28:36 ERROR    tcprelay.py:987 exception from 127.0.0.1:57886
+
+2019-11-05 21:28:43:820 [error] 2019-11-05 21:28:43 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:28:43:821 [error] 2019-11-05 21:28:43 ERROR    tcprelay.py:987 exception from 127.0.0.1:57944
+
+2019-11-05 21:29:11:243 [error] 2019-11-05 21:29:11 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:29:11 ERROR    tcprelay.py:987 exception from 127.0.0.1:58226
+
+2019-11-05 21:29:40:015 [error] 2019-11-05 21:29:40 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:29:40 ERROR    tcprelay.py:987 exception from 127.0.0.1:58482
+
+2019-11-05 21:29:40:087 [error] 2019-11-05 21:29:40 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:29:40 ERROR    tcprelay.py:987 exception from 127.0.0.1:58488
+
+2019-11-05 21:29:40:224 [error] 2019-11-05 21:29:40 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:29:40:227 [error] 2019-11-05 21:29:40 ERROR    tcprelay.py:987 exception from 127.0.0.1:58484
+
+2019-11-05 21:30:03:954 [error] 2019-11-05 21:30:03 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:30:03 ERROR    tcprelay.py:987 exception from 127.0.0.1:58720
+
+2019-11-05 21:30:12:062 [error] 2019-11-05 21:30:12 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:30:12 ERROR    tcprelay.py:987 exception from 127.0.0.1:58826
+
+2019-11-05 21:30:12:785 [error] 2019-11-05 21:30:12 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:30:12:786 [error] 2019-11-05 21:30:12 ERROR    tcprelay.py:987 exception from 127.0.0.1:58844
+
+2019-11-05 21:30:21:291 [error] 2019-11-05 21:30:21 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:30:21:292 [error] 2019-11-05 21:30:21 ERROR    tcprelay.py:987 exception from 127.0.0.1:58924
+
+2019-11-05 21:30:28:969 [error] 2019-11-05 21:30:28 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:30:28:970 [error] 2019-11-05 21:30:28 ERROR    tcprelay.py:987 exception from 127.0.0.1:59004
+
+2019-11-05 21:30:37:012 [error] 2019-11-05 21:30:37 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:30:37 ERROR    tcprelay.py:987 exception from 127.0.0.1:59070
+
+2019-11-05 21:30:37:834 [error] 2019-11-05 21:30:37 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:30:37:835 [error] 2019-11-05 21:30:37 ERROR    tcprelay.py:987 exception from 127.0.0.1:59082
+
+2019-11-05 21:30:37:891 [error] 2019-11-05 21:30:37 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:30:37 ERROR    tcprelay.py:987 exception from 127.0.0.1:59094
+
+2019-11-05 21:30:38:666 [error] 2019-11-05 21:30:38 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:30:38:668 [error] 2019-11-05 21:30:38 ERROR    tcprelay.py:987 exception from 127.0.0.1:59104
+
+2019-11-05 21:30:44:942 [error] 2019-11-05 21:30:44 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:30:44 ERROR    tcprelay.py:987 exception from 127.0.0.1:59200
+
+2019-11-05 21:30:53:029 [error] 2019-11-05 21:30:53 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:30:53 ERROR    tcprelay.py:987 exception from 127.0.0.1:59314
+
+2019-11-05 21:30:53:848 [error] 2019-11-05 21:30:53 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:30:53 ERROR    tcprelay.py:987 exception from 127.0.0.1:59338
+
+2019-11-05 21:31:02:961 [error] 2019-11-05 21:31:02 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:31:02 ERROR    tcprelay.py:987 exception from 127.0.0.1:59518
+
+2019-11-05 21:31:07:986 [error] 2019-11-05 21:31:07 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:31:07 ERROR    tcprelay.py:987 exception from 127.0.0.1:59586
+
+2019-11-05 21:31:15:966 [error] 2019-11-05 21:31:15 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:31:15:967 [error] 2019-11-05 21:31:15 ERROR    tcprelay.py:987 exception from 127.0.0.1:59672
+
+2019-11-05 21:31:18:941 [error] 2019-11-05 21:31:18 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:31:18 ERROR    tcprelay.py:987 exception from 127.0.0.1:59728
+
+2019-11-05 21:31:32:865 [error] 2019-11-05 21:31:32 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:31:32 ERROR    tcprelay.py:987 exception from 127.0.0.1:59874
+
+2019-11-05 21:31:50:055 [error] 2019-11-05 21:31:50 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:31:50 ERROR    tcprelay.py:987 exception from 127.0.0.1:60074
+
+2019-11-05 21:31:50:986 [error] 2019-11-05 21:31:50 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:31:50 ERROR    tcprelay.py:987 exception from 127.0.0.1:60088
+
+2019-11-05 21:31:57:846 [error] 2019-11-05 21:31:57 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:31:57:848 [error] 2019-11-05 21:31:57 ERROR    tcprelay.py:987 exception from 127.0.0.1:60172
+
+2019-11-05 21:33:15:805 [error] 2019-11-05 21:33:15 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:33:15 ERROR    tcprelay.py:987 exception from 127.0.0.1:60992
+
+2019-11-05 21:33:16:955 [error] 2019-11-05 21:33:16 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:33:16 ERROR    tcprelay.py:987 exception from 127.0.0.1:32788
+
+2019-11-05 21:33:22:931 [error] 2019-11-05 21:33:22 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:33:22 ERROR    tcprelay.py:987 exception from 127.0.0.1:32840
+
+2019-11-05 21:33:32:975 [error] 2019-11-05 21:33:32 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:33:32 ERROR    tcprelay.py:987 exception from 127.0.0.1:32960
+
+2019-11-05 21:33:39:123 [error] 2019-11-05 21:33:39 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:33:39:125 [error] 2019-11-05 21:33:39 ERROR    tcprelay.py:987 exception from 127.0.0.1:33008
+
+2019-11-05 21:33:41:141 [error] 2019-11-05 21:33:41 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:33:41:143 [error] 2019-11-05 21:33:41 ERROR    tcprelay.py:987 exception from 127.0.0.1:33048
+
+2019-11-05 21:34:03:991 [error] 2019-11-05 21:34:03 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:34:03 ERROR    tcprelay.py:987 exception from 127.0.0.1:33278
+
+2019-11-05 21:34:19:892 [error] 2019-11-05 21:34:19 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:34:19 ERROR    tcprelay.py:987 exception from 127.0.0.1:33466
+
+2019-11-05 21:34:23:152 [error] 2019-11-05 21:34:23 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:34:23 ERROR    tcprelay.py:987 exception from 127.0.0.1:33524
+
+2019-11-05 21:34:28:070 [error] 2019-11-05 21:34:28 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:34:28 ERROR    tcprelay.py:987 exception from 127.0.0.1:33546
+
+2019-11-05 21:34:30:118 [error] 2019-11-05 21:34:30 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:34:30 ERROR    tcprelay.py:987 exception from 127.0.0.1:33596
+
+2019-11-05 21:34:30:119 [error] 2019-11-05 21:34:30 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:34:30 ERROR    tcprelay.py:987 exception from 127.0.0.1:33598
+
+2019-11-05 21:34:37:101 [error] 2019-11-05 21:34:37 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:34:37 ERROR    tcprelay.py:987 exception from 127.0.0.1:33670
+
+2019-11-05 21:35:07:925 [error] 2019-11-05 21:35:07 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 21:35:07:927 [error] 2019-11-05 21:35:07 ERROR    tcprelay.py:987 exception from 127.0.0.1:33992
+
+2019-11-05 21:35:37:687 [info] Kill client
+2019-11-05 21:35:37:691 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s72.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:35:37:824 [error] 2019-11-05 21:35:37 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:35:37:825 [error] 2019-11-05 21:35:37 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:35:37 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:35:37 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:35:37 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:36:13:938 [info] Kill client
+2019-11-05 21:36:13:942 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s03.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:36:14:058 [error] 2019-11-05 21:36:14 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:36:14:058 [error] 2019-11-05 21:36:14 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:36:14 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:36:14 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:36:14 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:36:52:331 [info] Kill client
+2019-11-05 21:36:52:336 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s35.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:36:52:472 [error] 2019-11-05 21:36:52 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:36:52:473 [error] 2019-11-05 21:36:52 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:36:52 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:36:52 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:36:52 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:37:07:205 [info] Kill client
+2019-11-05 21:37:07:208 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s21.boom.party -p 53745 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:37:07:350 [error] 2019-11-05 21:37:07 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:37:07:351 [error] 2019-11-05 21:37:07 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:37:07 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:37:07 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:37:07 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:38:34:370 [info] Kill client
+2019-11-05 21:38:34:376 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s17.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:38:34:544 [error] 2019-11-05 21:38:34 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:38:34:544 [error] 2019-11-05 21:38:34 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:38:34 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:38:34 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:38:34 INFO     asyncdns.py:335 dns server: [('192.168.43.57', 53)]
+
+2019-11-05 21:38:44:682 [error] 2019-11-05 21:38:44 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 21:38:44 ERROR    tcprelay.py:987 exception from 127.0.0.1:38652
+
+2019-11-05 21:47:21:106 [info] power suspend
+2019-11-05 21:47:21:106 [info] Kill client
+2019-11-05 21:48:10:568 [info] power resumed
+2019-11-05 21:48:10:569 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s17.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 21:48:10:579 [info] next subscribe update time: Wed Nov 06 2019 21:03:58 GMT+0800 (中国标准时间)
+2019-11-05 21:48:10:704 [error] 2019-11-05 21:48:10 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 21:48:10:704 [error] 2019-11-05 21:48:10 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 21:48:10 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 21:48:10 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 21:48:10 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-11-05 21:48:11:521 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44544
+
+2019-11-05 21:48:11:522 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44546
+
+2019-11-05 21:48:11:524 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44548
+2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44550
+
+2019-11-05 21:48:11:524 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44552
+
+2019-11-05 21:48:11:525 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44554
+
+2019-11-05 21:48:11:529 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44556
+
+2019-11-05 21:48:11:529 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44558
+
+2019-11-05 21:48:11:530 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44560
+
+2019-11-05 21:48:11:531 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44562
+
+2019-11-05 21:48:11:533 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44564
+
+2019-11-05 21:48:11:534 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44566
+
+2019-11-05 21:48:11:539 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44568
+
+2019-11-05 21:48:11:540 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44570
+2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44572
+
+2019-11-05 21:48:11:540 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44574
+
+2019-11-05 21:48:11:541 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44576
+
+2019-11-05 21:48:11:541 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44578
+
+2019-11-05 21:48:11:546 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44580
+
+2019-11-05 21:48:11:547 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44582
+2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44584
+
+2019-11-05 21:48:11:547 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44586
+
+2019-11-05 21:48:11:549 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44588
+
+2019-11-05 21:48:11:549 [error] 2019-11-05 21:48:11 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44590
+
+2019-11-05 21:48:12:522 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44592
+
+2019-11-05 21:48:12:524 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44594
+
+2019-11-05 21:48:12:524 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44598
+
+2019-11-05 21:48:12:525 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44596
+
+2019-11-05 21:48:12:526 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44602
+
+2019-11-05 21:48:12:526 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44604
+
+2019-11-05 21:48:12:527 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44606
+
+2019-11-05 21:48:12:527 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44608
+
+2019-11-05 21:48:12:528 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44610
+
+2019-11-05 21:48:12:528 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44612
+
+2019-11-05 21:48:12:528 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44614
+
+2019-11-05 21:48:12:529 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44616
+
+2019-11-05 21:48:12:530 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44618
+
+2019-11-05 21:48:12:530 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44620
+2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44622
+
+2019-11-05 21:48:12:531 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44624
+
+2019-11-05 21:48:12:531 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44626
+
+2019-11-05 21:48:12:532 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44628
+
+2019-11-05 21:48:12:553 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44634
+
+2019-11-05 21:48:12:554 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44630
+
+2019-11-05 21:48:12:554 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44632
+
+2019-11-05 21:48:12:556 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44636
+
+2019-11-05 21:48:12:557 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44638
+
+2019-11-05 21:48:12:558 [error] 2019-11-05 21:48:12 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:44640
+
+2019-11-05 21:50:02:710 [info] power suspend
+2019-11-05 21:50:02:711 [info] Kill client
+2019-11-05 22:13:54:577 [info] power resumed
+2019-11-05 22:13:54:578 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s17.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-11-05 22:13:54:588 [info] next subscribe update time: Wed Nov 06 2019 21:03:58 GMT+0800 (中国标准时间)
+2019-11-05 22:13:54:742 [error] 2019-11-05 22:13:54 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2019-11-05 22:13:54:742 [error] 2019-11-05 22:13:54 INFO     local.py:50 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-11-05 22:13:54 INFO     local.py:54 starting local at 0.0.0.0:1080
+2019-11-05 22:13:54 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-11-05 22:13:54 INFO     asyncdns.py:335 dns server: [('8.8.4.4', 53), ('8.8.8.8', 53)]
+
+2019-11-05 22:13:55:580 [error] 2019-11-05 22:13:55 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46032
+
+2019-11-05 22:13:55:580 [error] 2019-11-05 22:13:55 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46034
+
+2019-11-05 22:13:55:581 [error] 2019-11-05 22:13:55 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46036
+
+2019-11-05 22:13:55:582 [error] 2019-11-05 22:13:55 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46038
+
+2019-11-05 22:13:55:582 [error] 2019-11-05 22:13:55 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46040
+
+2019-11-05 22:13:55:583 [error] 2019-11-05 22:13:55 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46042
+
+2019-11-05 22:13:57:488 [error] 2019-11-05 22:13:57 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46044
+
+2019-11-05 22:13:57:489 [error] 2019-11-05 22:13:57 ERROR    tcprelay.py:1097 [Errno 101] Network is unreachable when handling connection from 127.0.0.1:46046
+
+2019-11-05 22:14:03:206 [error] 2019-11-05 22:14:03 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:14:03 ERROR    tcprelay.py:987 exception from 127.0.0.1:46074
+
+2019-11-05 22:14:09:661 [error] 2019-11-05 22:14:09 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:14:09 ERROR    tcprelay.py:987 exception from 127.0.0.1:46170
+
+2019-11-05 22:14:19:405 [error] 2019-11-05 22:14:19 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:14:19 ERROR    tcprelay.py:987 exception from 127.0.0.1:46266
+
+2019-11-05 22:14:27:321 [error] 2019-11-05 22:14:27 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:14:27 ERROR    tcprelay.py:987 exception from 127.0.0.1:46364
+
+2019-11-05 22:14:52:221 [error] 2019-11-05 22:14:52 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:14:52 ERROR    tcprelay.py:987 exception from 127.0.0.1:46702
+
+2019-11-05 22:14:57:597 [error] 2019-11-05 22:14:57 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:14:57 ERROR    tcprelay.py:987 exception from 127.0.0.1:46724
+
+2019-11-05 22:15:45:723 [error] 2019-11-05 22:15:45 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:15:45 ERROR    tcprelay.py:987 exception from 127.0.0.1:47342
+
+2019-11-05 22:15:55:203 [error] 2019-11-05 22:15:55 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:15:55 ERROR    tcprelay.py:987 exception from 127.0.0.1:47420
+
+2019-11-05 22:16:27:243 [error] 2019-11-05 22:16:27 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:16:27 ERROR    tcprelay.py:987 exception from 127.0.0.1:47796
+
+2019-11-05 22:16:53:189 [error] 2019-11-05 22:16:53 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:16:53 ERROR    tcprelay.py:987 exception from 127.0.0.1:48098
+
+2019-11-05 22:17:33:574 [error] 2019-11-05 22:17:33 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:17:33:576 [error] 2019-11-05 22:17:33 ERROR    tcprelay.py:987 exception from 127.0.0.1:48560
+
+2019-11-05 22:17:40:120 [error] 2019-11-05 22:17:40 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:17:40:122 [error] 2019-11-05 22:17:40 ERROR    tcprelay.py:987 exception from 127.0.0.1:48590
+
+2019-11-05 22:17:55:261 [error] 2019-11-05 22:17:55 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:17:55:262 [error] 2019-11-05 22:17:55 ERROR    tcprelay.py:987 exception from 127.0.0.1:48748
+
+2019-11-05 22:18:07:447 [error] 2019-11-05 22:18:07 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:18:07 ERROR    tcprelay.py:987 exception from 127.0.0.1:48912
+
+2019-11-05 22:18:34:316 [error] 2019-11-05 22:18:34 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:18:34:318 [error] 2019-11-05 22:18:34 ERROR    tcprelay.py:987 exception from 127.0.0.1:49190
+
+2019-11-05 22:18:34:320 [error] 2019-11-05 22:18:34 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:18:34:321 [error] 2019-11-05 22:18:34 ERROR    tcprelay.py:987 exception from 127.0.0.1:49200
+
+2019-11-05 22:18:37:900 [error] 2019-11-05 22:18:37 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:18:37 ERROR    tcprelay.py:987 exception from 127.0.0.1:49260
+
+2019-11-05 22:18:43:221 [error] 2019-11-05 22:18:43 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:18:43:222 [error] 2019-11-05 22:18:43 ERROR    tcprelay.py:987 exception from 127.0.0.1:49290
+
+2019-11-05 22:18:55:311 [error] 2019-11-05 22:18:55 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:18:55 ERROR    tcprelay.py:987 exception from 127.0.0.1:49432
+
+2019-11-05 22:19:15:689 [error] 2019-11-05 22:19:15 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:19:15 ERROR    tcprelay.py:987 exception from 127.0.0.1:49672
+
+2019-11-05 22:19:53:826 [error] 2019-11-05 22:19:53 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:19:53 ERROR    tcprelay.py:987 exception from 127.0.0.1:50038
+
+2019-11-05 22:19:54:652 [error] 2019-11-05 22:19:54 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:19:54 ERROR    tcprelay.py:987 exception from 127.0.0.1:50086
+
+2019-11-05 22:20:17:801 [error] 2019-11-05 22:20:17 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:20:17 ERROR    tcprelay.py:987 exception from 127.0.0.1:50304
+
+2019-11-05 22:20:29:271 [error] 2019-11-05 22:20:29 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:20:29:271 [error] 2019-11-05 22:20:29 ERROR    tcprelay.py:987 exception from 127.0.0.1:50440
+
+2019-11-05 22:20:43:362 [error] 2019-11-05 22:20:43 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:20:43 ERROR    tcprelay.py:987 exception from 127.0.0.1:50558
+
+2019-11-05 22:20:43:364 [error] 2019-11-05 22:20:43 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:20:43 ERROR    tcprelay.py:987 exception from 127.0.0.1:50564
+
+2019-11-05 22:20:50:347 [error] 2019-11-05 22:20:50 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:20:50:348 [error] 2019-11-05 22:20:50 ERROR    tcprelay.py:987 exception from 127.0.0.1:50638
+
+2019-11-05 22:21:05:673 [error] 2019-11-05 22:21:05 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:21:05 ERROR    tcprelay.py:987 exception from 127.0.0.1:50834
+
+2019-11-05 22:21:05:678 [error] 2019-11-05 22:21:05 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:21:05 ERROR    tcprelay.py:987 exception from 127.0.0.1:50836
+
+2019-11-05 22:21:06:058 [error] 2019-11-05 22:21:06 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:21:06:059 [error] 2019-11-05 22:21:06 ERROR    tcprelay.py:987 exception from 127.0.0.1:50860
+
+2019-11-05 22:21:07:274 [error] 2019-11-05 22:21:07 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:21:07:274 [error] 2019-11-05 22:21:07 ERROR    tcprelay.py:987 exception from 127.0.0.1:50876
+
+2019-11-05 22:22:03:272 [error] 2019-11-05 22:22:03 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:22:03 ERROR    tcprelay.py:987 exception from 127.0.0.1:51448
+
+2019-11-05 22:22:20:374 [error] 2019-11-05 22:22:20 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:22:20:376 [error] 2019-11-05 22:22:20 ERROR    tcprelay.py:987 exception from 127.0.0.1:51658
+
+2019-11-05 22:22:35:223 [error] 2019-11-05 22:22:35 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:22:35 ERROR    tcprelay.py:987 exception from 127.0.0.1:51780
+
+2019-11-05 22:22:43:160 [error] 2019-11-05 22:22:43 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:22:43 ERROR    tcprelay.py:987 exception from 127.0.0.1:51864
+
+2019-11-05 22:22:43:188 [error] 2019-11-05 22:22:43 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:22:43:189 [error] 2019-11-05 22:22:43 ERROR    tcprelay.py:987 exception from 127.0.0.1:51866
+
+2019-11-05 22:23:00:210 [error] 2019-11-05 22:23:00 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:23:00 ERROR    tcprelay.py:987 exception from 127.0.0.1:52022
+
+2019-11-05 22:23:00:214 [error] 2019-11-05 22:23:00 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:23:00:215 [error] 2019-11-05 22:23:00 ERROR    tcprelay.py:987 exception from 127.0.0.1:52030
+
+2019-11-05 22:23:01:130 [error] 2019-11-05 22:23:01 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:23:01:131 [error] 2019-11-05 22:23:01 ERROR    tcprelay.py:987 exception from 127.0.0.1:52084
+
+2019-11-05 22:23:13:552 [error] 2019-11-05 22:23:13 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:23:13 ERROR    tcprelay.py:987 exception from 127.0.0.1:52204
+
+2019-11-05 22:23:37:620 [error] 2019-11-05 22:23:37 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:23:37 ERROR    tcprelay.py:987 exception from 127.0.0.1:52454
+
+2019-11-05 22:24:09:905 [error] 2019-11-05 22:24:09 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:24:09 ERROR    tcprelay.py:987 exception from 127.0.0.1:52796
+
+2019-11-05 22:24:09:911 [error] 2019-11-05 22:24:09 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:24:09:912 [error] 2019-11-05 22:24:09 ERROR    tcprelay.py:987 exception from 127.0.0.1:52800
+
+2019-11-05 22:24:29:296 [error] 2019-11-05 22:24:29 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:24:29:297 [error] 2019-11-05 22:24:29 ERROR    tcprelay.py:987 exception from 127.0.0.1:53022
+
+2019-11-05 22:25:00:224 [error] 2019-11-05 22:25:00 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:25:00 ERROR    tcprelay.py:987 exception from 127.0.0.1:53318
+
+2019-11-05 22:25:05:637 [error] 2019-11-05 22:25:05 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:25:05 ERROR    tcprelay.py:987 exception from 127.0.0.1:53394
+
+2019-11-05 22:25:23:158 [error] 2019-11-05 22:25:23 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:25:23 ERROR    tcprelay.py:987 exception from 127.0.0.1:53564
+
+2019-11-05 22:25:29:712 [error] 2019-11-05 22:25:29 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:25:29:713 [error] 2019-11-05 22:25:29 ERROR    tcprelay.py:987 exception from 127.0.0.1:53652
+
+2019-11-05 22:25:30:224 [error] 2019-11-05 22:25:30 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:25:30 ERROR    tcprelay.py:987 exception from 127.0.0.1:53662
+
+2019-11-05 22:25:38:109 [error] 2019-11-05 22:25:38 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:25:38 ERROR    tcprelay.py:987 exception from 127.0.0.1:53736
+
+2019-11-05 22:25:41:531 [error] 2019-11-05 22:25:41 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:25:41 ERROR    tcprelay.py:987 exception from 127.0.0.1:53808
+
+2019-11-05 22:26:16:832 [error] 2019-11-05 22:26:16 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:26:16 ERROR    tcprelay.py:987 exception from 127.0.0.1:54084
+
+2019-11-05 22:26:58:626 [error] 2019-11-05 22:26:58 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:26:58 ERROR    tcprelay.py:987 exception from 127.0.0.1:54638
+
+2019-11-05 22:27:03:203 [error] 2019-11-05 22:27:03 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:27:03 ERROR    tcprelay.py:987 exception from 127.0.0.1:54666
+
+2019-11-05 22:27:08:131 [error] 2019-11-05 22:27:08 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+
+2019-11-05 22:27:08:132 [error] 2019-11-05 22:27:08 ERROR    tcprelay.py:987 exception from 127.0.0.1:54740
+
+2019-11-05 22:27:21:565 [error] 2019-11-05 22:27:21 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:27:21 ERROR    tcprelay.py:987 exception from 127.0.0.1:54868
+
+2019-11-05 22:27:53:520 [error] 2019-11-05 22:27:53 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:27:53 ERROR    tcprelay.py:987 exception from 127.0.0.1:55226
+
+2019-11-05 22:28:30:050 [error] 2019-11-05 22:28:30 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:28:30 ERROR    tcprelay.py:987 exception from 127.0.0.1:55644
+
+2019-11-05 22:28:41:827 [error] 2019-11-05 22:28:41 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:28:41 ERROR    tcprelay.py:987 exception from 127.0.0.1:55762
+
+2019-11-05 22:28:52:319 [error] 2019-11-05 22:28:52 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:28:52 ERROR    tcprelay.py:987 exception from 127.0.0.1:55834
+
+2019-11-05 22:29:06:289 [error] 2019-11-05 22:29:06 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:29:06 ERROR    tcprelay.py:987 exception from 127.0.0.1:56024
+
+2019-11-05 22:29:09:811 [error] 2019-11-05 22:29:09 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:29:09 ERROR    tcprelay.py:987 exception from 127.0.0.1:56082
+
+2019-11-05 22:29:22:369 [error] 2019-11-05 22:29:22 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:29:22 ERROR    tcprelay.py:987 exception from 127.0.0.1:56194
+
+2019-11-05 22:29:30:794 [error] 2019-11-05 22:29:30 ERROR    shell.py:49 client_post_decrypt data uncorrect mac
+2019-11-05 22:29:30 ERROR    tcprelay.py:987 exception from 127.0.0.1:56320
+
+2019-11-05 22:29:36:738 [info] Kill client
+2019-12-17 21:14:37:581 [info] last update time: Tue Dec 17 2019 21:14:37 GMT+0800 (中国标准时间)
+2019-12-17 21:14:37:641 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2019-12-17 21:14:37:646 [error] Error: listen EADDRINUSE 0.0.0.0:1080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+2019-12-17 21:14:39:890 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s17.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2019-12-17 21:14:41:386 [info] pac server listen at: 0.0.0.0:2333
+2019-12-17 21:14:41:429 [info] IPv6 support
+
+2019-12-17 21:14:41:430 [error] /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/../shadowsocks/common.py:268: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if addr is "":
+/home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/../shadowsocks/common.py:280: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if len(block) is 1:
+/home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/../shadowsocks/common.py:282: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  while (ip & 1) == 0 and ip is not 0:
+2019-12-17 21:14:40 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2019-12-17 21:14:40 INFO     local.py:49 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2019-12-17 21:14:40 INFO     local.py:53 starting local at 0.0.0.0:1080
+2019-12-17 21:14:40 INFO     asyncdns.py:287 black_hostname_list init as : []
+2019-12-17 21:14:40 INFO     asyncdns.py:335 dns server: [('114.114.114.114', 53), ('114.114.115.115', 53)]
+2019-12-17 21:14:40 ERROR    shell.py:49 [Errno 98] Address already in use
+
+2019-12-17 21:14:41:433 [info] next subscribe update time: Wed Dec 18 2019 21:14:37 GMT+0800 (中国标准时间)
+2019-12-17 21:15:37:309 [info] Kill client
+2020-01-02 02:48:28:944 [info] last update time: Thu Jan 02 2020 02:48:28 GMT+0800 (中国标准时间)
+2020-01-02 02:48:29:032 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-02 02:48:29:038 [error] Error: listen EADDRINUSE 0.0.0.0:1080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+2020-01-02 02:48:33:565 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s17.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2020-01-02 02:48:34:227 [info] pac server listen at: 0.0.0.0:2333
+2020-01-02 02:48:34:245 [info] IPv6 support
+
+2020-01-02 02:48:34:245 [error] 2020-01-02 02:48:33 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2020-01-02 02:48:33 INFO     local.py:49 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2020-01-02 02:48:33 INFO     local.py:53 starting local at 0.0.0.0:1080
+2020-01-02 02:48:33 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-02 02:48:33 INFO     asyncdns.py:335 dns server: [('114.114.114.114', 53), ('114.114.115.115', 53)]
+2020-01-02 02:48:33 ERROR    shell.py:49 [Errno 98] Address already in use
+
+2020-01-02 02:48:34:247 [info] next subscribe update time: Fri Jan 03 2020 02:48:28 GMT+0800 (中国标准时间)
+2020-01-02 02:55:23:693 [info] Kill client
+2020-01-02 02:55:25:404 [info] last update time: Thu Jan 02 2020 02:55:25 GMT+0800 (中国标准时间)
+2020-01-02 02:55:25:446 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-02 02:55:25:451 [error] Error: listen EADDRINUSE 0.0.0.0:1080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+2020-01-02 02:55:28:275 [info] run command: python /home/yzl178me/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s s17.boom.party -p 53770 -k ****** -m aes-256-cfb -O auth_aes128_sha1 -G 88167:DjPDoV -o http_simple -g a8d1488167.microsoft.com -b 0.0.0.0 -l 1080
+2020-01-02 02:55:30:128 [info] pac server listen at: 0.0.0.0:2333
+2020-01-02 02:55:30:151 [info] IPv6 support
+
+2020-01-02 02:55:30:152 [error] 2020-01-02 02:55:28 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+2020-01-02 02:55:28 INFO     local.py:49 local start with protocol[auth_aes128_sha1] password [b'Uk92CS'] method [aes-256-cfb] obfs [http_simple] obfs_param [a8d1488167.microsoft.com]
+2020-01-02 02:55:28 INFO     local.py:53 starting local at 0.0.0.0:1080
+2020-01-02 02:55:28 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-02 02:55:28 INFO     asyncdns.py:335 dns server: [('114.114.114.114', 53), ('114.114.115.115', 53)]
+2020-01-02 02:55:28 ERROR    shell.py:49 [Errno 98] Address already in use
+
+2020-01-02 02:55:30:156 [info] next subscribe update time: Fri Jan 03 2020 02:55:25 GMT+0800 (中国标准时间)
+2020-01-02 02:55:33:842 [info] Kill client

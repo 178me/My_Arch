@@ -1,0 +1,59 @@
+[Groups/0]
+# Group Name
+Name=默认
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=shuangpin
+
+[Groups/0/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
+[Groups/0/Items/1]
+# Name
+Name=shuangpin
+# Layout
+Layout=
+
+[Groups/1]
+# Group Name
+Name=别人用的
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=pinyin
+
+[Groups/1/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
+[Groups/1/Items/1]
+# Name
+Name=pinyin
+# Layout
+Layout=
+
+[Groups/2]
+# Group Name
+Name=game
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=keyboard-us
+
+[Groups/2/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
+[GroupOrder]
+0=默认
+1=别人用的
+2=game
+

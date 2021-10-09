@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 警告！ -->
+<!-- 手动更改此文件可能会导致应用程序中产生不可预料的行为。您可能会失去自定义和迁移功能。 -->
+<!-- 如果您需要更改文件中的信息，请使用该软件中的相应命令或对话框。 -->
+<settings>
+    <group name="current workspace">
+        <setting type="QString" value="Classic Default" name="workspace name"/>
+    </group>
+    <group name="files">
+        <setting type="QString" value="" name="alias_path"/>
+        <setting type="QString" value="arsimp.shx" name="alt_font_file"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="alt_tablet_menu_file"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="color_book_path"/>
+        <setting type="QString" value="" name="config_file"/>
+        <setting type="QString" value="sample.cus" name="custom_dictionary"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="custom_icon_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="default_internet_url"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Drawing Components/Frames/" name="drawing_border_paths"/>
+        <setting type="QString" value="%FX_DOCUMENTS_PATH%/My Drawings/" name="drawings_paths"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="drivers_path"/>
+        <setting type="QString" value="." name="enterprise_menu_file"/>
+        <setting type="QString" value="%FX_APPLICATION_PATH%/Fonts/fonts.fmp" name="font_file_map"/>
+        <setting type="QString" value="%FX_APPLICATION_PATH%/Fonts/;%FX_APPDATA_PATH%/Fonts/" name="fonts_paths"/>
+        <setting type="QString" value="" name="help_file"/>
+        <setting type="QString" value="" name="license_server"/>
+        <setting type="QString" value="" name="linetypes_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="log_file_path"/>
+        <setting type="QString" value="enu" name="main_dictionary"/>
+        <setting type="QString" value="" name="menu_file"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/UI/" name="menus_paths"/>
+        <setting type="QString" value="" name="multiline_style_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="page_setup_overrides_template_path"/>
+        <setting type="QString" value="%FX_DOCUMENTS_PATH%/My Drawings/." name="plot_file"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="plot_log_file_path"/>
+        <setting type="QString" value="" name="plot_style_tables_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="post_script_prolog_file"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="print_file"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Print Settings/" name="print_settings_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="print_spool_executable"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="print_spooler_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="printer_config_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="printer_desc_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Print Styles/" name="printer_style_sheet_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Template/standardiso.dwt" name="smartnew_template_file"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Support/;%FX_APPLICATION_PATH%/Default Files/Support" name="support_paths"/>
+        <setting type="QString" value="%FX_TEMP_PATH%/DraftSight_yzl178me_temp" name="temp_path"/>
+        <setting type="QString" value="" name="template_dwg_path"/>
+        <setting type="QString" value="Internal" name="text_editor"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="texture_map_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Drawing Components/Title Blocks/" name="title_block_paths"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="tool_palette_path"/>
+        <setting type="QString" value="" name="vsta_hostid"/>
+        <setting type="QString" value="%FX_APPLICATION_PATH%/VSTATemplates" name="vsta_templates"/>
+        <setting type="QString" value="%FX_DOCUMENTS_PATH%/My Drawings/" name="wblock_path"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Workspace/" name="workspace_path"/>
+        <setting type="QString" value="%FX_DOCUMENTS_PATH%/My Drawings/" name="xref_path"/>
+    </group>
+    <group name="preferences_advancedattedit">
+        <setting type="bool" value="true" name="hideproperties"/>
+    </group>
+    <group name="preferences_autocomplete">
+        <setting type="bool" value="true" name="alias"/>
+        <setting type="bool" value="true" name="autocorrect"/>
+        <setting type="bool" value="true" name="commandwithalias"/>
+        <setting type="bool" value="true" name="listdisplay"/>
+        <setting type="bool" value="true" name="midstring"/>
+        <setting type="int" value="3" name="midstringcharcount"/>
+        <setting type="bool" value="true" name="systemvariable"/>
+    </group>
+    <group name="preferences_autosplitdimensions">
+        <setting type="bool" value="true" name="autosplitdimensionsenabled"/>
+    </group>
+    <group name="preferences_designresources">
+        <setting type="int" value="0" name="contentviewtype"/>
+        <setting type="QString" value="" name="favorites"/>
+        <setting type="QString" value="" name="homelocation"/>
+        <setting type="QString" value="" name="lastaccessedlocation"/>
+        <setting type="QString" value="" name="lastbrowsepath"/>
+        <setting type="bool" value="true" name="portdesignlibraryfolders"/>
+        <setting type="bool" value="true" name="previewvisibilty"/>
+        <setting type="QString" value="" name="properties"/>
+        <setting type="bool" value="true" name="treevisibilty"/>
+    </group>
+    <group name="preferences_dimensionmove">
+        <setting type="bool" value="true" name="dimensionmoveenabled"/>
+    </group>
+    <group name="preferences_dimensionpalette">
+        <setting type="bool" value="true" name="dimensionpaletteenabled"/>
+        <setting type="QString" value="" name="librarypath"/>
+    </group>
+    <group name="preferences_discardduplicates_settings">
+        <setting type="bool" value="true" name="combineendtoendaligned"/>
+        <setting type="bool" value="true" name="combinepartialoverlap"/>
+        <setting type="bool" value="false" name="donotbreakpolyline"/>
+        <setting type="int" value="0" name="ignoreobjectproperties"/>
+        <setting type="bool" value="false" name="ignorepolylinewidth"/>
+        <setting type="bool" value="true" name="maintainassociativity"/>
+        <setting type="bool" value="true" name="optimizepolyline"/>
+        <setting type="double" value="1e-6" name="tolerance"/>
+    </group>
+    <group name="preferences_display">
+        <setting type="int" value="16776960" name="3dsnapmarkercolor"/>
+        <setting type="bool" value="true" name="angbasetrackeractivationvalue"/>
+        <setting type="int" value="16777215" name="autotrackingveccolor"/>
+        <setting type="int" value="8618883" name="beditbackgrndcolor"/>
+        <setting type="int" value="0" name="clextensionconstantwithviewport"/>
+        <setting type="int" value="1" name="colorcomboboxsortmode"/>
+        <setting type="int" value="1" name="crosshairtintmode"/>
+        <setting type="int" value="255" name="crosshairxaxiscolor"/>
+        <setting type="int" value="65280" name="crosshairyaxiscolor"/>
+        <setting type="int" value="16711680" name="crosshairzaxiscolor"/>
+        <setting type="int" value="1" name="displaylayouttabs"/>
+        <setting type="int" value="0" name="displayoptiontoolbar"/>
+        <setting type="int" value="800" name="displaypalettehidedelay"/>
+        <setting type="int" value="300" name="displaypaletteshowdelay"/>
+        <setting type="int" value="0" name="displayscreenmenu"/>
+        <setting type="int" value="0" name="displayscrollbars"/>
+        <setting type="int" value="0" name="dockedvisiblelines"/>
+        <setting type="int" value="33023" name="dynamichighlightcolor"/>
+        <setting type="double" value="0.8" name="entityselectionhighlightopacity"/>
+        <setting type="double" value="4" name="entityselectionhighlightthickness"/>
+        <setting type="int" value="16777215" name="graphicswinlayoutbackgrndcolor"/>
+        <setting type="int" value="0" name="graphicswinmodelbackgrndcolor"/>
+        <setting type="int" value="400" name="historylines"/>
+        <setting type="int" value="32" name="largeribbonbigbuttoniconsize"/>
+        <setting type="int" value="24" name="largeribbonsmallbuttoniconsize"/>
+        <setting type="int" value="24" name="largetoolbarsiconsize"/>
+        <setting type="int" value="0" name="layoutautotrackingveccolor"/>
+        <setting type="int" value="1" name="layoutcreateviewport"/>
+        <setting type="int" value="0" name="layoutcrosshaircolor"/>
+        <setting type="int" value="1" name="layoutdisplaymargins"/>
+        <setting type="int" value="1" name="layoutdisplaypaper"/>
+        <setting type="int" value="1" name="layoutdisplaypapershadow"/>
+        <setting type="int" value="1" name="layoutshowplotsetup"/>
+        <setting type="int" value="0" name="linetypeshowdetails"/>
+        <setting type="int" value="1" name="maxautocadwindow"/>
+        <setting type="int" value="16777215" name="modelcrosshaircolor"/>
+        <setting type="int" value="0" name="optionstoolbarmode"/>
+        <setting type="int" value="0" name="propertieswindowdisplaymode"/>
+        <setting type="int" value="10066329" name="quickinputbkgcolor"/>
+        <setting type="int" value="0" name="quickinputbordercolor"/>
+        <setting type="int" value="10066329" name="quickinputdimlinescolor"/>
+        <setting type="int" value="0" name="quickinputtextcolor"/>
+        <setting type="int" value="5987163" name="refeditbackgrndcolor"/>
+        <setting type="int" value="0" name="ribbondisplaymode"/>
+        <setting type="int" value="0" name="ribbonminimizedmode"/>
+        <setting type="int" value="1" name="ribbonworkspacevisible"/>
+        <setting type="int" value="16755026" name="selectedentitycolor"/>
+        <setting type="int" value="32" name="smallribbonbigbuttoniconsize"/>
+        <setting type="int" value="20" name="smallribbonsmallbuttoniconsize"/>
+        <setting type="int" value="20" name="smalltoolbarsiconsize"/>
+        <setting type="int" value="0" name="stylemode"/>
+        <setting type="QString" value="Arial" name="textfont"/>
+        <setting type="int" value="10" name="textfontsize"/>
+        <setting type="int" value="0" name="textfontstyle"/>
+        <setting type="int" value="16777215" name="textwinbackgrndcolor"/>
+        <setting type="int" value="0" name="textwintextcolor"/>
+        <setting type="int" value="0" name="truecolorimages"/>
+        <setting type="int" value="0" name="uselargetoolbarsbuttons"/>
+    </group>
+    <group name="preferences_drafting">
+        <setting type="int" value="0" name="alignmentpointacquisition"/>
+        <setting type="int" value="65535" name="dynasnapmarkercolor"/>
+        <setting type="int" value="10" name="dynasnapmarkersize"/>
+        <setting type="int" value="-4" name="modelannoautoscalevalue"/>
+        <setting type="int" value="-4" name="sheetannoautoscalevalue"/>
+    </group>
+    <group name="preferences_dwgstandards">
+        <setting type="bool" value="false" name="isautomaticallyfixedon"/>
+        <setting type="bool" value="true" name="isshowignoredissueson"/>
+        <setting type="QString" value="" name="preferreddwsfile"/>
+    </group>
+    <group name="preferences_dynamic_inputs">
+        <setting type="int" value="0" name="tooltipssize"/>
+        <setting type="int" value="30" name="tooltipstransparency"/>
+    </group>
+    <group name="preferences_enterpoint">
+        <setting type="int" value="0" name="angdisttogether"/>
+        <setting type="int" value="0" name="presetrelativepoint"/>
+        <setting type="int" value="0" name="remainonscreen"/>
+    </group>
+    <group name="preferences_entmove">
+        <setting type="bool" value="true" name="entitymoveenabled"/>
+    </group>
+    <group name="preferences_hatch">
+        <setting type="int" value="1" name="defaultgradientcolor"/>
+    </group>
+    <group name="preferences_headsupdisplay">
+        <setting type="bool" value="true" name="headsupdisplayenabled"/>
+    </group>
+    <group name="preferences_inputhistory">
+        <setting type="bool" value="true" name="enabled"/>
+    </group>
+    <group name="preferences_layer_pallete">
+        <setting type="bool" value="true" name="isolatelayerbehavior"/>
+        <setting type="bool" value="true" name="isolayerbehaviorviewport"/>
+    </group>
+    <group name="preferences_layerstate">
+        <setting type="bool" value="false" name="hidedeletedlayersarea"/>
+        <setting type="bool" value="true" name="hideunusedlayers"/>
+        <setting type="bool" value="true" name="viewportoverrides"/>
+    </group>
+    <group name="preferences_matrixtoolbar">
+        <setting type="int" value="1" name="extendedview"/>
+        <setting type="int" value="1" name="preferredcolumncount"/>
+    </group>
+    <group name="preferences_mleadersettings">
+        <setting type="QString" value="" name="leaderblockname"/>
+        <setting type="int" value="0" name="leadercontenttype"/>
+        <setting type="double" value="0" name="leaderendangle"/>
+        <setting type="bool" value="true" name="leaderlandingline"/>
+        <setting type="double" value="8" name="leaderlandinglinelength"/>
+        <setting type="int" value="0" name="leaderoptions"/>
+        <setting type="double" value="0" name="leaderstartangle"/>
+        <setting type="int" value="0" name="leadertype"/>
+        <setting type="int" value="2" name="leadervertex"/>
+    </group>
+    <group name="preferences_oleeditor">
+        <setting type="bool" value="true" name="inplaceeditorenabled"/>
+    </group>
+    <group name="preferences_opensave">
+        <setting type="int" value="0" name="autoaudit"/>
+        <setting type="int" value="1" name="automaticpurgeunspecifieddata"/>
+        <setting type="int" value="1" name="forceopenwithcodepage"/>
+        <setting type="int" value="0" name="forceopenwithctbprintmode"/>
+        <setting type="int" value="0" name="fullcrcvalidation"/>
+        <setting type="QString" value="standard.dwt" name="imperialtemplate"/>
+        <setting type="QString" value="standardiso.dwt" name="metrictemplate"/>
+        <setting type="int" value="0" name="preserveoriginalformat"/>
+        <setting type="int" value="1" name="proxyimage"/>
+        <setting type="int" value="36" name="saveastype"/>
+        <setting type="QString" value="ds$" name="tempfileextension"/>
+        <setting type="int" value="1" name="tryrecovery"/>
+        <setting type="int" value="0" name="useoriginalformat"/>
+    </group>
+    <group name="preferences_output">
+        <setting type="int" value="1" name="autosaveplotlog"/>
+        <setting type="QString" value="" name="batchprintoutputpath"/>
+        <setting type="QString" value="" name="defaultoutputdevice"/>
+        <setting type="QString" value="" name="defaultplotstyletable"/>
+        <setting type="int" value="0" name="plotlegacy"/>
+        <setting type="int" value="0" name="plotstampdisplaydate"/>
+        <setting type="int" value="0" name="plotstampdisplaydrawingname"/>
+        <setting type="int" value="0" name="plotstampdisplaylayoutname"/>
+        <setting type="int" value="0" name="plotstampdisplayloginname"/>
+        <setting type="int" value="0" name="plotstampdisplaypapersize"/>
+        <setting type="int" value="0" name="plotstampdisplayplotdevicename"/>
+        <setting type="int" value="0" name="plotstampdisplayplotscale"/>
+        <setting type="int" value="0" name="plotstampdisplayplotstamp"/>
+        <setting type="QString" value="" name="plotstampfile"/>
+        <setting type="QString" value="Vemana2000" name="plotstampfontname"/>
+        <setting type="double" value="5.08" name="plotstampfontsize"/>
+        <setting type="int" value="2" name="plotstamplocation"/>
+        <setting type="QString" value="plot.log" name="plotstamplogfilepath"/>
+        <setting type="double" value="2.54" name="plotstampoffsetx"/>
+        <setting type="double" value="2.54" name="plotstampoffsety"/>
+        <setting type="int" value="0" name="plotstamponsingleline"/>
+        <setting type="int" value="0" name="plotstamporientation"/>
+        <setting type="double" value="10" name="plotstamppixelfontsize"/>
+        <setting type="double" value="10" name="plotstamppixeloffsetx"/>
+        <setting type="double" value="10" name="plotstamppixeloffsety"/>
+        <setting type="int" value="1" name="plotstamprelativity"/>
+        <setting type="int" value="0" name="plotstampunits"/>
+        <setting type="int" value="0" name="plotstampupsidedown"/>
+        <setting type="QString" value="" name="plotstampuserfields"/>
+        <setting type="int" value="0" name="plotstampwritetologfile"/>
+        <setting type="int" value="1" name="printerpapersizealert"/>
+        <setting type="int" value="0" name="printerspoolalert"/>
+        <setting type="QString" value="" name="recentprintername"/>
+        <setting type="int" value="0" name="savechangestolayout"/>
+        <setting type="int" value="1" name="savecontinuousplotlog"/>
+        <setting type="int" value="0" name="uselastplotsettings"/>
+    </group>
+    <group name="preferences_packandgo">
+        <setting type="int" value="0" name="bindtype"/>
+        <setting type="int" value="0" name="bindxref"/>
+        <setting type="int" value="0" name="destaction"/>
+        <setting type="QString" value="" name="destfile"/>
+        <setting type="QString" value="" name="destfolder"/>
+        <setting type="int" value="0" name="filepathoption"/>
+        <setting type="int" value="0" name="includefont"/>
+        <setting type="int" value="1" name="includeprintconfigs"/>
+        <setting type="int" value="0" name="includeunloadedreferences"/>
+        <setting type="int" value="0" name="packagetype"/>
+        <setting type="int" value="0" name="purgedatabase"/>
+        <setting type="QString" value="" name="rootfolder"/>
+        <setting type="int" value="0" name="saveformat"/>
+        <setting type="QString" value="" name="searchpath"/>
+    </group>
+    <group name="preferences_plotsettings">
+        <setting type="QString" value="" name="canonicalmedianame"/>
+        <setting type="QString" value="" name="currentstylesheet"/>
+        <setting type="double" value="1" name="customprintscaledenominator"/>
+        <setting type="double" value="1" name="customprintscalenumerator"/>
+        <setting type="int" value="1" name="plotcentered"/>
+        <setting type="int" value="0" name="plotpaperunits"/>
+        <setting type="int" value="1" name="plotplotstyles"/>
+        <setting type="int" value="0" name="plotrotation"/>
+        <setting type="int" value="0" name="plottype"/>
+        <setting type="QString" value="" name="plotviewname"/>
+        <setting type="double" value="0" name="plotwindowareaxmax"/>
+        <setting type="double" value="0" name="plotwindowareaxmin"/>
+        <setting type="double" value="0" name="plotwindowareaymax"/>
+        <setting type="double" value="0" name="plotwindowareaymin"/>
+        <setting type="int" value="1" name="printlineweights"/>
+        <setting type="double" value="0" name="printoffsetx"/>
+        <setting type="double" value="0" name="printoffsety"/>
+        <setting type="int" value="1" name="printtofile"/>
+        <setting type="int" value="0" name="shadeplotcustomdpi"/>
+        <setting type="int" value="0" name="shadeplotreslevel"/>
+        <setting type="int" value="0" name="stdscaletype"/>
+        <setting type="int" value="1" name="uselayerspdf"/>
+        <setting type="int" value="1" name="usestandardscale"/>
+    </group>
+    <group name="preferences_plotsettings_model">
+        <setting type="QString" value="" name="canonicalmedianame"/>
+        <setting type="QString" value="" name="currentstylesheet"/>
+        <setting type="double" value="1" name="customprintscaledenominator"/>
+        <setting type="double" value="1" name="customprintscalenumerator"/>
+        <setting type="double" value="0" name="paperimageoriginx"/>
+        <setting type="double" value="0" name="paperimageoriginy"/>
+        <setting type="int" value="1" name="plotcentered"/>
+        <setting type="QString" value="" name="plotcfgname"/>
+        <setting type="int" value="0" name="plotpaperunits"/>
+        <setting type="int" value="1" name="plotplotstyles"/>
+        <setting type="int" value="0" name="plotrotation"/>
+        <setting type="int" value="0" name="plottype"/>
+        <setting type="ulong" value="0" name="plotviewhandle"/>
+        <setting type="double" value="0" name="plotwindowareaxmax"/>
+        <setting type="double" value="0" name="plotwindowareaxmin"/>
+        <setting type="double" value="0" name="plotwindowareaymax"/>
+        <setting type="double" value="0" name="plotwindowareaymin"/>
+        <setting type="double" value="0" name="plotwindowareazmax"/>
+        <setting type="double" value="0" name="plotwindowareazmin"/>
+        <setting type="int" value="1" name="printlineweights"/>
+        <setting type="double" value="0" name="printoffsetx"/>
+        <setting type="double" value="0" name="printoffsety"/>
+        <setting type="int" value="0" name="printstamp"/>
+        <setting type="int" value="1" name="printtofile"/>
+        <setting type="int" value="0" name="shadeplotcustomdpi"/>
+        <setting type="int" value="0" name="shadeplotreslevel"/>
+        <setting type="int" value="0" name="stdscaletype"/>
+        <setting type="int" value="0" name="useplottransparency"/>
+        <setting type="int" value="1" name="usestandardscale"/>
+    </group>
+    <group name="preferences_plotsettings_paper">
+        <setting type="QString" value="" name="canonicalmedianame"/>
+        <setting type="QString" value="" name="currentstylesheet"/>
+        <setting type="double" value="1" name="customprintscaledenominator"/>
+        <setting type="double" value="1" name="customprintscalenumerator"/>
+        <setting type="double" value="0" name="paperimageoriginx"/>
+        <setting type="double" value="0" name="paperimageoriginy"/>
+        <setting type="int" value="1" name="plotcentered"/>
+        <setting type="QString" value="" name="plotcfgname"/>
+        <setting type="int" value="0" name="plotpaperunits"/>
+        <setting type="int" value="1" name="plotplotstyles"/>
+        <setting type="int" value="0" name="plotrotation"/>
+        <setting type="int" value="0" name="plottype"/>
+        <setting type="ulong" value="0" name="plotviewhandle"/>
+        <setting type="double" value="0" name="plotwindowareaxmax"/>
+        <setting type="double" value="0" name="plotwindowareaxmin"/>
+        <setting type="double" value="0" name="plotwindowareaymax"/>
+        <setting type="double" value="0" name="plotwindowareaymin"/>
+        <setting type="double" value="0" name="plotwindowareazmax"/>
+        <setting type="double" value="0" name="plotwindowareazmin"/>
+        <setting type="int" value="1" name="printlineweights"/>
+        <setting type="double" value="0" name="printoffsetx"/>
+        <setting type="double" value="0" name="printoffsety"/>
+        <setting type="int" value="0" name="printstamp"/>
+        <setting type="int" value="1" name="printtofile"/>
+        <setting type="int" value="0" name="shadeplotcustomdpi"/>
+        <setting type="int" value="0" name="shadeplotreslevel"/>
+        <setting type="int" value="0" name="stdscaletype"/>
+        <setting type="int" value="0" name="useplottransparency"/>
+        <setting type="int" value="1" name="usestandardscale"/>
+    </group>
+    <group name="preferences_selection">
+        <setting type="int" value="0" name="pickgroup"/>
+    </group>
+    <group name="preferences_system">
+        <setting type="QString" value="" name="additionalsupportpaths"/>
+        <setting type="int" value="1" name="appcastenabled"/>
+        <setting type="int" value="0" name="beeponerror"/>
+        <setting type="int" value="1" name="checkbackbufferissues"/>
+        <setting type="int" value="1" name="checkforxpressupdates"/>
+        <setting type="int" value="1" name="displayolescale"/>
+        <setting type="int" value="0" name="enablestartupdialog"/>
+        <setting type="QString" value="" name="helpfilename"/>
+        <setting type="int" value="0" name="loadmfcui"/>
+        <setting type="int" value="100000" name="maxarray"/>
+        <setting type="int" value="100" name="outputmaxlinecount"/>
+        <setting type="int" value="0" name="printdialogquickpreview"/>
+        <setting type="int" value="1" name="reportmissingxrefsenabled"/>
+        <setting type="int" value="25" name="savedsystemlanguage"/>
+        <setting type="QString" value="" name="scalelistfilename"/>
+        <setting type="int" value="1" name="scalelistismetric"/>
+        <setting type="int" value="0" name="scalelistrstdlgusesystem"/>
+        <setting type="int" value="0" name="showwarningmessages"/>
+        <setting type="int" value="1" name="storesqlindex"/>
+        <setting type="int" value="0" name="tablesreadonly"/>
+        <setting type="int" value="0" name="toplevelmode"/>
+        <setting type="int" value="0" name="webhelpenable"/>
+    </group>
+    <group name="preferences_tablet">
+        <setting type="QString" value="0,0" name="secteighthleft"/>
+        <setting type="QString" value="0,0" name="secteighthright"/>
+        <setting type="QString" value="0,0" name="sectfifthleft"/>
+        <setting type="QString" value="0,0" name="sectfifthright"/>
+        <setting type="QString" value="0,0" name="sectfourleft"/>
+        <setting type="QString" value="0,0" name="sectfourright"/>
+        <setting type="QString" value="0,0" name="sectoneleft"/>
+        <setting type="QString" value="0,0" name="sectoneright"/>
+        <setting type="QString" value="0,0" name="sectseventhleft"/>
+        <setting type="QString" value="0,0" name="sectseventhright"/>
+        <setting type="QString" value="0,0" name="sectsixthleft"/>
+        <setting type="QString" value="0,0" name="sectsixthright"/>
+        <setting type="QString" value="0,0" name="sectthreeleft"/>
+        <setting type="QString" value="0,0" name="sectthreeright"/>
+        <setting type="QString" value="0,0" name="secttwoleft"/>
+        <setting type="QString" value="0,0" name="secttworight"/>
+        <setting type="QString" value="0,0" name="windowleft"/>
+        <setting type="QString" value="0,0" name="windowright"/>
+    </group>
+    <group name="preferences_user">
+        <setting type="int" value="0" name="applyfiltertolayerstoolbar"/>
+        <setting type="QString" value="" name="cmdlineprompt"/>
+        <setting type="QString" value="Description;PartNo;Number;Revision;Material;Weight;Finish;StockSize;UnitOfMeasure;Cost;MakeOrBuy;LeadTime;CheckedBy;CheckedDate;DrawnBy;DrawnDate;EngineeringApproval;EngAppDate;ManufacturingApproval;MfgAppDate;QAApproval;QAAppDate;Vendor;VendorNo;Client;Project;Status;DateCompleted;CompanyName;Department;Division;Group;Author;Owner;Source" name="drawingproperties"/>
+        <setting type="int" value="1" name="hyperlinkdisplaycursor"/>
+        <setting type="int" value="1" name="hyperlinkdisplaytooltip"/>
+        <setting type="int" value="-1" name="keeppaperunits"/>
+        <setting type="int" value="0" name="keyboardaccelerator"/>
+        <setting type="int" value="250" name="scmtimevalue"/>
+        <setting type="QString" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22" name="togglelanguages"/>
+        <setting type="int" value="0" name="usefullpath"/>
+    </group>
+    <group name="profile">
+        <setting type="QString" value="" name="description"/>
+        <setting type="QString" value="&lt;&lt;unnamed profile>>" name="name"/>
+    </group>
+    <group name="variables">
+        <setting type="short" value="19" name="3dmoptions"/>
+        <setting type="short" value="60" name="3dmsensitivity"/>
+        <setting type="short" value="60" name="3dmvelocity"/>
+        <setting type="short" value="11" name="3dosmode"/>
+        <setting type="short" value="50" name="abortintervalmax"/>
+        <setting type="short" value="5" name="abortintervalmin"/>
+        <setting type="bool" value="true" name="acadlspasdoc"/>
+        <setting type="int" value="1" name="acisproxymode"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/Actions/" name="actpath"/>
+        <setting type="bool" value="false" name="allowsavingemptyacisobjects"/>
+        <setting type="int" value="-4" name="annoautoscale"/>
+        <setting type="short" value="0" name="apilanguage"/>
+        <setting type="short" value="0" name="apilevel"/>
+        <setting type="QString" value="" name="apipath"/>
+        <setting type="short" value="1" name="arrayassociativity"/>
+        <setting type="short" value="0" name="arraytype"/>
+        <setting type="short" value="0" name="attipe"/>
+        <setting type="short" value="1" name="attmulti"/>
+        <setting type="short" value="0" name="auditctl"/>
+        <setting type="short" value="63" name="autosnap"/>
+        <setting type="short" value="2" name="backgroundplot"/>
+        <setting type="QString" value="" name="bactioncolor"/>
+        <setting type="int" value="1" name="bdependencyenblentselhlt"/>
+        <setting type="short" value="1" name="bdependencyhighlight"/>
+        <setting type="QString" value="141" name="bgripobjcolor"/>
+        <setting type="short" value="8" name="bgripobjsize"/>
+        <setting type="bool" value="false" name="blipmode"/>
+        <setting type="short" value="0" name="blockeditlock"/>
+        <setting type="QString" value="7" name="bparametercolor"/>
+        <setting type="QString" value="simplex.shx" name="bparameterfont"/>
+        <setting type="short" value="12" name="bparametersize"/>
+        <setting type="short" value="1" name="bptexthorizontal"/>
+        <setting type="short" value="1" name="btmarkdisplay"/>
+        <setting type="short" value="0" name="bvmode"/>
+        <setting type="short" value="0" name="cconstraintform"/>
+        <setting type="int" value="16291880" name="cdefaultcolor"/>
+        <setting type="short" value="0" name="centermt"/>
+        <setting type="short" value="5" name="cmdinputhistorymax"/>
+        <setting type="short" value="0" name="colortheme"/>
+        <setting type="short" value="0" name="compass"/>
+        <setting type="short" value="3" name="constraintbardisplay"/>
+        <setting type="short" value="4095" name="constraintbarmode"/>
+        <setting type="short" value="2" name="constraintnameformat"/>
+        <setting type="short" value="1" name="constraintsolvemode"/>
+        <setting type="int" value="355510" name="coptionscolor"/>
+        <setting type="short" value="0" name="copymode"/>
+        <setting type="short" value="3" name="crossingareacolor"/>
+        <setting type="int" value="0" name="debugmode2"/>
+        <setting type="QString" value="Normal" name="deflplstyle"/>
+        <setting type="short" value="3" name="demandload"/>
+        <setting type="int" value="1" name="devoptions"/>
+        <setting type="uint" value="10000000" name="dgnimportmax"/>
+        <setting type="bool" value="false" name="dgnosnap"/>
+        <setting type="short" value="3" name="dimconstrainticon"/>
+        <setting type="bool" value="true" name="dimensionpreview"/>
+        <setting type="int" value="0" name="displayoptions"/>
+        <setting type="short" value="10" name="dragp1"/>
+        <setting type="short" value="25" name="dragp2"/>
+        <setting type="short" value="2" name="dtexted"/>
+        <setting type="short" value="0" name="dttoolarea"/>
+        <setting type="short" value="0" name="dttoolareastyle"/>
+        <setting type="bool" value="true" name="dwfosnap"/>
+        <setting type="bool" value="false" name="dxftextadjustalignment"/>
+        <setting type="short" value="1" name="dynasnappolarmode"/>
+        <setting type="short" value="1" name="dynconstraintmode"/>
+        <setting type="short" value="31" name="dyndigrip"/>
+        <setting type="short" value="1" name="dyndivis"/>
+        <setting type="int" value="1" name="dynenbltltps"/>
+        <setting type="short" value="3" name="dynmode"/>
+        <setting type="short" value="0" name="dynpicoords"/>
+        <setting type="short" value="0" name="dynpiformat"/>
+        <setting type="int" value="0" name="dynpisetcrddsp"/>
+        <setting type="short" value="1" name="dynpivis"/>
+        <setting type="short" value="1" name="dynprompt"/>
+        <setting type="short" value="1" name="dyntooltips"/>
+        <setting type="bool" value="false" name="enblbattdlgs"/>
+        <setting type="bool" value="true" name="enblbattvrfy"/>
+        <setting type="short" value="1" name="enblblkxpld"/>
+        <setting type="bool" value="true" name="enblbmpprvw"/>
+        <setting type="short" value="1" name="enblccsortho"/>
+        <setting type="short" value="1" name="enblccsvwsv"/>
+        <setting type="short" value="0" name="enblchmfang"/>
+        <setting type="short" value="1" name="enblclcevl"/>
+        <setting type="int" value="0" name="enblclkdrg"/>
+        <setting type="short" value="0" name="enblcmddlgs"/>
+        <setting type="short" value="1" name="enblcrashrep"/>
+        <setting type="short" value="1" name="enbldblclkedit"/>
+        <setting type="short" value="2" name="enbldrgdsp"/>
+        <setting type="short" value="0" name="enbledgeextd"/>
+        <setting type="short" value="0" name="enblegripblk"/>
+        <setting type="short" value="1" name="enblegriptpdsp"/>
+        <setting type="int" value="1" name="enblentselauto"/>
+        <setting type="short" value="1" name="enblentselhlt"/>
+        <setting type="bool" value="true" name="enblentselpresel"/>
+        <setting type="short" value="0" name="enbletrkdsp"/>
+        <setting type="short" value="1" name="enblflttrm"/>
+        <setting type="bool" value="true" name="enblgbox"/>
+        <setting type="short" value="1" name="enblghtch1clr"/>
+        <setting type="short" value="0" name="enblhtchmult"/>
+        <setting type="bool" value="true" name="enblimghlt"/>
+        <setting type="bool" value="true" name="enblmcrerrstp"/>
+        <setting type="short" value="1" name="enblmmbpan"/>
+        <setting type="short" value="0" name="enblmutt"/>
+        <setting type="bool" value="true" name="enblnavdlgs"/>
+        <setting type="short" value="0" name="enblpedtcnvrtwrng"/>
+        <setting type="short" value="2" name="enblplineconv"/>
+        <setting type="bool" value="true" name="enblprxywrng"/>
+        <setting type="bool" value="true" name="enblrgnbndrydel"/>
+        <setting type="short" value="0" name="enblrndrwrfrm"/>
+        <setting type="short" value="0" name="enblrsnp"/>
+        <setting type="bool" value="false" name="enblrstroledsp"/>
+        <setting type="bool" value="true" name="enblsmrtnw"/>
+        <setting type="short" value="1" name="enbltltps"/>
+        <setting type="short" value="0" name="enblzmwheel"/>
+        <setting type="short" value="0" name="facetratio"/>
+        <setting type="short" value="0" name="fcmultisel"/>
+        <setting type="short" value="1" name="fielddisplay"/>
+        <setting type="short" value="1" name="filetabpreview"/>
+        <setting type="short" value="1" name="filetabstate"/>
+        <setting type="short" value="0" name="fullplotpath"/>
+        <setting type="QString" value="" name="getactdict"/>
+        <setting type="QString" value="" name="getlstattchpth"/>
+        <setting type="QString" value="" name="getlstopnpth"/>
+        <setting type="QString" value="" name="graebertstorageserver"/>
+        <setting type="short" value="140" name="gripdyncolor"/>
+        <setting type="short" value="0" name="gripmultifunctional"/>
+        <setting type="short" value="2" name="groupdisplaymode"/>
+        <setting type="short" value="1" name="gtauto"/>
+        <setting type="short" value="0" name="gtdefault"/>
+        <setting type="short" value="0" name="gtlocation"/>
+        <setting type="short" value="0" name="hideprecision"/>
+        <setting type="short" value="0" name="highlightcolor"/>
+        <setting type="short" value="0" name="hpannotative"/>
+        <setting type="short" value="0" name="hplinetype"/>
+        <setting type="short" value="1" name="hpquickpreview"/>
+        <setting type="short" value="1" name="impliedface"/>
+        <setting type="int" value="0" name="importmsg"/>
+        <setting type="QString" value="APPLICATION.INI" name="inifilename"/>
+        <setting type="short" value="0" name="initgetflag"/>
+        <setting type="int" value="0" name="initgetflags"/>
+        <setting type="short" value="15" name="inputhistorymode"/>
+        <setting type="short" value="400" name="inputsearchdelay"/>
+        <setting type="int" value="0" name="insunitsdeflgcytarget"/>
+        <setting type="short" value="20" name="intelligentupdate"/>
+        <setting type="int" value="20" name="intelligentupgetdtjul"/>
+        <setting type="short" value="50" name="isavepercent"/>
+        <setting type="QString" value="" name="lastapploadfolder"/>
+        <setting type="QString" value="" name="lastinsertfolder"/>
+        <setting type="QString" value="" name="lastlispfolder"/>
+        <setting type="QString" value="" name="lastscriptfolder"/>
+        <setting type="QString" value="" name="lastshapefolder"/>
+        <setting type="short" value="1" name="layerdlgmode"/>
+        <setting type="int" value="2" name="layerfilteralert"/>
+        <setting type="short" value="50" name="laylockfadectl"/>
+        <setting type="int" value="2" name="layoutregenctl"/>
+        <setting type="short" value="70" name="lgcyacisoutver"/>
+        <setting type="short" value="-4" name="lgcyannoautoscale"/>
+        <setting type="int" value="1" name="lgcydefaultlighting"/>
+        <setting type="int" value="1" name="lgcydefaultlightingtype"/>
+        <setting type="short" value="3" name="lgcydimfit"/>
+        <setting type="int" value="2" name="lgcydimunit"/>
+        <setting type="int" value="3" name="lgcygriddisplay"/>
+        <setting type="int" value="3" name="lgcygridmajor"/>
+        <setting type="int" value="10000" name="lgcyhpobjwarning"/>
+        <setting type="bool" value="true" name="lgcyisavebak"/>
+        <setting type="int" value="0" name="lgcyoleframe"/>
+        <setting type="int" value="0" name="lgcyosnapz"/>
+        <setting type="int" value="0" name="lgcyperspective"/>
+        <setting type="int" value="3" name="lgcypickbox"/>
+        <setting type="short" value="0" name="lgcyrasterthreshold"/>
+        <setting type="short" value="1" name="lgcyselectionannodisplay"/>
+        <setting type="QString" value="" name="lgcyshpname"/>
+        <setting type="QString" value="" name="lgcyssethtchptrn"/>
+        <setting type="short" value="1" name="lgcystartup"/>
+        <setting type="short" value="0" name="lgcysunstatus"/>
+        <setting type="short" value="1" name="lgcytableindicator"/>
+        <setting type="short" value="1" name="lgcytempoverrides"/>
+        <setting type="short" value="1" name="lgcyucsdetect"/>
+        <setting type="int" value="1" name="lgcyvsbackgrounds"/>
+        <setting type="QString" value="7" name="lgcyvsedgecolor"/>
+        <setting type="int" value="-2" name="lgcyvsedgejitter"/>
+        <setting type="int" value="-6" name="lgcyvsedgeoverhang"/>
+        <setting type="int" value="1" name="lgcyvsedges"/>
+        <setting type="int" value="1" name="lgcyvsedgesmooth"/>
+        <setting type="int" value="0" name="lgcyvsfacecolormode"/>
+        <setting type="int" value="-30" name="lgcyvsfaceenblentselhlt"/>
+        <setting type="int" value="-60" name="lgcyvsfaceopacity"/>
+        <setting type="int" value="1" name="lgcyvsfacestyle"/>
+        <setting type="int" value="0" name="lgcyvsintersectionedges"/>
+        <setting type="int" value="1" name="lgcyvsintersectionltype"/>
+        <setting type="int" value="0" name="lgcyvsisoontop"/>
+        <setting type="int" value="1" name="lgcyvslightingquality"/>
+        <setting type="int" value="0" name="lgcyvsmaterialmode"/>
+        <setting type="QString" value="RGB:255,255,255" name="lgcyvsmonocolor"/>
+        <setting type="int" value="1" name="lgcyvsobscurededges"/>
+        <setting type="int" value="0" name="lgcyvsshadows"/>
+        <setting type="int" value="0" name="lgcyvssilhedges"/>
+        <setting type="int" value="5" name="lgcyvssilhwidth"/>
+        <setting type="short" value="0" name="lgcywmfbkgnd"/>
+        <setting type="short" value="0" name="lgcywmfforegnd"/>
+        <setting type="short" value="60" name="lgcyzoomfactor"/>
+        <setting type="short" value="0" name="linesmoothing"/>
+        <setting type="short" value="1" name="lispinit"/>
+        <setting type="QString" value="pathname" name="localrootprefix"/>
+        <setting type="short" value="0" name="lockui"/>
+        <setting type="bool" value="false" name="ltgapselection"/>
+        <setting type="short" value="1000" name="maxsort"/>
+        <setting type="short" value="1" name="measureinit"/>
+        <setting type="short" value="1" name="menuctl"/>
+        <setting type="QString" value="" name="modemacro"/>
+        <setting type="QString" value="Intrenal" name="mtexted"/>
+        <setting type="short" value="2" name="mtextfixed"/>
+        <setting type="short" value="0" name="mtmode"/>
+        <setting type="short" value="0" name="objectisolationmode"/>
+        <setting type="int" value="0" name="olehide"/>
+        <setting type="int" value="1024" name="opengltexturesizemax"/>
+        <setting type="short" value="1" name="openpartial"/>
+        <setting type="short" value="1" name="orbitautotarget"/>
+        <setting type="int" value="0" name="osnaphatch"/>
+        <setting type="int" value="0" name="osnapnodelegacy"/>
+        <setting type="int" value="0" name="osnapoverride"/>
+        <setting type="int" value="3" name="osoptions"/>
+        <setting type="bool" value="false" name="pagesetupmanager"/>
+        <setting type="short" value="0" name="paletteopaque"/>
+        <setting type="short" value="0" name="paperupdate"/>
+        <setting type="int" value="0" name="paperupgetdtjul"/>
+        <setting type="short" value="1" name="parametercopymode"/>
+        <setting type="bool" value="false" name="persistentundomode"/>
+        <setting type="bool" value="false" name="plinecache"/>
+        <setting type="short" value="0" name="plineconvertmode"/>
+        <setting type="int" value="2" name="plinetype"/>
+        <setting type="QString" value="" name="plotter"/>
+        <setting type="ushort" value="1" name="plottransparencyoverride"/>
+        <setting type="int" value="0" name="plquiet"/>
+        <setting type="short" value="1" name="pointcloudautoupdate"/>
+        <setting type="short" value="1" name="pointcloudboundary"/>
+        <setting type="short" value="15" name="pointclouddensity"/>
+        <setting type="short" value="0" name="pointcloudlock"/>
+        <setting type="short" value="10" name="pointcloudlod"/>
+        <setting type="uint" value="1500000" name="pointcloudpointmax"/>
+        <setting type="int" value="1500000" name="pointcloudpointmaxlegacy"/>
+        <setting type="short" value="5" name="pointcloudrtdensity"/>
+        <setting type="short" value="0" name="polarmode"/>
+        <setting type="short" value="1" name="preselectioneffect"/>
+        <setting type="int" value="85" name="preview_height"/>
+        <setting type="int" value="180" name="preview_width"/>
+        <setting type="int" value="60" name="previewcreationtransparency"/>
+        <setting type="short" value="2" name="previeweffect"/>
+        <setting type="short" value="7" name="previewfilter"/>
+        <setting type="short" value="0" name="proxywebsearch"/>
+        <setting type="short" value="2" name="psquality"/>
+        <setting type="int" value="1" name="pstylepolicy"/>
+        <setting type="short" value="1" name="publishallsheets"/>
+        <setting type="short" value="0" name="publishhatch"/>
+        <setting type="short" value="0" name="qaflags"/>
+        <setting type="short" value="8" name="r12saveaccuracy"/>
+        <setting type="QString" value="0.0000" name="r12savedeviation"/>
+        <setting type="short" value="300" name="rasterdpi"/>
+        <setting type="short" value="0" name="re_init"/>
+        <setting type="bool" value="true" name="recomputedimblocksrequired"/>
+        <setting type="short" value="1" name="recoverymode"/>
+        <setting type="short" value="0" name="rememberfolders"/>
+        <setting type="bool" value="true" name="restorehatchfromblkref"/>
+        <setting type="short" value="1" name="revcloudcreatemode"/>
+        <setting type="short" value="1" name="revcloudgrips"/>
+        <setting type="short" value="0" name="ribbonstate"/>
+        <setting type="short" value="1" name="savefidelity"/>
+        <setting type="bool" value="false" name="saveroundtrip"/>
+        <setting type="bool" value="false" name="sdi"/>
+        <setting type="int" value="1" name="selectionannodisplay"/>
+        <setting type="short" value="1" name="selectionarea"/>
+        <setting type="short" value="25" name="selectionareaopacity"/>
+        <setting type="short" value="1" name="selectioneffect"/>
+        <setting type="short" value="3" name="selectionpreview"/>
+        <setting type="short" value="130" name="selectsimilarmode"/>
+        <setting type="short" value="0" name="setactblkinsunt"/>
+        <setting type="int" value="0" name="setactlang"/>
+        <setting type="QString" value="ByLayer" name="setactprnstyl"/>
+        <setting type="QString" value="" name="setaltbgfnt"/>
+        <setting type="QString" value="arsimp.shx" name="setaltfnt"/>
+        <setting type="QString" value="" name="setaltshp"/>
+        <setting type="QString" value="%FX_TEMP_PATH%/DraftSight_yzl178me_autosave" name="setautosvpth"/>
+        <setting type="short" value="16" name="setbattmode"/>
+        <setting type="short" value="0" name="setblkdefinsunt"/>
+        <setting type="QString" value="http://www.DraftSight.com" name="setbrwsrurl"/>
+        <setting type="short" value="255" name="setbylayermode"/>
+        <setting type="short" value="90" name="setccsaxisang"/>
+        <setting type="int" value="0" name="setcmdprmtlvl"/>
+        <setting type="short" value="50" name="setcompedfd"/>
+        <setting type="short" value="1" name="setcrddsp"/>
+        <setting type="int" value="2" name="setcrdinptmode"/>
+        <setting type="short" value="1" name="setcrsrmode"/>
+        <setting type="int" value="8192" name="setdbgmode"/>
+        <setting type="QString" value="" name="setdefprnstytbl"/>
+        <setting type="int" value="25" name="setdfltlwt"/>
+        <setting type="QString" value="" name="setdictfnm"/>
+        <setting type="QString" value="standardiso.dwt" name="setdwtfnm"/>
+        <setting type="short" value="16" name="setdxfprc"/>
+        <setting type="short" value="1" name="setegripactclr"/>
+        <setting type="short" value="100" name="setegripdsplmt"/>
+        <setting type="short" value="2" name="setegripdspmode"/>
+        <setting type="short" value="5" name="setegripinactclr"/>
+        <setting type="short" value="3" name="setegripmseovrclr"/>
+        <setting type="short" value="5" name="setegripsz"/>
+        <setting type="short" value="1" name="setentseladd"/>
+        <setting type="short" value="1" name="setentselmode"/>
+        <setting type="bool" value="true" name="setesnappdf"/>
+        <setting type="short" value="63" name="setesnpcuedsp"/>
+        <setting type="short" value="5" name="setesnpcuesz"/>
+        <setting type="short" value="511" name="setesnpmode"/>
+        <setting type="QString" value="fonts.fmp" name="setfntmpfnm"/>
+        <setting type="short" value="5" name="setgboxsz"/>
+        <setting type="short" value="0" name="setghtchang"/>
+        <setting type="QString" value="" name="setghtchclr1"/>
+        <setting type="QString" value="" name="setghtchclr2"/>
+        <setting type="short" value="1" name="setghtchptrn"/>
+        <setting type="short" value="0" name="setghtchstyl"/>
+        <setting type="double" value="1" name="setghtchtint"/>
+        <setting type="double" value="0" name="sethtchgapsz"/>
+        <setting type="short" value="0" name="sethtchorgmode"/>
+        <setting type="short" value="1" name="sethtchrltvmode"/>
+        <setting type="uint" value="1000000" name="sethtchwrnglvl"/>
+        <setting type="short" value="0" name="setlogmode"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="setlogpth"/>
+        <setting type="QString" value="0.5500" name="setlwtdspscl"/>
+        <setting type="short" value="1" name="setlwtunt"/>
+        <setting type="short" value="0" name="setmnuecho"/>
+        <setting type="QString" value="" name="setnotesamptxt"/>
+        <setting type="short" value="0" name="setofstgapmode"/>
+        <setting type="int" value="3" name="setoleqlty"/>
+        <setting type="int" value="0" name="setopnftyp"/>
+        <setting type="double" value="0.5" name="setpanscl"/>
+        <setting type="double" value="90" name="setpgdang"/>
+        <setting type="QString" value="" name="setpgdspcang"/>
+        <setting type="short" value="4" name="setpgonsides"/>
+        <setting type="short" value="5" name="setpntrsz"/>
+        <setting type="QString" value="" name="setprmpttxt"/>
+        <setting type="short" value="0" name="setprnofst"/>
+        <setting type="short" value="2" name="setprnrot"/>
+        <setting type="short" value="2" name="setprojmode"/>
+        <setting type="int" value="1" name="setprxydspmode"/>
+        <setting type="QString" value="" name="setpsprolog"/>
+        <setting type="short" value="0" name="setrefattchtyp"/>
+        <setting type="int" value="0" name="setrefbindmode"/>
+        <setting type="short" value="250" name="setrmbtm"/>
+        <setting type="short" value="2" name="setrndrengmode"/>
+        <setting type="double" value="0" name="setrsnpspc"/>
+        <setting type="short" value="0" name="setsatver"/>
+        <setting type="short" value="3" name="setselboxsz"/>
+        <setting type="short" value="11" name="setshrtctmnumode"/>
+        <setting type="QString" value="NONAME_" name="setsmrtnwfnm"/>
+        <setting type="int" value="0" name="setsvftyp"/>
+        <setting type="int" value="10" name="setsvtm"/>
+        <setting type="bool" value="true" name="settxtprnfill"/>
+        <setting type="bool" value="true" name="setundomode"/>
+        <setting type="double" value="0.5" name="setzminscl"/>
+        <setting type="double" value="2" name="setzmoutscl"/>
+        <setting type="bool" value="true" name="showhyperlinkcursor"/>
+        <setting type="short" value="0" name="showlayerusage"/>
+        <setting type="short" value="1" name="sigwarn"/>
+        <setting type="bool" value="true" name="solidcheck"/>
+        <setting type="short" value="1" name="spaceswitch"/>
+        <setting type="bool" value="false" name="splperiodic"/>
+        <setting type="short" value="1" name="sslocate"/>
+        <setting type="short" value="1" name="ssmautoopen"/>
+        <setting type="short" value="60" name="ssmpolltime"/>
+        <setting type="short" value="2" name="ssmsheetstatus"/>
+        <setting type="short" value="1" name="standardsviolation"/>
+        <setting type="short" value="0" name="tabdevicemode"/>
+        <setting type="short" value="2" name="tabletoolbar"/>
+        <setting type="QString" value="" name="tabmenuname"/>
+        <setting type="short" value="0" name="tabmode"/>
+        <setting type="short" value="1" name="taskbar"/>
+        <setting type="short" value="0" name="tbcustomize"/>
+        <setting type="short" value="9" name="textalignmodemode"/>
+        <setting type="short" value="2" name="texted"/>
+        <setting type="short" value="0" name="texteval"/>
+        <setting type="short" value="3" name="thumbsize"/>
+        <setting type="short" value="0" name="tooltipmerge"/>
+        <setting type="bool" value="false" name="touchscreenmode"/>
+        <setting type="int" value="1" name="transparencydisplay"/>
+        <setting type="short" value="1" name="trayicons"/>
+        <setting type="short" value="1" name="traynotify"/>
+        <setting type="short" value="0" name="traytimeout"/>
+        <setting type="int" value="10000000" name="treemax"/>
+        <setting type="double" value="1" name="tspacefac"/>
+        <setting type="short" value="1" name="tspacetype"/>
+        <setting type="short" value="0" name="uosnap"/>
+        <setting type="uint" value="0" name="verticalapplicationsmode"/>
+        <setting type="short" value="0" name="vshideprecision"/>
+        <setting type="int" value="0" name="vslgcyhalogap"/>
+        <setting type="QString" value="7" name="vslgcyintersectioncolor"/>
+        <setting type="QString" value="BYENTITY" name="vslgcyobscuredcolor"/>
+        <setting type="int" value="1" name="vslgcyobscuredltype"/>
+        <setting type="short" value="0" name="vstalanguage"/>
+        <setting type="short" value="750" name="vtduration"/>
+        <setting type="short" value="3" name="vtenable"/>
+        <setting type="short" value="7" name="vtfps"/>
+        <setting type="short" value="1" name="whiparc"/>
+        <setting type="short" value="1" name="whipthread"/>
+        <setting type="short" value="5" name="windowareacolor"/>
+        <setting type="short" value="50" name="xdwgfadectl"/>
+        <setting type="short" value="2" name="xloadctl"/>
+        <setting type="QString" value="%FX_APPDATA_PATH%/" name="xloadpath"/>
+        <setting type="short" value="0" name="xrefctl"/>
+        <setting type="short" value="2" name="xrefnotify"/>
+    </group>
+    <group name="window">
+        <setting type="QByteArray" value="" name="geometry"/>
+        <setting type="QByteArray" value="" name="second_cmdwnd_geometry"/>
+        <setting type="int" value="2" name="version"/>
+    </group>
+</settings>

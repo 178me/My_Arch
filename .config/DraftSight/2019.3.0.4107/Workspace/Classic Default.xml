@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Warning! -->
+<!-- Manually altering this file can generate unpredictable behavior in the application. You can lose customization and migration functionality. -->
+<!-- If you need to change information in the file, use the appropriate commands and dialog boxes in the software. -->
+<workspace>
+    <name workspace_name="Classic" />
+    <description description="" />
+    <status_bar_visible status_bar_visible="1" />
+    <groups/>
+    <root_menu_items>
+        <menu group_id="Id_MainGroup" uid="ID_MnFile" />
+        <menu group_id="Id_MainGroup" uid="ID_MnEdit" />
+        <menu group_id="Id_MainGroup" uid="ID_MnView" />
+        <menu group_id="Id_MainGroup" uid="ID_MnInsert" />
+        <menu group_id="Id_MainGroup" uid="ID_MnFormat" />
+        <menu group_id="Id_MainGroup" uid="ID_MnDimensi" />
+        <menu group_id="Id_MainGroup" uid="ID_MnDraw" />
+        <menu group_id="Id_MainGroup" uid="ID_MnModify" />
+        <menu categories="constraints" group_id="Id_MainGroup" uid="ID_MnConstraints" />
+        <menu group_id="Id_MainGroup" uid="ID_MnTools" />
+        <menu group_id="Id_MainGroup" uid="ID_MnSolid" />
+        <menu group_id="Id_MainGroup" uid="ID_MnWindow" />
+        <menu group_id="Id_MainGroup" uid="ID_MnHelp" />
+    </root_menu_items>
+    <root_toolbar_items>
+        <toolbar group_id="Id_MainGroup" uid="ID_TbStandar" />
+        <toolbar group_id="Id_MainGroup" uid="ID_TbLayer" />
+        <toolbar group_id="Id_MainGroup" uid="ID_TbObjectP" />
+        <toolbar group_id="Id_MainGroup" uid="ID_TbDraw" />
+        <toolbar group_id="Id_MainGroup" uid="ID_TbModify" />
+    </root_toolbar_items>
+    <dockable_windows>
+        <window object_name="CommandWindow" visible="1" dockable="1" name="Command Prompt" available_orientations="15" orientation="8" />
+        <window object_name="PropertyWindow" visible="1" dockable="1" name="Properties Window" available_orientations="3" orientation="2" />
+        <window object_name="XRefManager" visible="0" dockable="1" name="References" available_orientations="3" orientation="2" />
+        <window object_name="LightListWindow" visible="0" dockable="1" name="Lighting" available_orientations="3" orientation="2" />
+        <window object_name="OptionToolBar" visible="0" dockable="1" name="Options Toolbar" available_orientations="4" orientation="4" />
+        <window object_name="MatrixToolbarWindow" visible="0" dockable="1" name="Tool Matrix" available_orientations="3" orientation="2" />
+        <window object_name="Home" visible="1" dockable="1" name="Home" available_orientations="3" orientation="2" />
+    </dockable_windows>
+</workspace>

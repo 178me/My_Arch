@@ -15,3 +15,8 @@ export http_proxy=''
 export https_proxy=''
 export ftp_proxy=''
 export socks_proxy=''
+
+# User specific environment
+# PATH="$HOME/.local/bin:$PATH"
+# export PATH
+export PATH=/home/yzl178me/.local/bin:$PATH

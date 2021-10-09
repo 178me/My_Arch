@@ -1,0 +1,46 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="3" l="1608202890130" />
+    </e>
+    <e n="ChooseRunConfiguration">
+      <i c="2" l="1608202794889" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="9" l="1608202761510" />
+    </e>
+    <e n="EditorPaste">
+      <i c="5" l="1608202891018" />
+    </e>
+    <e n="OnlineDocAction">
+      <i c="1" l="1608202491695" />
+    </e>
+    <e n="Register">
+      <i c="3" l="1608353066488" />
+    </e>
+    <e n="Run">
+      <i c="2" l="1608202855392" />
+    </e>
+    <e n="com.intellij.ide.browsers.actions.OpenFileInDefaultBrowserAction">
+      <i c="1" l="1608202808848" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$5">
+      <i c="2" l="1608202071822" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1608202651814" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$EditButton">
+      <i c="1" l="1608202753789" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
+      <i c="1" l="1608202738954" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$UpButton">
+      <i c="12" l="1608202885102" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="2" l="1608202863876" />
+    </e>
+  </component>
+</application>

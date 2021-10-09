@@ -1,0 +1,93 @@
+;;; File INCH.LIN
+;;; Designed for imperial mechanical drawings
+;;; 
+
+
+*CENTER, Center ____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____
+A, 1.25, -0.25, 0.25, -0.25
+
+*DOTTED, Dotted . . . . . . . . . . . . . . . . . . . . . . . . . . .
+A, 0, -0.25
+
+*HIDDEN, Hidden _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+A, 0.25, -0.125
+
+*DASHED, Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __
+A, 0.25, -0.125
+
+*DASH2, DashLong ____   ____   ____   ____   ____   ____   ____   ____
+A, 0.5, -0.25 
+
+*DASHDOT, DashDot __ . __ . __ . __ . __ . __ . __ . __ . __ . __ . __ 
+A, 0.5, -0.25,0, -0.25 
+
+*DASH2DOT, DashDotDot ____ . . ____ . . ____ . . ____ . . ____ . . ____ . .
+A, 0.5, -0.25, 0.0, -0.25, 0.0, -0.25 
+
+*BORDER, Border __ __ . __ __ . __ __ . __ __ . __ __ . __ __ . __ __
+A, 0.5, -0.25, 0.5, -0.25, 0, -0.25
+
+*DIVIDE, DashDotDot __  .  . __  .  . __  .  . __  .  . __  .  . __  .  . __  
+A, 0.5, -0.250000, 0.0, -0.250000, 0, -0.250000 
+
+*PHANTOM,Phantom ______  __  __  ______  __  __  ______ 
+A, 1.25, -0.25, 0.25, -0.25, 0.25, -0.25
+
+
+;;  Complex LineTypes
+;;
+;;  These LineTypes refer LTypeShp.shx.
+;;
+
+*FENCELINE, Fenceline ----0-----0----0-----0----0-----0--
+A,0.625,-0.25,[CIRC1,ltypeshp.shx,x=-0.25,s=0.25],-0.25,0.25
+
+*FENCELINE1,Fence circle ----0-----0----0-----0----0-----0--
+A,0.25,-0.1,[CIRC1,ltypeshp.shx,x=-0.1,s=0.1],-0.1,0.1
+
+*FENCELINE2,Fence square ----[]-----[]----[]-----[]----[]---
+A,0.25,-0.1,[BOX,ltypeshp.shx,x=-0.1,s=0.1],-0.1,0.1
+
+*FENCELINE21,Fence square 45 ----[]-----[]----[]-----[]----[]---
+A,0.205294,-0.139194,[BOX,ltypeshp.shx,x=-0.069597,y=-0.069597,s=0.098425,r=45],-0.139194,0.057656
+
+*TRACK,Tracks -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+A,0.15,[TRACK1,ltypeshp.shx,s=0.25],0.15
+
+*BATTING,Batting SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+A,0.0001,-0.1,[BAT,ltypeshp.shx,x=-0.1,s=0.1],-0.2,[BAT,ltypeshp.shx,r=180,x=0.1,s=0.1],-0.1
+
+*HOT_WATER,Hot water line ---- HW ---- HW ---- HW ----
+A,0.5,-0.2,["HW",STANDARD,S=0.1,R=0.0,X=-0.1,Y=-0.05],-0.2
+
+*GAS_LINE,Gas line ----GAS----GAS----GAS----GAS----GAS----GAS--
+A,0.5,-0.2,["GAS",STANDARD,S=0.1,R=0.0,X=-0.1,Y=-0.05],-0.25
+
+*ZIGZAG,Zig zag /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+A,0.0001,-0.2,[ZIG,ltypeshp.shx,x=-0.2,s=0.2],-0.4,[ZIG,ltypeshp.shx,r=180,x=0.2,s=0.2],-0.2
+
+*DIAMONDSmall,DiamondSmall ######################
+A,0.0,["#",STANDARD,S=0.078740,X=0.0,Y=-0.039370,R=0.0],-0.052493,["#",STANDARD,S=0.078740,X=-0.052493,Y=-0.039370,R=0.0]
+
+*DIAMOND,Diamond ######################
+A,0.0,["#",STANDARD,S=0.236220,X=0.0,Y=-0.118110,R=0.0],-0.157480
+
+*STAR4,Star4
+A,0.0,[STAR4,ltypeshp.shx,x=0.0,s=0.039370],-0.354330
+
+*STAR4Rot45,Star4R45
+A,0.0,[STAR4,ltypeshp.shx,x=0.0,s=0.039370,R=45.0],-0.354330
+
+*XLINE,XLine X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X
+A,0.157480,["X",STANDARD,S=0.118110,R=0.0,X=-0.118110,Y=-0.059055],-0.078740
+
+*TRILINE,TriLine =3=3=3=3=3=3=3=3=3=
+A,0.0,[TRILINE,ltypeshp.shx,x=0.0,y=0.0,s=0.039370],-0.196850
+
+*FIVELINE,FIVELINE =5=5=5=5=5=5=5=5=5=
+A,0.0,[FIVELINE,ltypeshp.shx,x=0.0,y=0.0,s=0.039370],-0.196850
+
+*SINUS,SINUS ~~~~~~~~~~~~~~~~~~~~~~
+A,0.0,[CLOUD1,ltypeshp.shx,x=0.0,y=0.0,s=0.039370],-0.157480,[CLOUD1,ltypeshp.shx,x=0.157480,y=0.0,s=0.039370,r=180],-0.157480
+
+

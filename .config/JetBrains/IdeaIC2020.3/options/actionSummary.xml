@@ -1,0 +1,25 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ConsoleView.ClearAll">
+      <i c="1" l="1607602546182" />
+    </e>
+    <e n="EasyClick.Connect.Device">
+      <i c="2" l="1608094414705" />
+    </e>
+    <e n="EasyClick.Connect.Device.Wifi">
+      <i c="1" l="1608094416910" />
+    </e>
+    <e n="EasyClick.Node.Fetch">
+      <i c="1" l="1608094425396" />
+    </e>
+    <e n="EasyClick.Pkg.Project.Common">
+      <i c="1" l="1607602464249" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1" l="1608094418713" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="4" l="1608106015843" />
+    </e>
+  </component>
+</application>

@@ -1,0 +1,77 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node" />
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="IJ_BASE_PACKAGE" value="com.company" />
+    <property name="InstalledPluginsSearchHistory" value="/outdated&#10;kkj&#10;kk&#10;Translation&#10;Rainbow Brackets" />
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap&#10;Translation&#10;Alibaba Java Coding Guidelines&#10;Rainbow Brackets&#10;.Rainbow Brackets" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="vim&#10;快捷键&#10;快捷&#10;color&#10;颜色" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="IU-202.8194.7-f0380f481865663e14e30d58280207da27709d7f1be8266910c99c3d84d6c292" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.同步.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="cn.yiiguxing.plugin.translate.version" value="3.0" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="源" />
+    <property name="completion.stats.experiment.salt" value="dd66e3db" />
+    <property name="completion.stats.experiment.version" value="2" />
+    <property name="completion.stats.status.updated.ts" value="1595040655001" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="evlsprt.202" value="1760884c589" />
+    <property name="evlsprt.IU-202.5958.24" value="17384bd0367" />
+    <property name="evlsprt2.202" value="175abd275a5" />
+    <property name="evlsprt2.IU-202.5958.24" value="1735062744b" />
+    <property name="evlsprt3.193" value="17" />
+    <property name="evlsprt3.202" value="19" />
+    <property name="evlsprt3.IU-202.5958.24" value="11" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/source/EC/5.9.0-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/IdeaProjects/Text&#10;/home/yzl178me/IdeaProjects/mynotepad&#10;/home/yzl178me/source/EC/5.7.0-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/source/EC/5.4.0-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/source/EC/5.2.0-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/source/5.0.0.RC27-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/Downloads/5.0.0.RC26-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/IdeaProjects/MyAutoTasks&#10;/home/yzl178me/IdeaProjects/testt/src/layout/main.xml&#10;/home/yzl178me/IdeaProjects/testt/src/js/main.js&#10;/home/yzl178me/test/html/index.html&#10;/home/yzl178me/IdeaProjects/testt/screenshot&#10;/home/yzl178me/source/5.0.0.RC23-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/IdeaProjects/testt&#10;/home/yzl178me/test/html&#10;/home/yzl178me/test/python&#10;/home/yzl178me/IdeaProjects/javaTest&#10;/home/yzl178me/Downloads/NicePython.jar&#10;/home/yzl178me/IdeaProjects/kuaishou&#10;/home/yzl178me/IdeaProjects/每日签到&#10;/home/yzl178me/source/4.20.0-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/IdeaProjects/test&#10;/home/yzl178me/IdeaProjects/ppTEst/screenshot&#10;/home/yzl178me/IdeaProjects/tes&#10;/home/yzl178me/IdeaProjects/t&#10;/home/yzl178me/IdeaProjects/test/screenshot&#10;/home/yzl178me/source/4.15.0-EasyClickDevTools-idea插件.zip&#10;/home/yzl178me/Documents/4.7.0-EasyClickDevTools-idea插件.zip" />
+    <property name="file.gist.reindex.count" value="2983" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1610034986076" />
+    <property name="installed.kotlin.plugin.version" value="1.4.21-release-IJ2020.2-1" />
+    <property name="jdk.selected.EC_MIX_MODULE" value="1.8" />
+    <property name="jdk.selected.EC_PLUGIN_MODULE" value="1.8" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.8" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="false" />
+    <property name="kotlin-gradle-user-dirs" value="$USER_HOME$/.gradle" />
+    <property name="kotlin.plugin.releaseDate" value="1.4.21-release-IJ2020.2-1:2020-12-07" />
+    <property name="lastSeenTip" value="neue-GoToDeclaration.html" />
+    <property name="lastTimeTipsWereShown" value="1593487469148" />
+    <property name="lastTip" value="36" />
+    <property name="last_opened_file_path" value="$USER_HOME$/source/EC/5.9.0-EasyClickDevTools-idea插件.zip" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1620573269138" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/source/EC" />
+    <property name="project.wizard.group" value="JAVA_MODULE" />
+    <property name="project.wizard.template" value="JavaFX Application" />
+    <property name="run.configuration.delete.ad" value="true" />
+    <property name="seenTips" value="neue-GoToDeclaration.html" />
+    <property name="selected.color.option.type" value="DIFF_MODIFIED" />
+    <property name="settings.code.style.selected.tab.JAVA" value="制表符和缩进" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="stats.collector.latest.sending.timestamp" value="1594902145431" />
+    <property name="stats.collector.today.sent.data.size" value="41956" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.9.5" />
+  </component>
+</application>

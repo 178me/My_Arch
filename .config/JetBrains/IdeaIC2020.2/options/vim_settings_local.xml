@@ -1,0 +1,29 @@
+<application>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/GraphQL.result.json" timestamp="1606058782843">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/MyAutoTasks/src/js/main.js" timestamp="1606058073551">
+        <mark key="[" line="162" column="34" />
+        <mark key="]" line="156" column="15" />
+        <mark key="^" line="156" column="15" />
+        <mark key="." line="156" column="14" />
+      </file>
+      <file name="/" timestamp="1606058118315">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers />
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+</application>

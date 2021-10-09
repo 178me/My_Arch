@@ -1,0 +1,34 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node" />
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1lmV6ZgbSDWnjdihC3wajYPUEdU">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="GeneralSettings.initiallyConfigured" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="chin" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="appcds.runOnSecondStart" value="WS-203.5981.135-2dc94e2844be33ef5072fa25ccbc460757b1c1f85af258a600fcc59dd70cf453" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="evlsprt3.203" value="13" />
+    <property name="file.chooser.recent.files" value="/usr/bin/chromium" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="WS-203.5981.135" />
+    <property name="last_opened_file_path" value="/usr/bin/chromium" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.0.3" />
+  </component>
+</application>

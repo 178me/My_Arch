@@ -1,0 +1,22 @@
+(defun open-my-org ()
+  (interactive)
+  (find-file "/home/yzl178me/orgNote/todoList.org"))
+(defun open-test-org ()
+  (interactive)
+  (find-file "/home/yzl178me/orgNote/test.org"))
+(defun open-study-org ()
+  (interactive)
+  (find-file "/home/yzl178me/github/org-mode/org-mode-study.org"))
+(defun open-my-config ()
+  (interactive)
+  (find-file "/home/yzl178me/.config/.evan-emacs.d/private-module.el"))
+;; 取消全屏
+(toggle-frame-fullscreen)
+;; 快速打开org目录
+(define-key global-map (kbd "C-c 0 0") 'open-my-org)
+(define-key global-map (kbd "C-c 0 -") 'open-my-config)
+(define-key global-map (kbd "C-c 0 9") 'open-test-org)
+(define-key global-map (kbd "C-c 0 8") 'open-study-org)
+;; org打开的时候启动自动保存和补全
+;; (add-hook 'org-mode-hook (lambda () (company-mode t) (auto-save-mode t)))
+(provide 'private-demo)

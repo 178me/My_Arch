@@ -1,0 +1,20 @@
+[MainWindow]
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAESAAABkPwCAAAAAfsAAAAwAHIAZQBtAG8AdABlAEQAZQBzAGsAdABvAHAAcwBEAG8AYwBrAFcAaQBkAGcAZQB0AQAAADoAAAGQAAAAiQD///8AAAJYAAABkAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAMABrAHIAZABjAF8AcgBlAG0AbwB0AGUAXwB2AGkAZQB3AF8AdABvAG8AbABiAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP1 Height 1920x1080=1028
+eDP1 Width 1920x1080=621
+eDP1 XPosition 1920x1080=520
+eDP1 YPosition 1920x1080=327
+
+[hostpreferences][vnc://lvshi355.320.io:5935]
+dont_copy_passwords=false
+quality=2
+showConfigAgain=false
+showLocalCursor=false
+ssh_tunnel_port=22
+ssh_tunnel_user_name=lvshi355.320.io:5935
+use_ssh_tunnel=false
+use_ssh_tunnel_loopback=false
+walletSupport=false
+windowedScale=false

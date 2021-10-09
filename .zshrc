@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 alias sys='systemctl'
 alias c='clear'
 alias v='nvim'
-alias R='shutdown -r now'
+alias Rr='shutdown -r now'
 alias r='ranger'
 alias off='shutdown now'
 alias vrc='nvim ~/.vimrc'
@@ -108,8 +108,9 @@ alias as='pacman -Ss'
 alias au='sudo pacman -Syyu'
 alias ys='yay -Ss'
 alias zj='neofetch'
+alias git='p git'
 alias gitc="git add -A;git commit"
-alias gitp='pc;git push'
+alias gitp='p git push'
 alias gits='git status'
 alias mymc='cd ~/MC/client;sh ~/MC/start.sh'
 alias pc='export https_proxy="127.0.0.1:12333";export http_proxy="127.0.0.1:12333"'
@@ -117,5 +118,10 @@ alias adb3='adb -s MTK0002004091859200 push *'
 alias p='proxychains'
 alias de='cd ~/.emacs.d;emacs --batch -q -l /home/yzl178me/.emacs.d/dump.el'
 alias deg='emacs --dump-file ~/.emacs.d/emacs.pdmp'
+alias pylupdate5='/home/yzl178me/.local/bin/pylupdate5'
+alias pyrcc5='/home/yzl178me/.local/bin/pyrcc5'
+alias pyuic5='/home/yzl178me/.local/bin/pyuic5'
+alias ax= "aria2c -x16"
+alias ae= "aria2c -x16 -enable-rpc "
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE

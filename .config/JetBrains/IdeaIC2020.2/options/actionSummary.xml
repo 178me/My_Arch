@@ -1,0 +1,60 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$EditorTranslateAction">
+        <ActionSummary times="1" last="1606058011533" />
+      </entry>
+      <entry key="$TranslateTextComponent">
+        <ActionSummary times="1" last="1606058730895" />
+      </entry>
+      <entry key="EasyClick.Connect.Device">
+        <ActionSummary times="1" last="1606058244317" />
+      </entry>
+      <entry key="EasyClick.Run.Project1">
+        <ActionSummary times="2" last="1606058379322" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="17" last="1606058467451" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="1" last="1606058055398" />
+      </entry>
+      <entry key="ImportProject">
+        <ActionSummary times="1" last="1606058520285" />
+      </entry>
+      <entry key="NewProject">
+        <ActionSummary times="3" last="1606058531479" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="5" last="1606058919364" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="1" last="1606057934136" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="2" last="1606056684075" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="1" last="1606058777305" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.PluginManagerConfigurable$InstallFromDiskAction">
+        <ActionSummary times="1" last="1606057883914" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+        <ActionSummary times="2" last="1606057881287" />
+      </entry>
+      <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+        <ActionSummary times="9" last="1606058057128" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="2" last="1606057980264" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$2">
+        <ActionSummary times="4" last="1606056682580" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="1" last="1606058803874" />
+      </entry>
+    </data>
+  </component>
+</application>

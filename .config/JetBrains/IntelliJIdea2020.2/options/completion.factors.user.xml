@@ -1,0 +1,234 @@
+<application>
+  <component name="ApplicationUserFactors">
+    <factor id="completionFinishedType">
+      <dailyData date="11-07-2020">
+        <observation name="cancelled" value="64.0" />
+        <observation name="explicitSelect" value="48.0" />
+        <observation name="typedSelect" value="43.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="cancelled" value="55.0" />
+        <observation name="explicitSelect" value="50.0" />
+        <observation name="typedSelect" value="65.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="cancelled" value="263.0" />
+        <observation name="explicitSelect" value="300.0" />
+        <observation name="typedSelect" value="137.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="cancelled" value="30.0" />
+        <observation name="explicitSelect" value="25.0" />
+        <observation name="typedSelect" value="27.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="cancelled" value="70.0" />
+        <observation name="explicitSelect" value="34.0" />
+        <observation name="typedSelect" value="106.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="cancelled" value="4.0" />
+        <observation name="explicitSelect" value="5.0" />
+        <observation name="typedSelect" value="8.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="11-07-2020">
+        <observation name="BASIC" value="124.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="BASIC" value="148.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="BASIC" value="606.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="BASIC" value="77.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="BASIC" value="180.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="BASIC" value="16.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="11-07-2020">
+        <observation name="count" value="155.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="count" value="170.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="count" value="700.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="count" value="82.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="count" value="210.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="count" value="17.0" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="11-07-2020">
+        <observation name="0" value="48.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="0" value="50.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="0" value="285.0" />
+        <observation name="1" value="10.0" />
+        <observation name="2" value="3.0" />
+        <observation name="3" value="2.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="0" value="24.0" />
+        <observation name="1" value="1.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="0" value="29.0" />
+        <observation name="1" value="3.0" />
+        <observation name="2" value="2.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="0" value="5.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="11-07-2020">
+        <observation name="total" value="37.0" />
+        <observation name="withMnemonics" value="3.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="total" value="40.0" />
+        <observation name="withMnemonics" value="5.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="total" value="278.0" />
+        <observation name="withMnemonics" value="128.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="total" value="24.0" />
+        <observation name="withMnemonics" value="5.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="total" value="31.0" />
+        <observation name="withMnemonics" value="5.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="total" value="4.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="11-07-2020">
+        <observation name="0" value="2.0" />
+        <observation name="1" value="9.0" />
+        <observation name="2" value="9.0" />
+        <observation name="3" value="12.0" />
+        <observation name="4" value="11.0" />
+        <observation name="5" value="4.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="0" value="2.0" />
+        <observation name="1" value="8.0" />
+        <observation name="2" value="7.0" />
+        <observation name="3" value="17.0" />
+        <observation name="4" value="11.0" />
+        <observation name="5" value="2.0" />
+        <observation name="6" value="3.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="0" value="5.0" />
+        <observation name="1" value="17.0" />
+        <observation name="10" value="1.0" />
+        <observation name="11" value="1.0" />
+        <observation name="12" value="1.0" />
+        <observation name="2" value="38.0" />
+        <observation name="3" value="88.0" />
+        <observation name="4" value="46.0" />
+        <observation name="5" value="53.0" />
+        <observation name="6" value="27.0" />
+        <observation name="7" value="10.0" />
+        <observation name="8" value="10.0" />
+        <observation name="9" value="3.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="0" value="1.0" />
+        <observation name="11" value="1.0" />
+        <observation name="2" value="5.0" />
+        <observation name="3" value="9.0" />
+        <observation name="4" value="3.0" />
+        <observation name="5" value="2.0" />
+        <observation name="6" value="4.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="0" value="3.0" />
+        <observation name="2" value="8.0" />
+        <observation name="3" value="14.0" />
+        <observation name="4" value="4.0" />
+        <observation name="5" value="3.0" />
+        <observation name="6" value="1.0" />
+        <observation name="7" value="1.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="0" value="1.0" />
+        <observation name="2" value="3.0" />
+        <observation name="3" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixMatchingType">
+      <dailyData date="11-07-2020">
+        <observation name="GREEDY" value="1.0" />
+        <observation name="START_WITH" value="4.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="GREEDY" value="1.0" />
+        <observation name="START_WITH" value="3.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="START_WITH" value="21.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="START_WITH" value="2.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="START_WITH" value="2.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="START_WITH" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="11-07-2020">
+        <observation name="average" value="350.721805" />
+        <observation name="count" value="133.0" />
+      </dailyData>
+      <dailyData date="12-07-2020">
+        <observation name="average" value="369.671233" />
+        <observation name="count" value="146.0" />
+      </dailyData>
+      <dailyData date="13-07-2020">
+        <observation name="average" value="446.338476" />
+        <observation name="count" value="1037.0" />
+      </dailyData>
+      <dailyData date="15-07-2020">
+        <observation name="average" value="362.302521" />
+        <observation name="count" value="119.0" />
+      </dailyData>
+      <dailyData date="16-07-2020">
+        <observation name="average" value="268.351852" />
+        <observation name="count" value="108.0" />
+      </dailyData>
+      <dailyData date="18-07-2020">
+        <observation name="average" value="136.176471" />
+        <observation name="count" value="17.0" />
+      </dailyData>
+    </factor>
+  </component>
+</application>

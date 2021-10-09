@@ -1,0 +1,39 @@
+<scales>
+    <metric>
+        <scale isunit="1" dunits="1" punits="1" name="1:1"/>
+        <scale dunits="2" punits="1" name="1:2"/>
+        <scale dunits="4" punits="1" name="1:4"/>
+        <scale dunits="5" punits="1" name="1:5"/>
+        <scale dunits="8" punits="1" name="1:8"/>
+        <scale dunits="10" punits="1" name="1:10"/>
+        <scale dunits="16" punits="1" name="1:16"/>
+        <scale dunits="20" punits="1" name="1:20"/>
+        <scale dunits="30" punits="1" name="1:30"/>
+        <scale dunits="40" punits="1" name="1:40"/>
+        <scale dunits="50" punits="1" name="1:50"/>
+        <scale dunits="100" punits="1" name="1:100"/>
+        <scale dunits="1" punits="2" name="2:1"/>
+        <scale dunits="1" punits="4" name="4:1"/>
+        <scale dunits="1" punits="8" name="8:1"/>
+        <scale dunits="1" punits="10" name="10:1"/>
+        <scale dunits="1" punits="100" name="100:1"/>
+    </metric>
+    <imperial>
+        <scale dunits="12" punits="0.0078125" name="1/128&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.015625" name="1/64&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.03125" name="1/32&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.0625" name="1/16&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.09375" name="3/32&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.125" name="1/8&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.1875" name="3/16&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.25" name="1/4&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.375" name="3/8&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.5" name="1/2&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="0.75" name="3/4&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="1" name="1&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="1.5" name="1-1/2&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="3" name="3&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="6" name="6&quot; = 1'-0&quot;"/>
+        <scale dunits="12" punits="12" name="1'-0&quot; = 1'-0&quot;"/>
+    </imperial>
+</scales>
